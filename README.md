@@ -21,3 +21,8 @@ GYAN BHANDAR- An agriculture information library for the farmer to get all impor
 HELPLINEs- Farmers can access the exclusive IKSL ‘534351’ agriculture helpline service through the “IFFCO Green SIM card” to get access to IKSL experts and also get OneTouch connectivity to Kisan Call Centre Services “18001801551” number from the IFFCO Kisan app. KCC is the initiative of Ministry of Agriculture, Government of India. It is managed by IFFCO Kisan Sanchar Ltd.
 
 MARKET PLACE- This feature is the buyer and seller meeting platform, where a buyer or a seller can register his/her buying or selling requirement/s. It will help them to buy or sell faster, with higher profitability.
+
+KISSAN NEWS - This feature helps to get the news related to latest schemes, all the updates related to the Government Announcements about the crops.
+
+KISSAN CALL CENTER - Kissan Call Centers responds to the farmers problems and get the information from the nearby Kissan Call Center.
+
