@@ -26,3 +26,6 @@ KISSAN NEWS - This feature helps to get the news related to latest schemes, all 
 
 KISSAN CALL CENTER - Kissan Call Centers responds to the farmers problems and get the information from the nearby Kissan Call Center.
 
+BUY - Farmers can directly buy the products without any mediator. They get the information about the complete products.
+
+SELL - Farmers can sell the products.
