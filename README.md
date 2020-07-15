@@ -28,4 +28,4 @@ KISSAN CALL CENTER - Kissan Call Centers responds to the farmers problems and ge
 
 BUY - Farmers can directly buy the products without any mediator. They get the information about the complete products.
 
-SELL - Farmers can sell the products.
+SELL - Farmers can sell the yield achieved for the crop.
