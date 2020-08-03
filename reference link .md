@@ -11,6 +11,7 @@
 - https://github.com/arafsheikh/farmassist
 - https://github.com/nikit19/Kisan-Seva-
 - https://github.com/beaorn/awesome-agriculture
+- https://github.com/sohampachpande/agribot
 
 ### Web Links:
 - https://www.programmableweb.com/category/agriculture/api
