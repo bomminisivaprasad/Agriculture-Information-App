@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/menu_home"
+        android:id="@+id/home"/>
+
+    <item
+        android:title="@string/menu_weather"
+        android:id="@+id/weather"
+        android:icon="@drawable/sun"
+        />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:title="@string/menu_marketplaces" />
+    <item
+        android:id="@+id/nav_MANDI"
+        android:title="@string/MARKET_or_MANDI"/>
+    <item
+        android:id="@+id/nav_aichat"
+        android:title="@string/menu_cahtboot"/>
+    <item
+        android:id="@+id/nav_update"
+        android:title="@string/LIVEUPDATES"/>
+    <item
+        android:title="FeedBack"
+        android:id="@+id/feedback"/>
+    <item
+        android:title="HelpLine"
+        android:id="@+id/helpline"/>
+</menu>

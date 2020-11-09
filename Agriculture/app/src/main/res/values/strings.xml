@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Agriculture</string>
+
+    <string name="Username">Username</string>
+
+    <string name="Password">Password</string>
+
+    <string name="RememberMe">Remember Me</string>
+
+    <string name="Login">Login</string>
+
+    <string name="Register">Register</string>
+
+    <string name="Logo">Logo</string>
+
+    <string name="FirstName">FirstName</string>
+
+    <string name="LastName">LastName</string>
+
+    <string name="Email">Email</string>
+
+    <string name="ConfirmEmailAddress">Confirm Email Address</string>
+
+    <string name="SignUp">Sign Up</string>
+
+    <string name="registrationPage">Registration Page</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_weather">WEATHER</string>
+    <string name="menu_marketplaces">MARKET PLACE</string>
+    <string name="MARKET_or_MANDI">MARKET OR MANDI</string>
+    <string name="menu_cahtboot">AI CHAT BOT</string>
+    <string name="LIVEUPDATES">LIVE UPDATES</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
