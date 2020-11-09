@@ -94,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="#E2B5EA"
+            android:backgroundTint="#C3FF9800"
             android:id="@+id/recyclerHour"/>
 
         <androidx.recyclerview.widget.RecyclerView
