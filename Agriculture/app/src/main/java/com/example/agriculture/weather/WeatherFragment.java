@@ -69,6 +69,7 @@ public class WeatherFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_weather, container, false);
+        hourlyPOJOS = new ArrayList<>();
         c_location = v.findViewById(R.id.currentloaction);
         w_mode = v.findViewById(R.id.weathermode);
         w_icon = v.findViewById(R.id.weathermodeicon);
@@ -136,8 +137,10 @@ public class WeatherFragment extends Fragment {
                         String hourly_url = WeatherUrls.hourly_weather+location_key+WeatherUrls.current_weather_key;
                         String days_url = WeatherUrls.days_weather+location_key+WeatherUrls.current_weather_key;
                         new CurrentTask(current_url).execute();
-                        Toast.makeText(getContext(), ""+hourly_url, Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getContext(), ""+hourly_url, Toast.LENGTH_SHORT).show();
                         new HourlyTask(hourly_url).execute();
+                        Toast.makeText(getContext(), ""+days_url, Toast.LENGTH_SHORT).show();
+                        Log.i("daysurl",days_url);
                         new DaysTask(days_url).execute();
 
                     }
@@ -255,32 +258,34 @@ public class WeatherFragment extends Fragment {
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-            if (s!=null) {
-                //Log.i("hoururl", s.toString());
-                Toast.makeText(getContext(), "Hour \n" + s, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Hour \n" + s, Toast.LENGTH_SHORT).show();
+            try {
+                JSONArray jsonArray = new JSONArray(s);
 
-                try {
-                    JSONArray jsonArray = new JSONArray(s);
-                    for (int i = 0; i < jsonArray.length(); i++) {
-                        JSONObject hourObject = jsonArray.getJSONObject(i);
-                        String datetime = hourObject.getString("DateTime");
-                        String weathericon = hourObject.getString("WeatherIcon");
-                        String iconPhrase = hourObject.getString("IconPhrase");
-                        JSONObject tempObject = hourObject.getJSONObject("Temperature");
-                        String value = tempObject.getString("Value");
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    Log.i("hoururlssss", String.valueOf(jsonArray.length()));
+                    JSONObject hourObject = jsonArray.getJSONObject(i);
+                    String datetime = hourObject.getString("DateTime");
+                    Log.i("hoururl",datetime);
+                    String weathericon = hourObject.getString("WeatherIcon");
+                    String iconPhrase = hourObject.getString("IconPhrase");
+                    Log.i("hoururl",iconPhrase);
+                    JSONObject tempObject = hourObject.getJSONObject("Temperature");
+                    String value = tempObject.getString("Value");
 
-                        hourlyPOJOS.add(new HourlyPOJO(datetime, weathericon, iconPhrase, value));
+                    hourlyPOJOS.add(new HourlyPOJO(datetime, weathericon, iconPhrase, value));
 
-                        hourRecycler.setLayoutManager(new
-                                LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, true));
-                        hourRecycler.setAdapter(new HourlyWeatherAdapter(getContext(), hourlyPOJOS));
+                    hourRecycler.setLayoutManager(new
+                            LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, true));
+                    hourRecycler.setAdapter(new HourlyWeatherAdapter(getContext(), hourlyPOJOS));
 
-                    }
-                } catch (JSONException e) {
-                    e.printStackTrace();
                 }
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
+
         }
+
     }
 
     class DaysTask extends AsyncTask<String,Void,String>{
@@ -294,6 +299,7 @@ public class WeatherFragment extends Fragment {
         protected String doInBackground(String... strings) {
             try {
                 URL url= new URL(days_Url);
+                Log.i("daysurl",url.toString());
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 InputStream inputStream=urlConnection.getInputStream();
                 Scanner scanner =new Scanner(inputStream);

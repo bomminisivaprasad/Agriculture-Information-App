@@ -25,7 +25,7 @@ public class HourlyWeatherAdapter extends RecyclerView.Adapter<HourlyWeatherAdap
     @NonNull
     @Override
     public HourlyWeatherAdapter.HourlyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new HourlyViewHolder(LayoutInflater.from(ct).inflate(R.layout.hourly_row_design,parent,false));
+        return new HourlyViewHolder(LayoutInflater.from(ct).inflate(R.layout.hourly_row_design, parent, false));
     }
 
     @Override
@@ -42,7 +42,7 @@ public class HourlyWeatherAdapter extends RecyclerView.Adapter<HourlyWeatherAdap
         return hourlyPOJOArrayList.size();
     }
 
-    public class HourlyViewHolder extends RecyclerView.ViewHolder {
+    public static class HourlyViewHolder extends RecyclerView.ViewHolder {
         TextView h_Time,h_Temp;
         ImageView h_Mode;
         public HourlyViewHolder(@NonNull View itemView) {

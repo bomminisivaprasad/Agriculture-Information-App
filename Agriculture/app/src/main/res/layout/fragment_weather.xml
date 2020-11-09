@@ -92,16 +92,17 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:layout_marginTop="10dp"
-            android:backgroundTint="#C3FF9800"
+            android:background="#C3FF9800"
             android:id="@+id/recyclerHour"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:layout_marginTop="20dp"
-            android:id="@+id/recyclerDays"/>
+            android:id="@+id/recyclerDays"
+            android:background="#D361E6"/>
 
 
     </LinearLayout>
