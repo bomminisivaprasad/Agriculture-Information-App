@@ -1,9 +1,11 @@
 package com.example.cherry.agri;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 
+import com.example.cherry.agri.chatbot.ChatActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -30,8 +32,7 @@ public class HomeActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+              startActivity(new Intent(HomeActivity.this, ChatActivity.class));
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
