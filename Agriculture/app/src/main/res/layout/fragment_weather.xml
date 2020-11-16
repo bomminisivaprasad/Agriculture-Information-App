@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".weather.WeatherFragment"
-    android:background="@drawable/weatherback">
+    android:background="@drawable/weatherback"
+    tools:context=".weather.WeatherFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,21 +13,22 @@
         android:orientation="vertical">
 
         <com.skyfishjy.library.RippleBackground
+            android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/content"
+            android:visibility="gone"
             app:rb_color="#06B80D"
+            app:rb_duration="3000"
             app:rb_radius="32dp"
             app:rb_rippleAmount="4"
-            app:rb_duration="3000"
-            app:rb_scale="6"
-            android:visibility="gone">
+            app:rb_scale="6">
+
             <ImageView
+                android:id="@+id/centerImage"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_centerInParent="true"
-                android:id="@+id/centerImage"
-                android:src="@drawable/sun"/>
+                android:src="@drawable/sun" />
         </com.skyfishjy.library.RippleBackground>
 
         <LinearLayout
@@ -37,76 +38,84 @@
             android:padding="10dp">
 
             <TextView
+                android:id="@+id/currentloaction"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:fontFamily="serif"
+                android:padding="2dp"
                 android:text="Location"
                 android:textColor="#FFFFFF"
                 android:textSize="22sp"
-                android:padding="2dp"
-                android:textStyle="bold"
-                android:fontFamily="serif"
-                android:id="@+id/currentloaction"/>
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:orientation="horizontal"
-            android:padding="5dp"
-            android:gravity="center">
+            android:padding="5dp">
+
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/weathermodeicon"
-                android:text="Sai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
                 android:src="@android:drawable/ic_lock_power_off"
-                android:gravity="center"
-                android:layout_marginStart="5dp"
-                android:layout_marginEnd="5dp"/>
+                android:text="Sai" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/weathervalue"
-                android:text="Sai"
-                android:textSize="20sp"
-                android:fontFamily="serif"
-                android:textColor="#FFFFFF"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:layout_marginStart="5dp"
-                android:layout_marginEnd="5dp"/>
-            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/weathermode"
-                android:text="Sai"
-                android:textSize="20sp"
-                android:fontFamily="serif"
-                android:textColor="#FFFFFF"
-                android:gravity="center"
-                android:textStyle="bold"
                 android:layout_marginStart="5dp"
-                android:layout_marginEnd="5dp"/>
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Sai"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/weathermode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Sai"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerHour"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="10dp"
-            android:background="#C3FF9800"
-            android:id="@+id/recyclerHour"/>
+            android:background="#C3FF9800" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerDays"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_marginTop="20dp"
-            android:id="@+id/recyclerDays"
-            android:background="#D361E6"/>
+            android:background="#D361E6" />
 
 
     </LinearLayout>
-
 
 
 </FrameLayout>

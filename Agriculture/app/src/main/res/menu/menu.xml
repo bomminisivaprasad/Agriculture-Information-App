@@ -11,6 +11,9 @@
         android:icon="@drawable/sun"
         />
     <item
+        android:title="Advisories"
+        android:id="@+id/advisories"/>
+    <item
         android:id="@+id/nav_slideshow"
         android:title="@string/menu_marketplaces" />
     <item

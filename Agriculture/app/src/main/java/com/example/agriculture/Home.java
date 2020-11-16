@@ -2,6 +2,7 @@ package com.example.agriculture;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
@@ -10,10 +11,16 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.Manifest;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
+import com.example.agriculture.advisories.AgriculturalAdvisoriesFragment;
 import com.example.agriculture.home.HomeFragment;
 import com.example.agriculture.weather.WeatherFragment;
 import com.google.android.material.navigation.NavigationView;
@@ -37,10 +44,14 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         if (ActivityCompat.checkSelfPermission(Home.this,
                 Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
                 ActivityCompat.checkSelfPermission(Home.this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                        != PackageManager.PERMISSION_GRANTED &&
+                ActivityCompat.checkSelfPermission(Home.this, Manifest.permission.CALL_PHONE)
                         != PackageManager.PERMISSION_GRANTED) {
 
-            ActivityCompat.requestPermissions(Home.this, new String[] {Manifest.permission.ACCESS_FINE_LOCATION,
-                    Manifest.permission.ACCESS_COARSE_LOCATION }, 1);
+            ActivityCompat.requestPermissions(Home.this,
+                    new String[] {Manifest.permission.ACCESS_FINE_LOCATION,
+                    Manifest.permission.ACCESS_COARSE_LOCATION,
+                    Manifest.permission.CALL_PHONE}, 1);
 
         }
         ActionBarDrawerToggle drawerToggle =
@@ -84,7 +95,39 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;
+            case R.id.advisories:
+                AgriculturalAdvisoriesFragment advisoriesFragment =new AgriculturalAdvisoriesFragment();
+                transaction.replace(R.id.main_body,advisoriesFragment);
+                transaction.commit();
+                drawerLayout.closeDrawers();
+                break;
         }
         return false;
+    }
+
+    public void tollFree(View view) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(Home.this);
+        builder.setTitle("Kissan Call Center");
+        builder.setMessage("Are you want to call Kisaan TollFree Number?");
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                if (ActivityCompat.checkSelfPermission(Home.this,
+                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+                    ActivityCompat.requestPermissions(Home.this, new String[] {Manifest.permission.CALL_PHONE}, 1);
+
+                }
+                Uri u = Uri.parse("tel:18001801551");
+                Intent callIntent = new Intent(Intent.ACTION_CALL,u);
+                startActivity(callIntent);
+            }
+        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+        builder.show();
     }
 }
