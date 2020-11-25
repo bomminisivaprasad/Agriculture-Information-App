@@ -1,0 +1,571 @@
+﻿{
+    "Vizianagaram": [
+        {
+            "Index": "1",
+            "Mobile Number": "8331056251",
+            "Employee Name": "M.ASHADEVI",
+            "Designation": "JOINT DIRECTOR OF AGRICULTURE",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "2",
+            "Mobile Number": "8331056252",
+            "Employee Name": "S.B.S.NANDH",
+            "Designation": "DY. DIRECTOR OF AGRICULTURE(AGRO)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "3",
+            "Mobile Number": "8331056253",
+            "Employee Name": "A.NAGABHUSHAN RAO",
+            "Designation": "DY. DIRECTOR OF AGRICULTURE(PP)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "4",
+            "Mobile Number": "8331056254",
+            "Employee Name": "K.LAKSHMANA RAO(FAC)",
+            "Designation": "PROJECT DIRECTOR (ATMA)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "5",
+            "Mobile Number": "8331056255",
+            "Employee Name": "D.BHARATHI",
+            "Designation": "DY. DIRECTOR OF AGRIL(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "6",
+            "Mobile Number": "8331056256",
+            "Employee Name": "K.LAKSHMANA RAO",
+            "Designation": "DPD, ATMA",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "7",
+            "Mobile Number": "8331056257",
+            "Employee Name": "R.ANNAPURNA",
+            "Designation": "ASST. DIRECTOR OF AGRIL.(AGRO)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "8",
+            "Mobile Number": "8331056258",
+            "Employee Name": "ANANDA RAO",
+            "Designation": "ASST. DIRECTOR OF AGRIL.(Trg.)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "9",
+            "Mobile Number": "8331056259",
+            "Employee Name": "R.SRINIVASA RAO",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "10",
+            "Mobile Number": "8331056260",
+            "Employee Name": "L.VIJAYA",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "KOOTHAVALASA"
+        },
+        {
+            "Index": "11",
+            "Mobile Number": "8331056261",
+            "Employee Name": "N.V.VENUGOPALA RAO`",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "CHEEPURUPALLI"
+        },
+        {
+            "Index": "12",
+            "Mobile Number": "8331056264",
+            "Employee Name": "K.MAHARAJAN",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "GAJAPATHINAGARAM"
+        },
+        {
+            "Index": "13",
+            "Mobile Number": "8331056265",
+            "Employee Name": "M.MADHUSUDANA RAO",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "SALUR"
+        },
+        {
+            "Index": "14",
+            "Mobile Number": "8331056266",
+            "Employee Name": "M.MALAKONDAYYA",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "15",
+            "Mobile Number": "8331056268",
+            "Employee Name": "Y.VIJAY",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "PARVATHIPURAM"
+        },
+        {
+            "Index": "16",
+            "Mobile Number": "8331056269",
+            "Employee Name": "A.NAGABHUSHAN RAO",
+            "Designation": "ASST. DIRECTOR OF AGRIL®",
+            "Place of Working": "G.L.PURAM"
+        },
+        {
+            "Index": "17",
+            "Mobile Number": "8331056270",
+            "Employee Name": "B.BHANULATHA",
+            "Designation": "ASST. DIRECTOR OF AGRIL.(STL)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "18",
+            "Mobile Number": "8331056271",
+            "Employee Name": "K.SOWJANYA",
+            "Designation": "ASST. DIRECTOR OF AGRIL. (SC)",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "19",
+            "Mobile Number": "8331056273",
+            "Employee Name": "D.BHARATHI",
+            "Designation": "ASST. DIRECTOR OF AGRIL.(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "20",
+            "Mobile Number": "8331056274",
+            "Employee Name": "K.PRAKASH",
+            "Designation": "ASST. DIRECTOR OF AGRIL.(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "21",
+            "Mobile Number": "8331056275",
+            "Employee Name": "N.SRINIVASA RAO",
+            "Designation": "ASST. DIRECTOR OF AGRIL.(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "22",
+            "Mobile Number": "8331056276",
+            "Employee Name": "M.ANANDA RAO",
+            "Designation": "ASST. DIRECTOR OF AGRIL.(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "23",
+            "Mobile Number": "8331056277",
+            "Employee Name": "S.S.SURYAKUMARI",
+            "Designation": "Tech.Asst.-I",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "24",
+            "Mobile Number": "8331056278",
+            "Employee Name": "K.Someswari ",
+            "Designation": "Tech.Asst.-2",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "25",
+            "Mobile Number": "8331056279",
+            "Employee Name": "B.Syamkumar",
+            "Designation": "Tech.Asst.-3",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "26",
+            "Mobile Number": "8331056280",
+            "Employee Name": "S.Ravindra ",
+            "Designation": "QCI",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "27",
+            "Mobile Number": "8331056281",
+            "Employee Name": "S.CHANDRASEKHAR",
+            "Designation": "ASST. STAT. OFFICER",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "28",
+            "Mobile Number": "8331056282",
+            "Employee Name": "A.LALITHA",
+            "Designation": "TECHNICAL ASSISTANT",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "29",
+            "Mobile Number": "8331056283",
+            "Employee Name": "P.PRASAD",
+            "Designation": "TECHNICAL ASSISTANT",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "30",
+            "Mobile Number": "8331056284",
+            "Employee Name": "A.SRINIVASA RAO",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "PUSAPATIREGA"
+        },
+        {
+            "Index": "31",
+            "Mobile Number": "8331056285",
+            "Employee Name": "V.HARIKRISHNA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "BHOGAPURAM"
+        },
+        {
+            "Index": "32",
+            "Mobile Number": "8331056286",
+            "Employee Name": "P.NIRMALA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "DENKADA"
+        },
+        {
+            "Index": "33",
+            "Mobile Number": "8331056287",
+            "Employee Name": "M.UMAMAHESWARANAIDU",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "34",
+            "Mobile Number": "8331056288",
+            "Employee Name": "K.G.HARSHALATHA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "GANTYADA"
+        },
+        {
+            "Index": "35",
+            "Mobile Number": "8331056289",
+            "Employee Name": "M.S.S.K.SWATIKUMARI",
+            "Designation": "TECHNICAL ASSISTANT",
+            "Place of Working": "KOTHAVALASA"
+        },
+        {
+            "Index": "36",
+            "Mobile Number": "8331056290",
+            "Employee Name": "K.MADHURI SARANYA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "KOTHAVALASA"
+        },
+        {
+            "Index": "37",
+            "Mobile Number": "8331056298",
+            "Employee Name": "P.KIRAN KUMAR",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "JAMI"
+        },
+        {
+            "Index": "38",
+            "Mobile Number": "8331056299",
+            "Employee Name": "B.SRINIVASA RAO",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "L.KOTA"
+        },
+        {
+            "Index": "39",
+            "Mobile Number": "8331056300",
+            "Employee Name": "CH.NEELAVENI",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "S.KOTA"
+        },
+        {
+            "Index": "40",
+            "Mobile Number": "8331056302",
+            "Employee Name": "C.B.YESWANTA RAO",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "VEPADA"
+        },
+        {
+            "Index": "41",
+            "Mobile Number": "8331056303",
+            "Employee Name": "K.R.L.ARUN KUMAR",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "CHEEPURUPALLI"
+        },
+        {
+            "Index": "42",
+            "Mobile Number": "8331056304",
+            "Employee Name": "M.PURNIMA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "NELLIMARLA"
+        },
+        {
+            "Index": "43",
+            "Mobile Number": "8331056305",
+            "Employee Name": "G.SRINIVAS",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "MERAKAMUDIDAM"
+        },
+        {
+            "Index": "44",
+            "Mobile Number": "8331056306",
+            "Employee Name": "T.SANGEETHA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "GARIVIDI"
+        },
+        {
+            "Index": "45",
+            "Mobile Number": "8331056307",
+            "Employee Name": "M.ANURADA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "GURLA"
+        },
+        {
+            "Index": "46",
+            "Mobile Number": "8331056308",
+            "Employee Name": "CH.DHANALAKSHMI",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "GAJAPATHINAGARAM"
+        },
+        {
+            "Index": "47",
+            "Mobile Number": "8331056310",
+            "Employee Name": "K.RAVINDRA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "BONDAPALLI"
+        },
+        {
+            "Index": "48",
+            "Mobile Number": "8331056311",
+            "Employee Name": "K.GOVINDAMMA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "DATHIRAJERU"
+        },
+        {
+            "Index": "49",
+            "Mobile Number": "8331056312",
+            "Employee Name": "P.V.MALLIKARJUNA RAO",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "MENTADA"
+        },
+        {
+            "Index": "50",
+            "Mobile Number": "8331056313",
+            "Employee Name": "V.VENKATAYYA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "SALUR"
+        },
+        {
+            "Index": "51",
+            "Mobile Number": "8331056314",
+            "Employee Name": "B.GOVINDA RAO",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "PACHIPENTA"
+        },
+        {
+            "Index": "52",
+            "Mobile Number": "8331056315",
+            "Employee Name": "P.ANURADHA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "R.B.PURAM"
+        },
+        {
+            "Index": "53",
+            "Mobile Number": "8331056316",
+            "Employee Name": "M.SURINAIDU",
+            "Designation": "TECHNICAL ASSISTANT",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "54",
+            "Mobile Number": "8331056317",
+            "Employee Name": "M.SHYAMASUNDAR",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "55",
+            "Mobile Number": "8331056318",
+            "Employee Name": "K.GOKULKRISHNA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "BADANGI"
+        },
+        {
+            "Index": "56",
+            "Mobile Number": "8331056319",
+            "Employee Name": "G.SURYAPRAKASH",
+            "Designation": "MANDAL AGRIL. OFFICER (FAC)",
+            "Place of Working": "BALIJIPETA"
+        },
+        {
+            "Index": "57",
+            "Mobile Number": "8331056320",
+            "Employee Name": "S.AVINASH",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "SEETHANAGARAM"
+        },
+        {
+            "Index": "58",
+            "Mobile Number": "8331056321",
+            "Employee Name": "G.SUNEELKUMAR",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "THERLAM"
+        },
+        {
+            "Index": "59",
+            "Mobile Number": "8331056322",
+            "Employee Name": "CH.PRASUNA RANI",
+            "Designation": "TECH. ASST.",
+            "Place of Working": "PARVATHIPURAM"
+        },
+        {
+            "Index": "60",
+            "Mobile Number": "8331056323",
+            "Employee Name": "R.REKHA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "PARVATHIPURAM"
+        },
+        {
+            "Index": "61",
+            "Mobile Number": "8331056324",
+            "Employee Name": "K.THIRUPATHI RAO",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "MAKKUVA"
+        },
+        {
+            "Index": "62",
+            "Mobile Number": "8331056325",
+            "Employee Name": "R.VIJAYABHARATHI",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "GARUGUBILLI"
+        },
+        {
+            "Index": "63",
+            "Mobile Number": "8331056326",
+            "Employee Name": "P.SANKARA RAO",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "KOMARADA"
+        },
+        {
+            "Index": "64",
+            "Mobile Number": "8331056327",
+            "Employee Name": "P.SHANMUKHARAJU",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "G.L.PURAM"
+        },
+        {
+            "Index": "65",
+            "Mobile Number": "8331056328",
+            "Employee Name": "A.SIVA",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "KURUPAM"
+        },
+        {
+            "Index": "66",
+            "Mobile Number": "8331056329",
+            "Employee Name": "B.SRINIVASA  ",
+            "Designation": "MANDAL AGRIL. OFFICER",
+            "Place of Working": "JIYYAMMAVALASA"
+        },
+        {
+            "Index": "67",
+            "Mobile Number": "8331056330",
+            "Employee Name": "B.CHANDRA KALA",
+            "Designation": "AGRIL. OFFICER(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "68",
+            "Mobile Number": "8331056331",
+            "Employee Name": "R.ASHA",
+            "Designation": "AGRIL. OFFICER(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "69",
+            "Mobile Number": "8331056332",
+            "Employee Name": "A.TIRUPATHI RAO",
+            "Designation": "AGRIL. OFFICER(FTC)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "70",
+            "Mobile Number": "8331056334",
+            "Employee Name": "G.SUHASINI",
+            "Designation": "AGRIL. OFFICER(STL)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "71",
+            "Mobile Number": "8331056335",
+            "Employee Name": "M.LEELAVANI",
+            "Designation": "AGRIL. OFFICER(STL)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "72",
+            "Mobile Number": "8331056338",
+            "Employee Name": "P.SRILAKSHMI",
+            "Designation": "AGRIL. OFFICER(STL)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "73",
+            "Mobile Number": "8331056339",
+            "Employee Name": "K.NEELIMA",
+            "Designation": "AGRIL. OFFICER(STL)",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "74",
+            "Mobile Number": "8331056340",
+            "Employee Name": "K.SOWJANYA",
+            "Designation": "AGRIL. OFFICER(SC)",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "75",
+            "Mobile Number": "8331056342",
+            "Employee Name": "K.SIREESHA",
+            "Designation": "AGRIL. OFFICER(SC)",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "76",
+            "Mobile Number": "8331056343",
+            "Employee Name": "G.HEMASUNDAR",
+            "Designation": "AGRIL. OFFICER(SC)",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "77",
+            "Mobile Number": "8331056346",
+            "Employee Name": "J.DIVYA",
+            "Designation": "AGRIL. OFFICER(SC)",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "78",
+            "Mobile Number": "8331056348",
+            "Employee Name": "P.NAGESWARA RAO",
+            "Designation": "AGRIL. OFFICER(SC) (FAC)",
+            "Place of Working": "BOBBILI"
+        },
+        {
+            "Index": "79",
+            "Mobile Number": "8331056349",
+            "Employee Name": "KISHORE",
+            "Designation": "Admn.Officer",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "80",
+            "Mobile Number": "8331056350",
+            "Employee Name": "A.SRIRAMAMURTHY",
+            "Designation": "SUPERINTENDENT",
+            "Place of Working": "VIZIANAGARAM"
+        },
+        {
+            "Index": "81",
+            "Mobile Number": "8331056352",
+            "Employee Name": "KISHORE",
+            "Designation": "SUPERINTENDENT",
+            "Place of Working": "VIZIANAGARAM"
+        }
+    ]
+}

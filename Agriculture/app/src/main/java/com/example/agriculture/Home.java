@@ -21,6 +21,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.agriculture.advisories.AgriculturalAdvisoriesFragment;
+import com.example.agriculture.helpline.HelpLineFragment;
 import com.example.agriculture.home.HomeFragment;
 import com.example.agriculture.weather.WeatherFragment;
 import com.google.android.material.navigation.NavigationView;
@@ -98,6 +99,12 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
             case R.id.advisories:
                 AgriculturalAdvisoriesFragment advisoriesFragment =new AgriculturalAdvisoriesFragment();
                 transaction.replace(R.id.main_body,advisoriesFragment);
+                transaction.commit();
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.helpline:
+                HelpLineFragment helpLineFragment =new HelpLineFragment();
+                transaction.replace(R.id.main_body,helpLineFragment);
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;

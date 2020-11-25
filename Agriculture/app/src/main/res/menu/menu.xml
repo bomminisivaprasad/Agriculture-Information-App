@@ -19,15 +19,13 @@
     <item
         android:id="@+id/nav_MANDI"
         android:title="@string/MARKET_or_MANDI"/>
-    <item
-        android:id="@+id/nav_aichat"
-        android:title="@string/menu_cahtboot"/>
+
     <item
         android:id="@+id/nav_update"
         android:title="@string/LIVEUPDATES"/>
     <item
-        android:title="FeedBack"
-        android:id="@+id/feedback"/>
+        android:title="FAQ"
+        android:id="@+id/faq"/>
     <item
         android:title="HelpLine"
         android:id="@+id/helpline"/>
