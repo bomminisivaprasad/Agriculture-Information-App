@@ -36,6 +36,10 @@ public class LogINRegisterActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_LogINRegisterActivity);
         aBinding = DataBindingUtil.setContentView(this,R.layout.activity_log_i_n_register);
         auth = FirebaseAuth.getInstance();
+        if (auth.getCurrentUser()!=null){
+            startActivity(new Intent(this,Home.class));
+            finish();
+        }
     }
 
     public void login(View view) {
@@ -48,7 +52,7 @@ public class LogINRegisterActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()){
-                        startActivity(new Intent(LogINRegisterActivity.this,MainActivity.class));
+                        startActivity(new Intent(LogINRegisterActivity.this,Home.class));
                         finish();
                     }
                     else{
@@ -119,7 +123,7 @@ public class LogINRegisterActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()){
-                                startActivity(new Intent(LogINRegisterActivity.this,MainActivity.class));
+                                startActivity(new Intent(LogINRegisterActivity.this,Home.class));
                                 finish();
                             }else{
                                 Toast.makeText(LogINRegisterActivity.this, "Registration Failed",
