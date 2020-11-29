@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FAqs</string>
+    <string name="text_alcohol">What is farming?</string>
+    <string name="text_coffee">How important is agriculture to the overall economy?</string>
+    <string name="text_pasta">Why is agriculture important?</string>
+    <string name="text_cold_drinks">What is soil health?</string>
+    <string name="crop_insurance">What is crop insurance? </string>
+    <string name="land_cleaing">What is land cleaning or clearing?</string>
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+
+
+    <string-array name="string_array_alcohol">
+        <item>According to the Dictionary definition, “Farming is the act or process of working the ground, planting seeds, and growing edible plants. You can also describe raising animals for milk or meat as farming… Farming is a great way to describe the lifestyle and work of people whose jobs are in the agriculture industry.” The noun “farm,” which derives from the Medieval Latin Firma, originally meant, “A lease on farm land.” </item>
+        <!--<item>Rum</item>
+        <item>Whiskey</item>
+        <item>Gin</item>
+        <item>Tequila</item>-->
+    </string-array>
+
+    <string-array name="string_array_coffee">
+        <item>Agriculture makes up about 4.5% of the nominal Gross Domestic Product of the United States. Though, in many other countries, agriculture contributes 5-10 times as much to the GDP. </item>
+        <!--<item>Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Cafe Latte</item>
+        <item>Ristretto</item>-->
+    </string-array>
+
+    <string-array name="string_array_pasta">
+        <item>Agriculture plays a crucial role in the economy of developing countries, and provides the main source of food, income, and employment to rural populations. For many countries, agriculture is a leading economic source, with those countries helping to provide some of the US’s food as well.</item>
+        <!--<item>Capellini</item>
+        <item>Spaghetti</item>
+        <item>Gnocchi</item>
+        <item>Lasagnette</item>-->
+    </string-array>
+
+    <string-array name="string_array_cold_drinks">
+        <item>Sometimes referred to as soil quality, soil health is the continued ability of soil to act as an ecosystem for plants, animals, and humans. The term “soil health” is used to remind farmers that the soil contains living organisms that help us produce food.</item>
+        <!--<item>Lemonade</item>
+        <item>Citrus soda</item>
+        <item>Juice</item>
+        <item>Sparkling Water</item>-->
+    </string-array>
+    <string-array name="crop_insurence">
+        <item> Because agriculture is inherently unpredictable, it is important to take preventative measures to mitigate some of the damage farmers face when crops fail. That’s where crop insurance comes in. Crop insurance helps to stabilize farmers’ incomes by protecting them against losses, minimizing debts and protecting crop yields.</item>
+
+    </string-array>
+    <string-array name="land_clean">
+        <item>
+        The process of removing trees, stumps, brush, stones and other unwanted substances from the farm area is called land clearing. Doing so improves the productivity of the land and provides a new land base for next crop cycle. The land clearing process also involves piling up the debris and disposing it by burning the pile. Land is cleared using clearing equipment maintained by trained operators. Pilingrakes and blades are also used while cleaning
+    </item>
+    </string-array>
+</resources>
