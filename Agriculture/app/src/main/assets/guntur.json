@@ -1,0 +1,942 @@
+﻿{
+    "Guntur": [
+        {
+            "Index": "1",
+            "Mobile Number": "8331056901",
+            "Employee Name": "M. Vijaya Bharathi",
+            "Designation": "Joint Director of Agriculture",
+            "Place of Working": "O/o. JDA,Guntur"
+        },
+        {
+            "Index": "2",
+            "Mobile Number": "8331056902",
+            "Employee Name": "I. Suneetha ",
+            "Designation": "DDA [Agro] (FAC)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "3",
+            "Mobile Number": "8331056903",
+            "Employee Name": "P. Ramanjaneyulu",
+            "Designation": "DDA [PP]",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "4",
+            "Mobile Number": "8331056904",
+            "Employee Name": "P.V. Hemalatha",
+            "Designation": "ADA[Agro]",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "5",
+            "Mobile Number": "8331056905",
+            "Employee Name": "Ch. Ravi Kumar",
+            "Designation": "ADA[Trg]",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "6",
+            "Mobile Number": "8331056906",
+            "Employee Name": "K. Annapurnamma",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "7",
+            "Mobile Number": "8331056907",
+            "Employee Name": "P. Aruna Chandhra",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "8",
+            "Mobile Number": "8331056908",
+            "Employee Name": "A. Siva Parvathi",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "9",
+            "Mobile Number": "8331056909",
+            "Employee Name": "R. Sujatha",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "10",
+            "Mobile Number": "8331056910",
+            "Employee Name": "P. Naga Kalpana",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "11",
+            "Mobile Number": "8331056911",
+            "Employee Name": "P. Priyadarshini",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "12",
+            "Mobile Number": "8331056912",
+            "Employee Name": "B. Gowtham Prasanna",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "13",
+            "Mobile Number": "8331056914",
+            "Employee Name": "O.S. Suneel Kumar",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "14",
+            "Mobile Number": "8331056915",
+            "Employee Name": "S. Kotaiah",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "15",
+            "Mobile Number": "8331056916",
+            "Employee Name": "D. Mahitha",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "16",
+            "Mobile Number": "8331056917",
+            "Employee Name": "K. Sreenivasa Rao",
+            "Designation": "AO (Tech. Asst.,)",
+            "Place of Working": "O/o.JDA, Guntur"
+        },
+        {
+            "Index": "17",
+            "Mobile Number": "8331056918",
+            "Employee Name": "K.V. Sreenivasa Rao",
+            "Designation": "ADA(R) , Guntur",
+            "Place of Working": "ADA(R) , Guntur"
+        },
+        {
+            "Index": "18",
+            "Mobile Number": "8331056919",
+            "Employee Name": "I. Subrahmanyam",
+            "Designation": "MAO., Guntur (Rural)",
+            "Place of Working": "MAO., Guntur (Rural)"
+        },
+        {
+            "Index": "19",
+            "Mobile Number": "8331056920",
+            "Employee Name": "B. Anji Reddy",
+            "Designation": "MAO., Pedakakani",
+            "Place of Working": "MAO., Pedakakani"
+        },
+        {
+            "Index": "20",
+            "Mobile Number": "8331056921",
+            "Employee Name": "K. Lakshmi",
+            "Designation": "MAO., Vatticherukuru",
+            "Place of Working": "MAO., Vatticherukuru"
+        },
+        {
+            "Index": "21",
+            "Mobile Number": "8331056922",
+            "Employee Name": "Ch. Vijaya Raju",
+            "Designation": "MAO., Prathipadu",
+            "Place of Working": "MAO., Prathipadu"
+        },
+        {
+            "Index": "22",
+            "Mobile Number": "8331056923",
+            "Employee Name": "B. Sudha Rani",
+            "Designation": "MAO., Pedanandipadu",
+            "Place of Working": "MAO., Pedanandipadu"
+        },
+        {
+            "Index": "23",
+            "Mobile Number": "8331056924",
+            "Employee Name": "G. Sreenivasa Reddy",
+            "Designation": "ADA(R) , Mangalagiri",
+            "Place of Working": "ADA(R) , Mangalagiri"
+        },
+        {
+            "Index": "24",
+            "Mobile Number": "8331056925",
+            "Employee Name": "Ch. Suneetha",
+            "Designation": "MAO., Mangalagiri",
+            "Place of Working": "MAO., Mangalagiri"
+        },
+        {
+            "Index": "25",
+            "Mobile Number": "8331056926",
+            "Employee Name": "A. Sreenivasulu",
+            "Designation": "MAO., Tadepalli",
+            "Place of Working": "MAO., Tadepalli"
+        },
+        {
+            "Index": "26",
+            "Mobile Number": "8331056927",
+            "Employee Name": "K. Sreeranjini",
+            "Designation": "MAO., Thulluru",
+            "Place of Working": "MAO., Thulluru"
+        },
+        {
+            "Index": "27",
+            "Mobile Number": "8331056928",
+            "Employee Name": "A. Anka Rao",
+            "Designation": "MAO., Tadikonda",
+            "Place of Working": "MAO., Tadikonda"
+        },
+        {
+            "Index": "28",
+            "Mobile Number": "8331056929",
+            "Employee Name": "M. Dhana Lakshmi",
+            "Designation": "MAO., Amaravathi",
+            "Place of Working": "MAO., Amaravathi"
+        },
+        {
+            "Index": "29",
+            "Mobile Number": "8331056930",
+            "Employee Name": "K. Amala Kumari",
+            "Designation": "ADA(R) , Sattenapalli",
+            "Place of Working": "ADA(R) , Sattenapalli"
+        },
+        {
+            "Index": "30",
+            "Mobile Number": "8331056931",
+            "Employee Name": "S. Sreedhar Reddy",
+            "Designation": "MAO., Sattenapalli",
+            "Place of Working": "MAO., Sattenapalli"
+        },
+        {
+            "Index": "31",
+            "Mobile Number": "8331056932",
+            "Employee Name": "I. Santhi",
+            "Designation": "MAO., Pedakurapadu",
+            "Place of Working": "MAO., Pedakurapadu"
+        },
+        {
+            "Index": "32",
+            "Mobile Number": "8331056933",
+            "Employee Name": "G. Sreenivasarao",
+            "Designation": "MAO., Medikonduru",
+            "Place of Working": "MAO., Medikonduru"
+        },
+        {
+            "Index": "33",
+            "Mobile Number": "8331056934",
+            "Employee Name": "M. Aruna",
+            "Designation": "MAO., Muppalla",
+            "Place of Working": "MAO., Muppalla"
+        },
+        {
+            "Index": "34",
+            "Mobile Number": "8331056935",
+            "Employee Name": "K. Ramana Kumar",
+            "Designation": "MAO., Phirangipuram",
+            "Place of Working": "MAO., Phirangipuram"
+        },
+        {
+            "Index": "35",
+            "Mobile Number": "8331056936",
+            "Employee Name": "V. Hanumantha Rao",
+            "Designation": "ADA(R) , Krosur",
+            "Place of Working": "ADA(R) , Krosur"
+        },
+        {
+            "Index": "36",
+            "Mobile Number": "8331056937",
+            "Employee Name": "P. Narasimha Rao",
+            "Designation": "MAO., Krosuru",
+            "Place of Working": "MAO., Krosuru"
+        },
+        {
+            "Index": "37",
+            "Mobile Number": "8331056938",
+            "Employee Name": "D. Krishnaiah ",
+            "Designation": "MAO., Atchempet (FAC)",
+            "Place of Working": "MAO., Atchempet"
+        },
+        {
+            "Index": "38",
+            "Mobile Number": "8331056939",
+            "Employee Name": "D. Krishnaiah",
+            "Designation": "MAO., Bellamkonda ",
+            "Place of Working": "MAO., Bellamkonda "
+        },
+        {
+            "Index": "39",
+            "Mobile Number": "8331056940",
+            "Employee Name": "K. Ramamma",
+            "Designation": "MAO., Rajupalem",
+            "Place of Working": "MAO., Rajupalem"
+        },
+        {
+            "Index": "40",
+            "Mobile Number": "8331056941",
+            "Employee Name": "P. Masthanamma",
+            "Designation": "ADA(R) , Narasaraopet",
+            "Place of Working": "ADA(R) , Narasaraopet"
+        },
+        {
+            "Index": "41",
+            "Mobile Number": "8331056942",
+            "Employee Name": "B. Subba Reddy",
+            "Designation": "MAO., Narasaraopet",
+            "Place of Working": "MAO., Narasaraopet"
+        },
+        {
+            "Index": "42",
+            "Mobile Number": "8331056943",
+            "Employee Name": "B. Sreenivasa Naik",
+            "Designation": "MAO., Rompicherla",
+            "Place of Working": "MAO., Rompicherla"
+        },
+        {
+            "Index": "43",
+            "Mobile Number": "8331056944",
+            "Employee Name": "T. Sreelatha",
+            "Designation": "MAO., Chilakaluripet",
+            "Place of Working": "MAO., Chilakaluripet"
+        },
+        {
+            "Index": "44",
+            "Mobile Number": "8331056945",
+            "Employee Name": "A. Hari Prasad",
+            "Designation": "MAO., Nadendla",
+            "Place of Working": "MAO., Nadendla"
+        },
+        {
+            "Index": "45",
+            "Mobile Number": "8331056946",
+            "Employee Name": "Ch. Saritha",
+            "Designation": "MAO., Edlapadu",
+            "Place of Working": "MAO., Edlapadu"
+        },
+        {
+            "Index": "46",
+            "Mobile Number": "8331056947",
+            "Employee Name": "C. Padmavathi",
+            "Designation": "ADA(R) , Piduguralla",
+            "Place of Working": "ADA(R) , Piduguralla"
+        },
+        {
+            "Index": "47",
+            "Mobile Number": "8331056948",
+            "Employee Name": "V. Jagadeeswar Reddy",
+            "Designation": "MAO., Piduguralla",
+            "Place of Working": "MAO., Piduguralla"
+        },
+        {
+            "Index": "48",
+            "Mobile Number": "8331056949",
+            "Employee Name": "D. Papa Kumari",
+            "Designation": "MAO., Machavaram",
+            "Place of Working": "MAO., Machavaram"
+        },
+        {
+            "Index": "49",
+            "Mobile Number": "8331056950",
+            "Employee Name": "M. Sandhya Rani",
+            "Designation": "MAO., Dachepalli",
+            "Place of Working": "MAO., Dachepalli"
+        },
+        {
+            "Index": "50",
+            "Mobile Number": "8331056951",
+            "Employee Name": "V. Yellamanda Reddy",
+            "Designation": "MAO.,Karempudi",
+            "Place of Working": "MAO.,Karempudi"
+        },
+        {
+            "Index": "51",
+            "Mobile Number": "8331056952",
+            "Employee Name": "D. Venkata Ramaiah",
+            "Designation": "MAO., Nekarekallu",
+            "Place of Working": "MAO., Nekarekallu"
+        },
+        {
+            "Index": "52",
+            "Mobile Number": "8331056953",
+            "Employee Name": "B. Kabbi Reddy",
+            "Designation": "ADA(R) , Macherla",
+            "Place of Working": "ADA(R) , Macherla"
+        },
+        {
+            "Index": "53",
+            "Mobile Number": "8331056954",
+            "Employee Name": "K. Lakshma Reddy",
+            "Designation": "MAO., Macherla",
+            "Place of Working": "MAO., Macherla"
+        },
+        {
+            "Index": "54",
+            "Mobile Number": "8331056955",
+            "Employee Name": "Y. Pulla Reddy",
+            "Designation": "MAO., Veldurthy",
+            "Place of Working": "MAO., Veldurthy"
+        },
+        {
+            "Index": "55",
+            "Mobile Number": "8331056956",
+            "Employee Name": "K. Anji Reddy",
+            "Designation": "MAO., Durgi",
+            "Place of Working": "MAO., Durgi"
+        },
+        {
+            "Index": "56",
+            "Mobile Number": "8331056957",
+            "Employee Name": "V. Brahma Reddy",
+            "Designation": "MAO., Rentachintala",
+            "Place of Working": "MAO., Rentachintala"
+        },
+        {
+            "Index": "57",
+            "Mobile Number": "8331056958",
+            "Employee Name": "N. Sreenivasa Reddy",
+            "Designation": "MAO., Gurazala",
+            "Place of Working": "MAO., Gurazala"
+        },
+        {
+            "Index": "58",
+            "Mobile Number": "8331056959",
+            "Employee Name": "B. Ravi Babu",
+            "Designation": "ADA(R) , Vinukonda",
+            "Place of Working": "ADA(R) , Vinukonda"
+        },
+        {
+            "Index": "59",
+            "Mobile Number": "8331056960",
+            "Employee Name": "G. Varalakshmamma",
+            "Designation": "MAO., Vinukonda",
+            "Place of Working": "MAO., Vinukonda"
+        },
+        {
+            "Index": "60",
+            "Mobile Number": "8331056961",
+            "Employee Name": "V. Narendra Babu",
+            "Designation": "MAO., Nuzendla",
+            "Place of Working": "MAO., Nuzendla"
+        },
+        {
+            "Index": "61",
+            "Mobile Number": "8331056962",
+            "Employee Name": "R. Venkateswara Rao",
+            "Designation": "MAO., Ipuru",
+            "Place of Working": "MAO., Ipuru"
+        },
+        {
+            "Index": "62",
+            "Mobile Number": "8331056963",
+            "Employee Name": "K. Suneetha",
+            "Designation": "MAO., Bollapalli ",
+            "Place of Working": "MAO., Bollapalli "
+        },
+        {
+            "Index": "63",
+            "Mobile Number": "8331056964",
+            "Employee Name": "Ch. Mallikarjuna Rao",
+            "Designation": "MAO., Savalyapuram",
+            "Place of Working": "MAO., Savalyapuram"
+        },
+        {
+            "Index": "64",
+            "Mobile Number": "8331056965",
+            "Employee Name": "B. Srikrishnadevarayulu",
+            "Designation": "ADA(R) , Tenali",
+            "Place of Working": "ADA(R) , Tenali"
+        },
+        {
+            "Index": "65",
+            "Mobile Number": "8331056966",
+            "Employee Name": "P. Venkata Narasaiah",
+            "Designation": "MAO., Tenali",
+            "Place of Working": "MAO., Tenali"
+        },
+        {
+            "Index": "66",
+            "Mobile Number": "8331056967",
+            "Employee Name": "P. Sireesha",
+            "Designation": "MAO., Duggirala  ",
+            "Place of Working": "MAO., Duggirala  "
+        },
+        {
+            "Index": "67",
+            "Mobile Number": "8331056968",
+            "Employee Name": "T. Balaji Gangadhar",
+            "Designation": "MAO., Vemuru",
+            "Place of Working": "MAO., Vemuru"
+        },
+        {
+            "Index": "68",
+            "Mobile Number": "8331056971",
+            "Employee Name": "Sd. Hacthar Hussain",
+            "Designation": "MAO., Kollipara",
+            "Place of Working": "MAO., Kollipara"
+        },
+        {
+            "Index": "69",
+            "Mobile Number": "8331056972",
+            "Employee Name": "G. Prema Sagar",
+            "Designation": "MAO., Kolluru",
+            "Place of Working": "MAO., Kolluru"
+        },
+        {
+            "Index": "70",
+            "Mobile Number": "8331056973",
+            "Employee Name": "Ch. Thirumala Devi",
+            "Designation": "ADA(R) , Ponnur",
+            "Place of Working": "ADA(R) , Ponnur"
+        },
+        {
+            "Index": "71",
+            "Mobile Number": "8331056974",
+            "Employee Name": "B. Adam Babu",
+            "Designation": "MAO., Ponnur",
+            "Place of Working": "MAO., Ponnur"
+        },
+        {
+            "Index": "72",
+            "Mobile Number": "8331056975",
+            "Employee Name": "I. Adi Lakshmi",
+            "Designation": "MAO., Tsundur",
+            "Place of Working": "MAO., Tsundur"
+        },
+        {
+            "Index": "73",
+            "Mobile Number": "8331056976",
+            "Employee Name": "P. Sandhya Rani",
+            "Designation": "MAO., Chebrolu",
+            "Place of Working": "MAO., Chebrolu"
+        },
+        {
+            "Index": "74",
+            "Mobile Number": "8331056977",
+            "Employee Name": "V. Lokeswari",
+            "Designation": "MAO., Amarthaluru",
+            "Place of Working": "MAO., Amarthaluru"
+        },
+        {
+            "Index": "75",
+            "Mobile Number": "8331056978",
+            "Employee Name": "A. Lakshmi",
+            "Designation": "ADA(R) , Bapatla",
+            "Place of Working": "ADA(R) , Bapatla"
+        },
+        {
+            "Index": "76",
+            "Mobile Number": "8331056980",
+            "Employee Name": "K. Sarada",
+            "Designation": "MAO., Bapatla",
+            "Place of Working": "MAO., Bapatla"
+        },
+        {
+            "Index": "77",
+            "Mobile Number": "8331056981",
+            "Employee Name": "K. Kiranmayi",
+            "Designation": "MAO., Kakumanu",
+            "Place of Working": "MAO., Kakumanu"
+        },
+        {
+            "Index": "78",
+            "Mobile Number": "8331056982",
+            "Employee Name": "M. Nagaraju",
+            "Designation": "MAO., P.V.Palem ",
+            "Place of Working": "MAO., P.V.Palem "
+        },
+        {
+            "Index": "79",
+            "Mobile Number": "8331056983",
+            "Employee Name": "K. Aravinda Kumar",
+            "Designation": "MAO., Karlapalem (FAC)",
+            "Place of Working": "MAO., Karlapalem"
+        },
+        {
+            "Index": "80",
+            "Mobile Number": "8331056984",
+            "Employee Name": "N. Usha Rani",
+            "Designation": "ADA(R) , Repalle",
+            "Place of Working": "ADA(R) , Repalle"
+        },
+        {
+            "Index": "81",
+            "Mobile Number": "8331056986",
+            "Employee Name": "R. Vijaya Babu",
+            "Designation": "MAO., Repalle ",
+            "Place of Working": "MAO., Repalle "
+        },
+        {
+            "Index": "82",
+            "Mobile Number": "8331056987",
+            "Employee Name": "Ch. Sathyanand",
+            "Designation": "MAO., Nagaram",
+            "Place of Working": "MAO., Nagaram"
+        },
+        {
+            "Index": "83",
+            "Mobile Number": "8331056988",
+            "Employee Name": "V. Ramesh Babu",
+            "Designation": "MAO., Bhattiprolu",
+            "Place of Working": "MAO., Bhattiprolu"
+        },
+        {
+            "Index": "84",
+            "Mobile Number": "8331056989",
+            "Employee Name": "V. Venugopal",
+            "Designation": "MAO., Cherukupalli",
+            "Place of Working": "MAO., Cherukupalli"
+        },
+        {
+            "Index": "85",
+            "Mobile Number": "8331056990",
+            "Employee Name": "M. Chandhrasekhar",
+            "Designation": "MAO., Nizampatnam",
+            "Place of Working": "MAO., Nizampatnam"
+        },
+        {
+            "Index": "86",
+            "Mobile Number": "8331056991",
+            "Employee Name": "G. Rama Rao",
+            "Designation": "Project Director",
+            "Place of Working": "O/o.ATMA, Guntur"
+        },
+        {
+            "Index": "87",
+            "Mobile Number": "8331056992",
+            "Employee Name": "A. Saradha",
+            "Designation": "DPD ATMA 1, Guntur",
+            "Place of Working": "O/o.ATMA, Guntur"
+        },
+        {
+            "Index": "88",
+            "Mobile Number": "8331056993",
+            "Employee Name": "M. Padhmavathi",
+            "Designation": "DPD ATMA 2, Guntur",
+            "Place of Working": "O/o.ATMA, Guntur"
+        },
+        {
+            "Index": "89",
+            "Mobile Number": "8331056995",
+            "Employee Name": "M. Siva Kumari",
+            "Designation": "DDA (FTC) Bapatla ",
+            "Place of Working": "O/o. DDA (FTC) Bapatla "
+        },
+        {
+            "Index": "90",
+            "Mobile Number": "8331056997",
+            "Employee Name": "M. Venkateswarlu",
+            "Designation": "ADA ",
+            "Place of Working": "O/o.DDA[FTC], Bapatla"
+        },
+        {
+            "Index": "91",
+            "Mobile Number": "8331056998",
+            "Employee Name": "I. Suneetha   ",
+            "Designation": "ADA ",
+            "Place of Working": "O/o.DDA[FTC], Bapatla"
+        },
+        {
+            "Index": "92",
+            "Mobile Number": "8331057001",
+            "Employee Name": "B. Venkata Sivakumari",
+            "Designation": "ADA ",
+            "Place of Working": "O/o.DDA[FTC], Bapatla"
+        },
+        {
+            "Index": "93",
+            "Mobile Number": "8331057002",
+            "Employee Name": "T. Rathnakumari",
+            "Designation": "ADA ",
+            "Place of Working": "O/o.DDA[FTC], Bapatla"
+        },
+        {
+            "Index": "94",
+            "Mobile Number": "8331057003",
+            "Employee Name": "B. Umamaheswari",
+            "Designation": "AO ",
+            "Place of Working": "O/o.DDA (FTC), Bapatla "
+        },
+        {
+            "Index": "95",
+            "Mobile Number": "8331057004",
+            "Employee Name": "M. Rajavamsi",
+            "Designation": "AO ",
+            "Place of Working": "O/o.DDA (FTC), Bapatla "
+        },
+        {
+            "Index": "96",
+            "Mobile Number": "8331057005",
+            "Employee Name": "T. Seetha",
+            "Designation": "AO ",
+            "Place of Working": "O/o.DDA (FTC), Bapatla "
+        },
+        {
+            "Index": "97",
+            "Mobile Number": "8331057006",
+            "Employee Name": "R. Usha Devi",
+            "Designation": "DDA ",
+            "Place of Working": "O/o.DDA (RSTL), Bapatla "
+        },
+        {
+            "Index": "98",
+            "Mobile Number": "8331057008",
+            "Employee Name": "V. Vanisree",
+            "Designation": "ADA ",
+            "Place of Working": "O/o. DDA (RSTL), Bapatla "
+        },
+        {
+            "Index": "99",
+            "Mobile Number": "8331057009",
+            "Employee Name": "K. Sirazuddeen",
+            "Designation": "AO ",
+            "Place of Working": "O/o. DDA (RSTL), Bapatla "
+        },
+        {
+            "Index": "100",
+            "Mobile Number": "8331057010",
+            "Employee Name": "V. Sudhakar",
+            "Designation": "AO ",
+            "Place of Working": "O/o. DDA (RSTL), Bapatla "
+        },
+        {
+            "Index": "101",
+            "Mobile Number": "8331057011",
+            "Employee Name": "G. Kalpana",
+            "Designation": "AO ",
+            "Place of Working": "O/o. DDA (RSTL), Bapatla "
+        },
+        {
+            "Index": "102",
+            "Mobile Number": "8331057013",
+            "Employee Name": "R. Vijaya Bhaskar",
+            "Designation": "AO ",
+            "Place of Working": "O/o. DDA (RSTL), Bapatla "
+        },
+        {
+            "Index": "103",
+            "Mobile Number": "8331057014",
+            "Employee Name": "A.V. Subba Rao",
+            "Designation": "ADA ",
+            "Place of Working": "O/o. ADA (MSTL), Bapatla "
+        },
+        {
+            "Index": "104",
+            "Mobile Number": "8331057015",
+            "Employee Name": "M. Jhansivani Reddy",
+            "Designation": "AO ",
+            "Place of Working": "O/o. ADA (MSTL), Bapatla "
+        },
+        {
+            "Index": "105",
+            "Mobile Number": "8331057016",
+            "Employee Name": "K. Venkata Rao",
+            "Designation": "AO ",
+            "Place of Working": "O/o. ADA (MSTL), Bapatla "
+        },
+        {
+            "Index": "106",
+            "Mobile Number": "8331057017",
+            "Employee Name": "L. Anuradha",
+            "Designation": "ADA ",
+            "Place of Working": "O/o. ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "107",
+            "Mobile Number": "8331057018",
+            "Employee Name": "P.B. Arunasree",
+            "Designation": "AO ",
+            "Place of Working": "ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "108",
+            "Mobile Number": "8331057019",
+            "Employee Name": "Ch. Padhmanjali",
+            "Designation": "AO ",
+            "Place of Working": "ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "109",
+            "Mobile Number": "8331057020",
+            "Employee Name": "Azeezunnisa Begum",
+            "Designation": "AO ",
+            "Place of Working": "ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "110",
+            "Mobile Number": "8331057021",
+            "Employee Name": "M. Satyanarayanamma",
+            "Designation": "AO ",
+            "Place of Working": "ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "111",
+            "Mobile Number": "8331057022",
+            "Employee Name": "N. Prasanna",
+            "Designation": "AO ",
+            "Place of Working": "ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "112",
+            "Mobile Number": "8331057023",
+            "Employee Name": "E. Suhasini",
+            "Designation": "AO ",
+            "Place of Working": "ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "113",
+            "Mobile Number": "8331057024",
+            "Employee Name": "P. Yacob",
+            "Designation": "AO ",
+            "Place of Working": "ADA (FCO) Bapatla "
+        },
+        {
+            "Index": "114",
+            "Mobile Number": "8331057025",
+            "Employee Name": "B. Seetha Devi",
+            "Designation": "ADA ",
+            "Place of Working": "O/o.ADA (STL), Guntur "
+        },
+        {
+            "Index": "115",
+            "Mobile Number": "8331057026",
+            "Employee Name": "R. Rajarajeswari",
+            "Designation": "AO ",
+            "Place of Working": " O/o. ADA (STL) Guntur "
+        },
+        {
+            "Index": "116",
+            "Mobile Number": "8331057027",
+            "Employee Name": "V. Sreedevi",
+            "Designation": "AO ",
+            "Place of Working": " O/o. ADA (STL) Guntur "
+        },
+        {
+            "Index": "117",
+            "Mobile Number": "8331057028",
+            "Employee Name": "K. Aruna Kumari",
+            "Designation": "AO ",
+            "Place of Working": " O/o. ADA (STL) Guntur "
+        },
+        {
+            "Index": "118",
+            "Mobile Number": "8331057029",
+            "Employee Name": "T. Sreenivasa Rao",
+            "Designation": "ADA ",
+            "Place of Working": "O/o. ADA (PTL), Guntur "
+        },
+        {
+            "Index": "119",
+            "Mobile Number": "8331057030",
+            "Employee Name": "P. Raghu",
+            "Designation": "AO ",
+            "Place of Working": "O/o.ADA (PTL), Guntur "
+        },
+        {
+            "Index": "120",
+            "Mobile Number": "8331057031",
+            "Employee Name": "P. Sivaramalaxmi",
+            "Designation": "AO ",
+            "Place of Working": "O/o.ADA (PTL), Guntur "
+        },
+        {
+            "Index": "121",
+            "Mobile Number": "8331057032",
+            "Employee Name": "G. Nagaraju",
+            "Designation": "AO ",
+            "Place of Working": "O/o.ADA (PTL), Guntur "
+        },
+        {
+            "Index": "122",
+            "Mobile Number": "8331057033",
+            "Employee Name": "B. Bharathi",
+            "Designation": "AO ",
+            "Place of Working": "O/o.ADA (PTL), Guntur "
+        },
+        {
+            "Index": "123",
+            "Mobile Number": "8331057034",
+            "Employee Name": "K. Elsasuvidha Shirly",
+            "Designation": "AO ",
+            "Place of Working": "O/o.ADA (PTL), Guntur "
+        },
+        {
+            "Index": "124",
+            "Mobile Number": "8331057035",
+            "Employee Name": "B. Narendra Babu",
+            "Designation": "AO ",
+            "Place of Working": "O/o.ADA (PTL), Guntur "
+        },
+        {
+            "Index": "125",
+            "Mobile Number": "8331057036",
+            "Employee Name": "N. Mohana Rao",
+            "Designation": "AO ",
+            "Place of Working": "O/o.ADA (PTL), Guntur "
+        },
+        {
+            "Index": "126",
+            "Mobile Number": "8331057037",
+            "Employee Name": "P. Vijaya Kumar",
+            "Designation": "Administrative Officer",
+            "Place of Working": "O/o JDA Guntur"
+        },
+        {
+            "Index": "127",
+            "Mobile Number": "8331057038",
+            "Employee Name": "Sk. Jeelani Basha",
+            "Designation": "Accts/Audit, Supdt.",
+            "Place of Working": " O/o JDA Guntur"
+        },
+        {
+            "Index": "128",
+            "Mobile Number": "8331057039",
+            "Employee Name": "Sd. Faheem",
+            "Designation": "Plg., Supdt.",
+            "Place of Working": " O/o JDA Guntur"
+        },
+        {
+            "Index": "129",
+            "Mobile Number": "8331057040",
+            "Employee Name": "M. Ravi Babu",
+            "Designation": "PP., Supdt.",
+            "Place of Working": " O/o JDA Guntur"
+        },
+        {
+            "Index": "130",
+            "Mobile Number": "8331057041",
+            "Employee Name": "K. Hymavathi",
+            "Designation": "Fert., Supdt.",
+            "Place of Working": " O/o JDA Guntur"
+        },
+        {
+            "Index": "131",
+            "Mobile Number": "8331057042",
+            "Employee Name": "Ch. Vengaiah",
+            "Designation": "Estt., Supdt.",
+            "Place of Working": " O/o JDA Guntur"
+        },
+        {
+            "Index": "132",
+            "Mobile Number": "8331057043",
+            "Employee Name": "M. Venkata Subbaiah",
+            "Designation": "Dy.Stat. Officer",
+            "Place of Working": " O/o JDA Guntur"
+        },
+        {
+            "Index": "133",
+            "Mobile Number": "8331057044",
+            "Employee Name": "T. Madhusudhana Rao",
+            "Designation": "Asst.Stat. Officer",
+            "Place of Working": " O/o JDA Guntur"
+        },
+        {
+            "Index": "134",
+            "Mobile Number": "8331057045",
+            "Employee Name": "K. Raja Kumari",
+            "Designation": "ADA (ZBNF) ",
+            "Place of Working": "O/o.DPM, ZBNF, Guntur"
+        }
+    ]
+}

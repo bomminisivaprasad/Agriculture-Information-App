@@ -1,0 +1,662 @@
+﻿{
+    "Nellore": [
+        {
+            "Index": "1",
+            "Mobile Number": "8331057174",
+            "Employee Name": "Y.Aanda Kumari",
+            "Designation": "JDA",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "2",
+            "Mobile Number": "8331057175",
+            "Employee Name": "K.Sreedevi",
+            "Designation": "DDA (Trg) ",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "3",
+            "Mobile Number": "8331057176",
+            "Employee Name": "A.Narasoji Rao",
+            "Designation": "ADA (AGRO)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "4",
+            "Mobile Number": "8331057177",
+            "Employee Name": "G.Anitha",
+            "Designation": "ADA (Trg)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "5",
+            "Mobile Number": "8331057178",
+            "Employee Name": "G.Dhananjaya Reddy",
+            "Designation": "ADA (PP)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "6",
+            "Mobile Number": "8331057179",
+            "Employee Name": "B.Sreenivasa Raju",
+            "Designation": "AO (Tech)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "7",
+            "Mobile Number": "8331057180",
+            "Employee Name": "N.Srinivasulu",
+            "Designation": "AO (Tech)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "8",
+            "Mobile Number": "8331057182",
+            "Employee Name": "P.Venu Gopala Rao",
+            "Designation": "AO (Tech)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "9",
+            "Mobile Number": "8331057183",
+            "Employee Name": "D.Neeraja",
+            "Designation": "AO (Tech)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "10",
+            "Mobile Number": "8331057184",
+            "Employee Name": "V.Suneethamma",
+            "Designation": "AO (Tech)",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "11",
+            "Mobile Number": "8331057185",
+            "Employee Name": "Ch.Rojamani",
+            "Designation": "ADMIN",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "12",
+            "Mobile Number": "8331057186",
+            "Employee Name": "Y.Aanda Kumari",
+            "Designation": "PD ATMA",
+            "Place of Working": "O/o PD, ATMA, Nellore"
+        },
+        {
+            "Index": "13",
+            "Mobile Number": "8331057187",
+            "Employee Name": "G.Sivannarayana",
+            "Designation": "DDA (FTC)",
+            "Place of Working": "O/o DDA, FTC, Nellore"
+        },
+        {
+            "Index": "14",
+            "Mobile Number": "8331057188",
+            "Employee Name": "M.Satyavani",
+            "Designation": "DPD",
+            "Place of Working": "O/o PD, ATMA, Nellore"
+        },
+        {
+            "Index": "15",
+            "Mobile Number": "8331057189",
+            "Employee Name": "VACANT",
+            "Designation": "DPD",
+            "Place of Working": "O/o PD, ATMA, Nellore"
+        },
+        {
+            "Index": "16",
+            "Mobile Number": "8331057190",
+            "Employee Name": "S.Prasad Rao (on OD)",
+            "Designation": "DDA",
+            "Place of Working": "O/o JDA, Nellore"
+        },
+        {
+            "Index": "17",
+            "Mobile Number": "8331057191",
+            "Employee Name": "M.Satyanarayana Chowdary",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Udayagiri"
+        },
+        {
+            "Index": "18",
+            "Mobile Number": "8331057192",
+            "Employee Name": "N. Rami Reddy",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Vinjamur"
+        },
+        {
+            "Index": "19",
+            "Mobile Number": "8331057193",
+            "Employee Name": "K. Kannaiah",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Kavali"
+        },
+        {
+            "Index": "20",
+            "Mobile Number": "8331057194",
+            "Employee Name": "P.Aanasuya i/c",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Kovur"
+        },
+        {
+            "Index": "21",
+            "Mobile Number": "8331057195",
+            "Employee Name": "V. Devasenamma",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Atmakur"
+        },
+        {
+            "Index": "22",
+            "Mobile Number": "8331057196",
+            "Employee Name": "K. Balaji Naik",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Nellore "
+        },
+        {
+            "Index": "23",
+            "Mobile Number": "8331057197",
+            "Employee Name": "C.Maruthi Devi",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Indukurpet"
+        },
+        {
+            "Index": "24",
+            "Mobile Number": "8331057198",
+            "Employee Name": "K. Nageswara Rao",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Podalakur"
+        },
+        {
+            "Index": "25",
+            "Mobile Number": "8331057199",
+            "Employee Name": "K.Siva Naik",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Gudur"
+        },
+        {
+            "Index": "26",
+            "Mobile Number": "8331057200",
+            "Employee Name": "B. Gopi Naik",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Naidupet"
+        },
+        {
+            "Index": "27",
+            "Mobile Number": "8331057201",
+            "Employee Name": "A.Raja Kumar",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Sullurpet"
+        },
+        {
+            "Index": "28",
+            "Mobile Number": "8331057202",
+            "Employee Name": "M. Nagarjuna sagar",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA® Venkatagiri"
+        },
+        {
+            "Index": "29",
+            "Mobile Number": "8331057203",
+            "Employee Name": "M.Hymavathi",
+            "Designation": "ADA",
+            "Place of Working": "O/o DDA, FTC, Nellore"
+        },
+        {
+            "Index": "30",
+            "Mobile Number": "8331057204",
+            "Employee Name": "Ch.Ravi Chandra Prasad",
+            "Designation": "ADA",
+            "Place of Working": "O/o DDA, FTC, Nellore"
+        },
+        {
+            "Index": "31",
+            "Mobile Number": "8331057205",
+            "Employee Name": "V.Sumalatha",
+            "Designation": "ADA",
+            "Place of Working": "O/o DDA, FTC, Nellore and\r\nBC, Lab, Nellore"
+        },
+        {
+            "Index": "32",
+            "Mobile Number": "8331057206",
+            "Employee Name": "P.Aanasuya",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA, STL, Nellore"
+        },
+        {
+            "Index": "33",
+            "Mobile Number": "8331057207",
+            "Employee Name": "G.B.P. Praveena",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA, SC, Nellore"
+        },
+        {
+            "Index": "34",
+            "Mobile Number": "8331057209",
+            "Employee Name": "T.Usha Rani",
+            "Designation": "ADA",
+            "Place of Working": "O/o ADA TGP (Loc) Nellore"
+        },
+        {
+            "Index": "35",
+            "Mobile Number": "8331057210",
+            "Employee Name": "Vacant",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Udayagiri"
+        },
+        {
+            "Index": "36",
+            "Mobile Number": "8331057212",
+            "Employee Name": "P.Chandra Bhanu",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Vinjamur"
+        },
+        {
+            "Index": "37",
+            "Mobile Number": "8331057213",
+            "Employee Name": "Ch.Subbayamma",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Kavali"
+        },
+        {
+            "Index": "38",
+            "Mobile Number": "8331057214",
+            "Employee Name": "D. Kalyani",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Kovur"
+        },
+        {
+            "Index": "39",
+            "Mobile Number": "8331057215",
+            "Employee Name": "V.Suneethamma",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Atmakur"
+        },
+        {
+            "Index": "40",
+            "Mobile Number": "8331057218",
+            "Employee Name": "K.JoshNA Rani",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Nellore "
+        },
+        {
+            "Index": "41",
+            "Mobile Number": "8331057220",
+            "Employee Name": "D.Neeraja",
+            "Designation": "AO (SEEDS)",
+            "Place of Working": "O/o ADA® Nellore "
+        },
+        {
+            "Index": "42",
+            "Mobile Number": "8331057221",
+            "Employee Name": "B.Leena Reddy",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Indukurpet"
+        },
+        {
+            "Index": "43",
+            "Mobile Number": "8331057223",
+            "Employee Name": "B.Sreedevi",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Podalakur"
+        },
+        {
+            "Index": "44",
+            "Mobile Number": "8331057224",
+            "Employee Name": "A.Chenchu Reddy",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Gudur"
+        },
+        {
+            "Index": "45",
+            "Mobile Number": "8331057225",
+            "Employee Name": "P.Somu Sundar",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Naidupet"
+        },
+        {
+            "Index": "46",
+            "Mobile Number": "8331057226",
+            "Employee Name": "M.Anu Radha",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Sullurpet"
+        },
+        {
+            "Index": "47",
+            "Mobile Number": "8331057228",
+            "Employee Name": "T.Vijaya Lakshmi",
+            "Designation": "PA to ADA",
+            "Place of Working": "O/o ADA® Venkatagiri"
+        },
+        {
+            "Index": "48",
+            "Mobile Number": "8331057229",
+            "Employee Name": "B. Srinivasa Chakravarthi, A.O(i/c)",
+            "Designation": "MAO",
+            "Place of Working": "MAO, , S.R Puram(i/c)"
+        },
+        {
+            "Index": "49",
+            "Mobile Number": "8331057230",
+            "Employee Name": "P. Chenna Reddy",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,    Udayagiri"
+        },
+        {
+            "Index": "50",
+            "Mobile Number": "8331057231",
+            "Employee Name": "N. Srihari Narayana, AEO (i/c)",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Variguntapadu Mandal"
+        },
+        {
+            "Index": "51",
+            "Mobile Number": "8331057232",
+            "Employee Name": "N. Venkata Subbaiah",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Duttaluru Mandal"
+        },
+        {
+            "Index": "52",
+            "Mobile Number": "8331057233",
+            "Employee Name": "P. Sridhar Reddy, A.O (i/c)",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,  Marripadu Mandal"
+        },
+        {
+            "Index": "53",
+            "Mobile Number": "8331057235",
+            "Employee Name": "K. Kishore Babu",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Vinjamur Mandal"
+        },
+        {
+            "Index": "54",
+            "Mobile Number": "8331057237",
+            "Employee Name": "M. Suresh Babu",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,  Kaligiri Mandal"
+        },
+        {
+            "Index": "55",
+            "Mobile Number": "8331057239",
+            "Employee Name": "V. Chandra Sekhar, AEO(i/c)",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Kondapuram Mandal"
+        },
+        {
+            "Index": "56",
+            "Mobile Number": "8331057240",
+            "Employee Name": "B. Sailaja",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,  Jaladanki Mandal"
+        },
+        {
+            "Index": "57",
+            "Mobile Number": "8331057241",
+            "Employee Name": "Ch. Sreenivasulu",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Kavali Mandal"
+        },
+        {
+            "Index": "58",
+            "Mobile Number": "8331057242",
+            "Employee Name": "S. Vijayalakshmi",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Bogole Mandal"
+        },
+        {
+            "Index": "59",
+            "Mobile Number": "8331057243",
+            "Employee Name": "Y. Radha",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Dagadarthi Mandal"
+        },
+        {
+            "Index": "60",
+            "Mobile Number": "8331057244",
+            "Employee Name": "A. Lalitha",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Alluru Mandal"
+        },
+        {
+            "Index": "61",
+            "Mobile Number": "8331057245",
+            "Employee Name": "G. Indravathi",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Kovur Mandal"
+        },
+        {
+            "Index": "62",
+            "Mobile Number": "8331057246",
+            "Employee Name": "CH.S. Lakshmi",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,  Kodavalur Mandal"
+        },
+        {
+            "Index": "63",
+            "Mobile Number": "8331057248",
+            "Employee Name": "P. Venkata Krishnaiah",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Vidavalur Mandal"
+        },
+        {
+            "Index": "64",
+            "Mobile Number": "8331057249",
+            "Employee Name": "M.Surendra Reddy",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Butchi Mandal(i/c)"
+        },
+        {
+            "Index": "65",
+            "Mobile Number": "8331057250",
+            "Employee Name": "N. Sreehari",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Sangam Mandal"
+        },
+        {
+            "Index": "66",
+            "Mobile Number": "8331057251",
+            "Employee Name": "S. Prasada Rao",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Atmakur Mandal"
+        },
+        {
+            "Index": "67",
+            "Mobile Number": "8331057252",
+            "Employee Name": "T. Rajani",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, A.S peta Mandal"
+        },
+        {
+            "Index": "68",
+            "Mobile Number": "8331057253",
+            "Employee Name": "G. Madhurima",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, A.Sagaram Mandal"
+        },
+        {
+            "Index": "69",
+            "Mobile Number": "8331057254",
+            "Employee Name": "K. Joshna Rani, A.O(i/c)",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Nellore Mandal"
+        },
+        {
+            "Index": "70",
+            "Mobile Number": "8331057255",
+            "Employee Name": "CH. Manjula",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Venkatachalam Mandal"
+        },
+        {
+            "Index": "71",
+            "Mobile Number": "8331057256",
+            "Employee Name": "D. Raghunadha Reddy(i/c)",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Indukurpet Mandal"
+        },
+        {
+            "Index": "72",
+            "Mobile Number": "8331057257",
+            "Employee Name": "U. Geetha Kumari",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, T.P.Gudur Mandal"
+        },
+        {
+            "Index": "73",
+            "Mobile Number": "8331057258",
+            "Employee Name": "D. Harikarunakar",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,  Muthukur Mandal"
+        },
+        {
+            "Index": "74",
+            "Mobile Number": "8331057259",
+            "Employee Name": "A. Vasu",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Podalakur Mandal"
+        },
+        {
+            "Index": "75",
+            "Mobile Number": "8331057260",
+            "Employee Name": "V. Sasidhar",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Chejerla Mandal"
+        },
+        {
+            "Index": "76",
+            "Mobile Number": "8331057261",
+            "Employee Name": "B. Sreedevi, A.O(i/c)",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Kaluvoy Mandal"
+        },
+        {
+            "Index": "77",
+            "Mobile Number": "8331057262",
+            "Employee Name": "V.Pratap",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Rapur Mandal"
+        },
+        {
+            "Index": "78",
+            "Mobile Number": "8331057265",
+            "Employee Name": "SV. Naga Mohan",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Gudur Mandal"
+        },
+        {
+            "Index": "79",
+            "Mobile Number": "8331057266",
+            "Employee Name": "SK. Zaheer",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Manubolu Mandal"
+        },
+        {
+            "Index": "80",
+            "Mobile Number": "8331057267",
+            "Employee Name": "G. Bhavani",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,  Chillakur Mandal"
+        },
+        {
+            "Index": "81",
+            "Mobile Number": "8331057268",
+            "Employee Name": "V. Ramesh",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Ozili Mandal"
+        },
+        {
+            "Index": "82",
+            "Mobile Number": "8331057270",
+            "Employee Name": "E.S. Vara Prasad",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Naidupet Mandal"
+        },
+        {
+            "Index": "83",
+            "Mobile Number": "8331057271",
+            "Employee Name": "G. Praveena",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Pellakur Mandal"
+        },
+        {
+            "Index": "84",
+            "Mobile Number": "8331057274",
+            "Employee Name": "M. Suchendra Prasad",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Chittamur Mandal"
+        },
+        {
+            "Index": "85",
+            "Mobile Number": "8331057275",
+            "Employee Name": "Ch. Vijaya Bharathi",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Vakadu Mandal"
+        },
+        {
+            "Index": "86",
+            "Mobile Number": "8331057276",
+            "Employee Name": "V. Niranjan Kumar",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Kota Mandal"
+        },
+        {
+            "Index": "87",
+            "Mobile Number": "8331057277",
+            "Employee Name": "N. Kavitha",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Sullurpet Mandal"
+        },
+        {
+            "Index": "88",
+            "Mobile Number": "8331057278",
+            "Employee Name": "S.N. Kanchana",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, D.V Satram Mandal"
+        },
+        {
+            "Index": "89",
+            "Mobile Number": "8331057279",
+            "Employee Name": "A. Jyothirmayee",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Tada       "
+        },
+        {
+            "Index": "90",
+            "Mobile Number": "8331057280",
+            "Employee Name": "M.Sumanth Kumar",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Venkatagiri Mandal"
+        },
+        {
+            "Index": "91",
+            "Mobile Number": "8331057281",
+            "Employee Name": "P. Sireesha",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Balayapalli Mandal"
+        },
+        {
+            "Index": "92",
+            "Mobile Number": "8331057283",
+            "Employee Name": "P. Sujatha",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O,Dakkili Mandal"
+        },
+        {
+            "Index": "93",
+            "Mobile Number": "8331057284",
+            "Employee Name": "M. Hymavathi AEO(i/c)",
+            "Designation": "MAO",
+            "Place of Working": "M.A.O, Sydapuram Mandal"
+        },
+        {
+            "Index": "94",
+            "Mobile Number": "8331057285",
+            "Employee Name": "K.Srinivasulu",
+            "Designation": "Dy SO",
+            "Place of Working": "O/o JDA, Nellore"
+        }
+    ]
+}

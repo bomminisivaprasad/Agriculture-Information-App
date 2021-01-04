@@ -1,0 +1,921 @@
+{
+    "EastGodavari": [
+        {
+            "Index": "1",
+            "Mobile Number": "8331056483",
+            "Employee Name": "K.S.V. Prasad",
+            "Designation": "Joint Director of Agriculture",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "2",
+            "Mobile Number": "8331056484",
+            "Employee Name": "V.T.Rama Rao",
+            "Designation": "Dy.Director of Agril., (P.P.), ",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "3",
+            "Mobile Number": "8331056485",
+            "Employee Name": "S.Madhava Rao",
+            "Designation": "Dy.Director of Agriculture (Trg)",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "4",
+            "Mobile Number": "8331056486",
+            "Employee Name": "K.Durga Lakshmi",
+            "Designation": "Asst.Director of Agril., (Agro)",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "5",
+            "Mobile Number": "8331056487",
+            "Employee Name": "V.Uma Maheswari",
+            "Designation": "Administrative Officer",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "6",
+            "Mobile Number": "8331056488",
+            "Employee Name": "V.Jogi Raju",
+            "Designation": "Agril. Officer (Tech)",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "7",
+            "Mobile Number": "8331056489",
+            "Employee Name": "N.Vijaya Lakshmi",
+            "Designation": "Agril. Officer (Tech)",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "8",
+            "Mobile Number": "8331056490",
+            "Employee Name": "V Ashok",
+            "Designation": "Agril. Officer (Tech)",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "9",
+            "Mobile Number": "8331056491",
+            "Employee Name": "A.B. Sarojini",
+            "Designation": "Superintendent",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "10",
+            "Mobile Number": "8331056493",
+            "Employee Name": "M. Subrahmaneswari",
+            "Designation": "Superintendent",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "11",
+            "Mobile Number": "8331056494",
+            "Employee Name": "S.M.M. Krishna Ro",
+            "Designation": "Superintendent",
+            "Place of Working": "O/o JDA, Kakinada"
+        },
+        {
+            "Index": "12",
+            "Mobile Number": "8331056495",
+            "Employee Name": "P. Swathi",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "O/o BCL, Kakinada"
+        },
+        {
+            "Index": "13",
+            "Mobile Number": "8331056496",
+            "Employee Name": "B.Jyothi",
+            "Designation": "Agril. Officer",
+            "Place of Working": "O/o BCL, Kakinada"
+        },
+        {
+            "Index": "14",
+            "Mobile Number": "8331056497",
+            "Employee Name": "M.Aruna",
+            "Designation": "Agril. Officer",
+            "Place of Working": "O/o BCL, Kakinada"
+        },
+        {
+            "Index": "15",
+            "Mobile Number": "8331056498",
+            "Employee Name": "Munawar Ali Shamsi",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Amalapuram"
+        },
+        {
+            "Index": "16",
+            "Mobile Number": "8331056499",
+            "Employee Name": "Kadali Dharma Prasad",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Amalapuram"
+        },
+        {
+            "Index": "17",
+            "Mobile Number": "8331056500",
+            "Employee Name": "Nandepu.V.V. Satyanarayana",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Allavaram"
+        },
+        {
+            "Index": "18",
+            "Mobile Number": "8331056501",
+            "Employee Name": "Guthula Kumar Babu",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Inavilli"
+        },
+        {
+            "Index": "19",
+            "Mobile Number": "8331056502",
+            "Employee Name": "Yeeda Shoba",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Uppalaguptam"
+        },
+        {
+            "Index": "20",
+            "Mobile Number": "8331056503",
+            "Employee Name": "K.Sunita",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Amalapuram"
+        },
+        {
+            "Index": "21",
+            "Mobile Number": "8331056504",
+            "Employee Name": "B.Srividya",
+            "Designation": "AO (Seeds)",
+            "Place of Working": "Amalapuram"
+        },
+        {
+            "Index": "22",
+            "Mobile Number": "8331056505",
+            "Employee Name": "K.Babu Rao",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Mummidivaram"
+        },
+        {
+            "Index": "23",
+            "Mobile Number": "8331056506",
+            "Employee Name": "Y.Madhu Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Mummidivaram"
+        },
+        {
+            "Index": "24",
+            "Mobile Number": "8331056507",
+            "Employee Name": "K.Venkateswarlu",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Katrenikona"
+        },
+        {
+            "Index": "25",
+            "Mobile Number": "8331056508",
+            "Employee Name": "M.Satya Devi",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "I.Polavaram"
+        },
+        {
+            "Index": "26",
+            "Mobile Number": "8331056509",
+            "Employee Name": "S.P.V.Usha Rani ",
+            "Designation": "P.A. to ADA",
+            "Place of Working": "Mummidivaram"
+        },
+        {
+            "Index": "27",
+            "Mobile Number": "8331056510",
+            "Employee Name": "S.J.V.Rama Mohana Rao",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "P.Ganngavaram"
+        },
+        {
+            "Index": "28",
+            "Mobile Number": "8331056511",
+            "Employee Name": "K.Praveen",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "P.Ganngavaram"
+        },
+        {
+            "Index": "29",
+            "Mobile Number": "8331056512",
+            "Employee Name": "Ch.D.Vijaya Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Ambajipeta"
+        },
+        {
+            "Index": "30",
+            "Mobile Number": "8331056513",
+            "Employee Name": "K.Srinivas",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Mamidikuduru"
+        },
+        {
+            "Index": "31",
+            "Mobile Number": "8331056514",
+            "Employee Name": "Baley Mrudula",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "P.Ganngavaram"
+        },
+        {
+            "Index": "32",
+            "Mobile Number": "8331056515",
+            "Employee Name": "M.Hariprasad",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Razole"
+        },
+        {
+            "Index": "33",
+            "Mobile Number": "8331056516",
+            "Employee Name": "S.Prasantha kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Razole"
+        },
+        {
+            "Index": "34",
+            "Mobile Number": "8331056517",
+            "Employee Name": "P.V.Narasimha Rao",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Sakhinetipalli"
+        },
+        {
+            "Index": "35",
+            "Mobile Number": "8331056518",
+            "Employee Name": "S. Rakesh",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Malkipuram"
+        },
+        {
+            "Index": "36",
+            "Mobile Number": "8331056519",
+            "Employee Name": "Ch. Ramyapriyanka",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Razole"
+        },
+        {
+            "Index": "37",
+            "Mobile Number": "8331056520",
+            "Employee Name": "V.Bhagyanakshtram",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Kothapeta"
+        },
+        {
+            "Index": "38",
+            "Mobile Number": "8331056521",
+            "Employee Name": "M.Viswasarao",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Kothapeta"
+        },
+        {
+            "Index": "39",
+            "Mobile Number": "8331056522",
+            "Employee Name": "Y.MadhuBabu",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Atreyapuram"
+        },
+        {
+            "Index": "40",
+            "Mobile Number": "8331056523",
+            "Employee Name": "B.Meena",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Ravulapalem"
+        },
+        {
+            "Index": "41",
+            "Mobile Number": "8331056525",
+            "Employee Name": "B.K.Mallikarjuna Rao",
+            "Designation": "Asst.Director of Agriculture i/c",
+            "Place of Working": "Rajamahendravaram"
+        },
+        {
+            "Index": "42",
+            "Mobile Number": "8331056526",
+            "Employee Name": "K.Sreenivas",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Rajamahendravaram"
+        },
+        {
+            "Index": "43",
+            "Mobile Number": "8331056527",
+            "Employee Name": "A.Kalyan Surya Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Kadiam"
+        },
+        {
+            "Index": "44",
+            "Mobile Number": "8331056528",
+            "Employee Name": "P. Suresh",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Rajanagaram"
+        },
+        {
+            "Index": "45",
+            "Mobile Number": "8331056529",
+            "Employee Name": "V.Santha Olive",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Rajamahendravaram"
+        },
+        {
+            "Index": "46",
+            "Mobile Number": "8331056530",
+            "Employee Name": "D.Ramatulasi",
+            "Designation": "A.O. (Seeds)",
+            "Place of Working": "Rajamahendravaram"
+        },
+        {
+            "Index": "47",
+            "Mobile Number": "8331056531",
+            "Employee Name": "Ch.K.V.Chowdary",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Alamuru"
+        },
+        {
+            "Index": "48",
+            "Mobile Number": "8331056532",
+            "Employee Name": "S. Lakshmi Lavanya",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Alamuru"
+        },
+        {
+            "Index": "49",
+            "Mobile Number": "8331056534",
+            "Employee Name": " B. Ravi",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Mandapeta"
+        },
+        {
+            "Index": "50",
+            "Mobile Number": "8331056535",
+            "Employee Name": "KVN Ramesh Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "K.P.Puram"
+        },
+        {
+            "Index": "51",
+            "Mobile Number": "8331056536",
+            "Employee Name": "T. Padmaja Rani",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Alamuru"
+        },
+        {
+            "Index": "52",
+            "Mobile Number": "8331056538",
+            "Employee Name": "S.Jaya Rama Lakshmi",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Ramachandrapuram"
+        },
+        {
+            "Index": "53",
+            "Mobile Number": "8331056539",
+            "Employee Name": "T.V.R.Manideep",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Ramachandrapuram"
+        },
+        {
+            "Index": "54",
+            "Mobile Number": "8331056540",
+            "Employee Name": "N.Satya Prasad",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "K.Gangavaram"
+        },
+        {
+            "Index": "55",
+            "Mobile Number": "8331056541",
+            "Employee Name": "M.Sujatha",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Ramachandrapuram"
+        },
+        {
+            "Index": "56",
+            "Mobile Number": "8331056542",
+            "Employee Name": "D.V.Krishna",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Anaparthi"
+        },
+        {
+            "Index": "57",
+            "Mobile Number": "8331056544",
+            "Employee Name": "P.SriLakshmi",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Anaparthi"
+        },
+        {
+            "Index": "58",
+            "Mobile Number": "8331056546",
+            "Employee Name": "N.Samuel John",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Biccavolu"
+        },
+        {
+            "Index": "59",
+            "Mobile Number": "8331056547",
+            "Employee Name": "K.Prabhakar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Rayavaram"
+        },
+        {
+            "Index": "60",
+            "Mobile Number": "8331056548",
+            "Employee Name": "CH.Siva srinivasu",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Anaparthi"
+        },
+        {
+            "Index": "61",
+            "Mobile Number": "8331056549",
+            "Employee Name": "B.K.Mallikarjuna Rao",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Korukonda"
+        },
+        {
+            "Index": "62",
+            "Mobile Number": "8331056550",
+            "Employee Name": "A. Gowri Devi",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Korukonda"
+        },
+        {
+            "Index": "63",
+            "Mobile Number": "8331056551",
+            "Employee Name": "P.Padma latha",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Gokavaram"
+        },
+        {
+            "Index": "64",
+            "Mobile Number": "8331056552",
+            "Employee Name": "K.Surya Ramesh",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Sithanagaram"
+        },
+        {
+            "Index": "65",
+            "Mobile Number": "8331056553",
+            "Employee Name": "G.Vani",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Korukonda"
+        },
+        {
+            "Index": "66",
+            "Mobile Number": "8331056554",
+            "Employee Name": "G.V.Padma Sree",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Kakinada"
+        },
+        {
+            "Index": "67",
+            "Mobile Number": "8331056557",
+            "Employee Name": "B.Suresh Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Kakinada"
+        },
+        {
+            "Index": "68",
+            "Mobile Number": "8331056558",
+            "Employee Name": "I.Satya",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Samalkot"
+        },
+        {
+            "Index": "69",
+            "Mobile Number": "8331056560",
+            "Employee Name": "Ch.Satyanarayana",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Pedapudi"
+        },
+        {
+            "Index": "70",
+            "Mobile Number": "8331056561",
+            "Employee Name": "P. Kanaka Venkata lakshmi",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Kakinada"
+        },
+        {
+            "Index": "71",
+            "Mobile Number": "8331056562",
+            "Employee Name": "G.V. Padma Sri ",
+            "Designation": "Asst.Director of Agriculture i/c",
+            "Place of Working": "Karapa"
+        },
+        {
+            "Index": "72",
+            "Mobile Number": "8331056563",
+            "Employee Name": "A. Gayatridevi",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Karapa"
+        },
+        {
+            "Index": "73",
+            "Mobile Number": "8331056564",
+            "Employee Name": "V.Muralidhar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Kajuluru"
+        },
+        {
+            "Index": "74",
+            "Mobile Number": "8331056568",
+            "Employee Name": "A.Siri",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Tallarevu"
+        },
+        {
+            "Index": "75",
+            "Mobile Number": "8331056569",
+            "Employee Name": "K.Nageswara Rao",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Pithapuram"
+        },
+        {
+            "Index": "76",
+            "Mobile Number": "8331056570",
+            "Employee Name": "A.AtchutaRao",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Pithapuram"
+        },
+        {
+            "Index": "77",
+            "Mobile Number": "8331056572",
+            "Employee Name": "KVV Satyanarayana",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "U.Kothapalli"
+        },
+        {
+            "Index": "78",
+            "Mobile Number": "8331056573",
+            "Employee Name": "P.Naveena",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Gollaprolu"
+        },
+        {
+            "Index": "79",
+            "Mobile Number": "8331056574",
+            "Employee Name": "P.Raja Rajeswari",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Pithapuram"
+        },
+        {
+            "Index": "80",
+            "Mobile Number": "8331056576",
+            "Employee Name": "M. Ratna prasanthi",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Peddapuram"
+        },
+        {
+            "Index": "81",
+            "Mobile Number": "8331056577",
+            "Employee Name": "K Dwaraka Devi",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Peddapuram"
+        },
+        {
+            "Index": "82",
+            "Mobile Number": "8331056578",
+            "Employee Name": "Joka Amrutha",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Kirlampudi"
+        },
+        {
+            "Index": "83",
+            "Mobile Number": "8331056579",
+            "Employee Name": "K.Sanjaykumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Rangampeta"
+        },
+        {
+            "Index": "84",
+            "Mobile Number": "8331056580",
+            "Employee Name": "Ch.Padma",
+            "Designation": "AO (Seeds)",
+            "Place of Working": "Peddapuram"
+        },
+        {
+            "Index": "85",
+            "Mobile Number": "8331056581",
+            "Employee Name": "B.Naga Kumar",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Jaggampeta"
+        },
+        {
+            "Index": "86",
+            "Mobile Number": "8331056582",
+            "Employee Name": "Redla Sri Ram",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Jaggampeta"
+        },
+        {
+            "Index": "87",
+            "Mobile Number": "8331056583",
+            "Employee Name": "Y.V.Gangadhar Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Prathipadu"
+        },
+        {
+            "Index": "88",
+            "Mobile Number": "8331056584",
+            "Employee Name": "D.Sanjeeva Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Yeleswram"
+        },
+        {
+            "Index": "89",
+            "Mobile Number": "8331056585",
+            "Employee Name": "K Viswanatham",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Gandepalli"
+        },
+        {
+            "Index": "90",
+            "Mobile Number": "8331056586",
+            "Employee Name": "G.B.Karunakara Raju",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Jaggampeta"
+        },
+        {
+            "Index": "91",
+            "Mobile Number": "8331056587",
+            "Employee Name": "S.Bulli Babu",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Tuni"
+        },
+        {
+            "Index": "92",
+            "Mobile Number": "8331056588",
+            "Employee Name": "Dandu Arun Kumar ",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Tuni"
+        },
+        {
+            "Index": "93",
+            "Mobile Number": "8331056589",
+            "Employee Name": "Kamireddy Jampala Chandra Sekhar   ",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Sankhavaram"
+        },
+        {
+            "Index": "94",
+            "Mobile Number": "8331056590",
+            "Employee Name": "Padala Gndhi  ",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Rowthulapudi"
+        },
+        {
+            "Index": "95",
+            "Mobile Number": "8331056591",
+            "Employee Name": "Moka Vani",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Kotananduru"
+        },
+        {
+            "Index": "96",
+            "Mobile Number": "8331056592",
+            "Employee Name": "S. Narasimham",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Thondangi"
+        },
+        {
+            "Index": "97",
+            "Mobile Number": "8331056593",
+            "Employee Name": "M.Venkata Lakshmi",
+            "Designation": "PA To ADA (Agril. Officer)",
+            "Place of Working": "Tuni"
+        },
+        {
+            "Index": "98",
+            "Mobile Number": "8331056594",
+            "Employee Name": "S.Syamala",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "R.Chodavaram"
+        },
+        {
+            "Index": "99",
+            "Mobile Number": "8331056595",
+            "Employee Name": "K. Laxmana Rao",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "R.Chodavaram"
+        },
+        {
+            "Index": "100",
+            "Mobile Number": "8331056596",
+            "Employee Name": "A.Bheemaraju",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Devipatnam"
+        },
+        {
+            "Index": "101",
+            "Mobile Number": "8331056598",
+            "Employee Name": "Siddeswara Pavankumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Maredumilli"
+        },
+        {
+            "Index": "102",
+            "Mobile Number": "8331056599",
+            "Employee Name": "A.V.Rajesh",
+            "Designation": "AO (Seeds)",
+            "Place of Working": "R.Chodavaram"
+        },
+        {
+            "Index": "103",
+            "Mobile Number": "8331056601",
+            "Employee Name": "Reddi Eswara Rao",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Kunavaram"
+        },
+        {
+            "Index": "104",
+            "Mobile Number": "8331056602",
+            "Employee Name": "P.Pavitra",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "V.R.Puram"
+        },
+        {
+            "Index": "105",
+            "Mobile Number": "8331056603",
+            "Employee Name": "S.P. Kumar",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Yetapaka"
+        },
+        {
+            "Index": "106",
+            "Mobile Number": "8331056604",
+            "Employee Name": "K. Krishna Kanth",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Chinturu"
+        },
+        {
+            "Index": "107",
+            "Mobile Number": "8331056605",
+            "Employee Name": "N. Dyva Kumar",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "Addateegala"
+        },
+        {
+            "Index": "108",
+            "Mobile Number": "8331056606",
+            "Employee Name": "Anusuri Sadguru Murthy",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Addateegala"
+        },
+        {
+            "Index": "109",
+            "Mobile Number": "8331056608",
+            "Employee Name": "S.G Sarala",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Gangavaram"
+        },
+        {
+            "Index": "110",
+            "Mobile Number": "8331056609",
+            "Employee Name": "Ashok Kumar Barla",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Rajavommangi"
+        },
+        {
+            "Index": "111",
+            "Mobile Number": "8331056610",
+            "Employee Name": "J.V.Pattabhi Ramayya",
+            "Designation": "Mandal Agril. Officer",
+            "Place of Working": "Y. Ramavaram"
+        },
+        {
+            "Index": "112",
+            "Mobile Number": "8331056612",
+            "Employee Name": "P.V.N. Nagachari",
+            "Designation": "Dy.Director of Agriculture",
+            "Place of Working": "FTC, Peddapuram"
+        },
+        {
+            "Index": "113",
+            "Mobile Number": "8331056613",
+            "Employee Name": "P.Madhavi",
+            "Designation": "Asst.Director of Agril.(Inf.), ",
+            "Place of Working": "FTC, Peddapuram"
+        },
+        {
+            "Index": "114",
+            "Mobile Number": "8331056614",
+            "Employee Name": "A.V.S. Ranga Rao",
+            "Designation": "Asst.Director of Agril.(FMS)",
+            "Place of Working": "FTC, Peddapuram"
+        },
+        {
+            "Index": "115",
+            "Mobile Number": "8331056615",
+            "Employee Name": "A.V.S.Rajasekhar",
+            "Designation": "Asst.Director of Agril.(F.T.)",
+            "Place of Working": "FTC, Peddapuram"
+        },
+        {
+            "Index": "116",
+            "Mobile Number": "8331056616",
+            "Employee Name": "Y.Indira Jhansi",
+            "Designation": "Agril. Officer (W)",
+            "Place of Working": "FTC, Peddapuram"
+        },
+        {
+            "Index": "117",
+            "Mobile Number": "8331056617",
+            "Employee Name": "J.N.V.V.Manohar Krishan",
+            "Designation": "Agril. Officer (Tech)",
+            "Place of Working": "FTC, Peddapuram"
+        },
+        {
+            "Index": "118",
+            "Mobile Number": "8331056618",
+            "Employee Name": "J.Eliyazar",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "STL, Samalkot"
+        },
+        {
+            "Index": "119",
+            "Mobile Number": "8331056619",
+            "Employee Name": "M.M.V.S.Padma sree",
+            "Designation": "Agril. Officer",
+            "Place of Working": "STL, Samalkot"
+        },
+        {
+            "Index": "120",
+            "Mobile Number": "8331056620",
+            "Employee Name": "N.Sudha Madhuri",
+            "Designation": "Agril. Officer",
+            "Place of Working": "STL, Samalkot"
+        },
+        {
+            "Index": "121",
+            "Mobile Number": "8331056621",
+            "Employee Name": "N.Prasanthi",
+            "Designation": "Agril. Officer",
+            "Place of Working": "STL, Samalkot"
+        },
+        {
+            "Index": "122",
+            "Mobile Number": "8331056623",
+            "Employee Name": "M.Sireesha",
+            "Designation": "Agril. Officer",
+            "Place of Working": "STL, Ambajipeta"
+        },
+        {
+            "Index": "123",
+            "Mobile Number": "8331056624",
+            "Employee Name": "K.Sridevi",
+            "Designation": "Agril. Officer",
+            "Place of Working": "STL, Rajamahendravaram"
+        },
+        {
+            "Index": "124",
+            "Mobile Number": "8331056625",
+            "Employee Name": "K.Vijaya kumar",
+            "Designation": "Agril. Officer",
+            "Place of Working": "STL, Tuni"
+        },
+        {
+            "Index": "125",
+            "Mobile Number": "8331056626",
+            "Employee Name": "K SAVITHRI",
+            "Designation": "Agril. Officer",
+            "Place of Working": "STL, R.Chodavaram"
+        },
+        {
+            "Index": "126",
+            "Mobile Number": "8331056627",
+            "Employee Name": "Ch. Pavani",
+            "Designation": "Agril. Officer",
+            "Place of Working": "Farm, Samalkot"
+        },
+        {
+            "Index": "127",
+            "Mobile Number": "8331056628",
+            "Employee Name": "J. Punyavathi",
+            "Designation": "Agril. Officer",
+            "Place of Working": "Farm, Samalkot"
+        },
+        {
+            "Index": "128",
+            "Mobile Number": "8331056629",
+            "Employee Name": "D.Srinivasa Reddy",
+            "Designation": "Asst.Director of Agriculture",
+            "Place of Working": "SC, R.Chodavaram"
+        },
+        {
+            "Index": "129",
+            "Mobile Number": "8331056630",
+            "Employee Name": "Y. Jothirmai ",
+            "Designation": "Project Director i/c",
+            "Place of Working": "ATMA, Kakinada"
+        },
+        {
+            "Index": "130",
+            "Mobile Number": "8331056631",
+            "Employee Name": "Y. Jothirmai",
+            "Designation": "DPD",
+            "Place of Working": "ATMA, Kakinada"
+        },
+        {
+            "Index": "131",
+            "Mobile Number": "8331056632",
+            "Employee Name": "Sunitha",
+            "Designation": "DPD",
+            "Place of Working": "ATMA, Kakinada"
+        }
+    ]
+}

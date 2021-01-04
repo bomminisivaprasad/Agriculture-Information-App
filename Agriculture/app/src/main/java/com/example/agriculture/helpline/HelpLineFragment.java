@@ -27,15 +27,16 @@ import java.util.ArrayList;
 
 public class HelpLineFragment extends Fragment {
 
-    String[] district = {"Select Your District", "Srikakulam", "Vizianagaram","Visakhapatnam",
-    "East Godavari","West Godavari","Krishna","Guntur","Prakasam","Nellore","Kurnool","Kadapa",
-            "Chittoor","Anantapur"};
+    String[] district = {"Select Your District", "Srikakulam", "Vizianagaram", "Visakhapatnam",
+            "East Godavari", "West Godavari", "Krishna", "Guntur", "Prakasam", "Nellore", "Kurnool",
+            "Kadapa", "Chittoor", "Anantapur"};
     Spinner sp;
     RecyclerView rv;
     TextView tv;
     JSONArray jsonArray;
     ArrayList<MyHelpLine> data;
     String json;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -62,7 +63,8 @@ public class HelpLineFragment extends Fragment {
                         rv.setVisibility(View.GONE);
                         break;
                     case 1:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(),
+                                Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("srikakulam.json");
@@ -108,6 +110,176 @@ public class HelpLineFragment extends Fragment {
                             json = new String(buffer, "UTF-8");
                             JSONObject jsonObject = new JSONObject(json);
                             jsonArray = jsonObject.getJSONArray("Visakhapatnam");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 4:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("eastgodavari.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("EastGodavari");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 5:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("westgodavari.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("WestGodavari");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 6:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("krishna.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Krishna");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 7:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("guntur.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Guntur");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 8:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("prakasam.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Prakasam");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 9:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("nellore.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Nellore");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 10:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("kurnool.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Kurnool");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 11:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("kadapa.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Kadapa");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 12:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("chittoor.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Chittoor");
+                            loopData();
+                        } catch (IOException | JSONException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case 13:
+                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+                        visiblegone();
+                        try {
+                            InputStream is = getActivity().getAssets().open("anantapur.json");
+                            int size = is.available();
+                            byte[] buffer = new byte[size];
+                            is.read(buffer);
+                            is.close();
+                            json = new String(buffer, "UTF-8");
+                            JSONObject jsonObject = new JSONObject(json);
+                            jsonArray = jsonObject.getJSONArray("Anantapur");
                             loopData();
                         } catch (IOException | JSONException e) {
                             e.printStackTrace();

@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView tv;
     private Animation animSlideUp;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

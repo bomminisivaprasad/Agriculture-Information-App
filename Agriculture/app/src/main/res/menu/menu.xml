@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:title="@string/menu_home"
-        android:id="@+id/home"/>
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
 
     <item
         android:title="@string/menu_weather"
@@ -11,13 +12,13 @@
         android:icon="@drawable/sun"
         />
     <item
-        android:title="Advisories"
+        android:title="ADVISORIES"
         android:id="@+id/advisories"/>
     <item
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/marketplace"
         android:title="@string/menu_marketplaces" />
     <item
-        android:id="@+id/nav_MANDI"
+        android:id="@+id/market_mandi"
         android:title="@string/MARKET_or_MANDI"/>
 
     <item
@@ -25,8 +26,10 @@
         android:title="@string/LIVEUPDATES"/>
     <item
         android:title="FAQ"
-        android:id="@+id/faq"/>
+        android:id="@+id/faq"
+        android:icon="@drawable/faq"/>
     <item
-        android:title="HelpLine"
-        android:id="@+id/helpline"/>
+        android:title="HELP LINE"
+        android:id="@+id/helpline"
+        android:icon="@drawable/helpline"/>
 </menu>

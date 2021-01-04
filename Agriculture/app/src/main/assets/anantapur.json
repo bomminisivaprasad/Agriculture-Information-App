@@ -1,0 +1,823 @@
+﻿{
+    "Anantapur": [
+        {
+            "Index": "1",
+            "Mobile Number": "8331057583",
+            "Employee Name": "Lakshma Naik",
+            "Designation": "DPM, ",
+            "Place of Working": "ZBNF,Anantapur"
+        },
+        {
+            "Index": "2",
+            "Mobile Number": "8331057586",
+            "Employee Name": "Praveen ",
+            "Designation": "A O,",
+            "Place of Working": "ZBNF, Anantapur"
+        },
+        {
+            "Index": "3",
+            "Mobile Number": "8331057587",
+            "Employee Name": "Y.Ramakrishna",
+            "Designation": "DDA,Agronomy",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "4",
+            "Mobile Number": "8331057588",
+            "Employee Name": "Smt G.Vidyavathi",
+            "Designation": "ADA PP ",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "5",
+            "Mobile Number": "8331057589",
+            "Employee Name": "Sri MC.Madduleti",
+            "Designation": "ATMA PD",
+            "Place of Working": "O/o ATMA,Anantapur"
+        },
+        {
+            "Index": "6",
+            "Mobile Number": "8331057590",
+            "Employee Name": "Y.Ramakrishna",
+            "Designation": "DDA SC ",
+            "Place of Working": "O/o DDA,SC,Anantapur"
+        },
+        {
+            "Index": "7",
+            "Mobile Number": "8331057591",
+            "Employee Name": "Sri MC.Madduleti",
+            "Designation": "DDA, FTC",
+            "Place of Working": "O/o FTC, Anantapur"
+        },
+        {
+            "Index": "8",
+            "Mobile Number": "8331057593",
+            "Employee Name": "Sri.A.Mohan Vijaya Kumar",
+            "Designation": "ADA FTC",
+            "Place of Working": "FTC, Anantapur"
+        },
+        {
+            "Index": "9",
+            "Mobile Number": "8331057594",
+            "Employee Name": "Sri.T.Guru Murthy",
+            "Designation": "ADA FTC",
+            "Place of Working": "FTC, Anantapur"
+        },
+        {
+            "Index": "10",
+            "Mobile Number": "8331057595",
+            "Employee Name": "Smt Uma Maheswari ",
+            "Designation": "Ao FTC",
+            "Place of Working": "FTC, Anantapur"
+        },
+        {
+            "Index": "11",
+            "Mobile Number": "8331057596",
+            "Employee Name": "Smt R. Swarna",
+            "Designation": "AO FTC",
+            "Place of Working": "FTC, Anantapur"
+        },
+        {
+            "Index": "12",
+            "Mobile Number": "8331057597",
+            "Employee Name": "Sri.Y.Sreenivasulu",
+            "Designation": "AO FTC",
+            "Place of Working": "FTC, Anantapur"
+        },
+        {
+            "Index": "13",
+            "Mobile Number": "8331057598",
+            "Employee Name": "Sri B.R.Sekhara Reddy",
+            "Designation": "AO FTC",
+            "Place of Working": "FTC, Anantapur"
+        },
+        {
+            "Index": "14",
+            "Mobile Number": "8331057599",
+            "Employee Name": "Y.Ramakrishna",
+            "Designation": "JDA ",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "15",
+            "Mobile Number": "8331057600",
+            "Employee Name": "Y.Ramakrishna",
+            "Designation": "DDA, Training",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "16",
+            "Mobile Number": "8331057602",
+            "Employee Name": "M.Venkata Ramudu",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA Anantapur"
+        },
+        {
+            "Index": "17",
+            "Mobile Number": "8331057603",
+            "Employee Name": "G.Krishnaiah, ADA",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA DHARMAVRAM"
+        },
+        {
+            "Index": "18",
+            "Mobile Number": "8331057604",
+            "Employee Name": "SC. Naryana Naik, ADA",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA GOOTY"
+        },
+        {
+            "Index": "19",
+            "Mobile Number": "8331057605",
+            "Employee Name": "M.Ravi Kumar",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA HINDPURAMU"
+        },
+        {
+            "Index": "20",
+            "Mobile Number": "8331057606",
+            "Employee Name": "S.Satya narayana, ADA",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA KADIRI"
+        },
+        {
+            "Index": "21",
+            "Mobile Number": "8331057607",
+            "Employee Name": "K.Mallikarjuna ,ADA",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA KALYANDURG"
+        },
+        {
+            "Index": "22",
+            "Mobile Number": "8331057608",
+            "Employee Name": "Sri.B.Krishna Meenan ",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA MADAKSIRA"
+        },
+        {
+            "Index": "23",
+            "Mobile Number": "8331057609",
+            "Employee Name": "Smt. K.Swayam Prabha",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA PENUKONDA"
+        },
+        {
+            "Index": "24",
+            "Mobile Number": "8331057610",
+            "Employee Name": "L R Roja Pushpa Latha ",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA RAYADURGAM"
+        },
+        {
+            "Index": "25",
+            "Mobile Number": "8331057613",
+            "Employee Name": "Sri.M.C.Chengal Rayudu",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA TADIPATRI"
+        },
+        {
+            "Index": "26",
+            "Mobile Number": "8331057614",
+            "Employee Name": "Padmaja, ADA",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA URAVAKONDA"
+        },
+        {
+            "Index": "27",
+            "Mobile Number": "8331057615",
+            "Employee Name": "J Sanavulla",
+            "Designation": "ADA ®",
+            "Place of Working": "ADA KANEKAL"
+        },
+        {
+            "Index": "28",
+            "Mobile Number": "8331057616",
+            "Employee Name": "Sri.C.Vijayasekhar",
+            "Designation": "ADA, STL",
+            "Place of Working": "ADA, STL"
+        },
+        {
+            "Index": "29",
+            "Mobile Number": "8331057617",
+            "Employee Name": "Smt.G.K.Saila Kumari",
+            "Designation": "ADA, PTL",
+            "Place of Working": "ADA, PTL"
+        },
+        {
+            "Index": "30",
+            "Mobile Number": "8331057618",
+            "Employee Name": "Hemalatha ",
+            "Designation": "ADA , ",
+            "Place of Working": "ADA , FCO, Anantapur"
+        },
+        {
+            "Index": "31",
+            "Mobile Number": "8331057621",
+            "Employee Name": "Smt E.Suneetha Kumari",
+            "Designation": "ADA, ",
+            "Place of Working": "ADA, BC Lab Ananatapuramu"
+        },
+        {
+            "Index": "32",
+            "Mobile Number": "8331057622",
+            "Employee Name": "Majulatha ",
+            "Designation": "A.O",
+            "Place of Working": "ADA, PTL"
+        },
+        {
+            "Index": "33",
+            "Mobile Number": "8331057623",
+            "Employee Name": "Smt K.Saraswathi",
+            "Designation": "A.O",
+            "Place of Working": "ADA, PTL"
+        },
+        {
+            "Index": "34",
+            "Mobile Number": "8331057624",
+            "Employee Name": "B.Kiran Kumar Reddy",
+            "Designation": "A.O",
+            "Place of Working": "ADA, PTL"
+        },
+        {
+            "Index": "35",
+            "Mobile Number": "8331057625",
+            "Employee Name": "Sri.K.Dileep Kumar,                  ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kambadur"
+        },
+        {
+            "Index": "36",
+            "Mobile Number": "8331057628",
+            "Employee Name": "Sri.M.Ahmed Basha, AO (T), Kalyandug is kept in FAC as Kundurpi",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kundurpi"
+        },
+        {
+            "Index": "37",
+            "Mobile Number": "8331057629",
+            "Employee Name": "Sri.J.Raghavendra, AEO, Vidapanakal is kept in FAC as MAO, Settur",
+            "Designation": "MAO",
+            "Place of Working": "MAO Settur"
+        },
+        {
+            "Index": "38",
+            "Mobile Number": "8331057630",
+            "Employee Name": "A.Venkata Kumar",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kalyandurg"
+        },
+        {
+            "Index": "39",
+            "Mobile Number": "8331057632",
+            "Employee Name": "S.Prudvi Sagar ",
+            "Designation": "MAO",
+            "Place of Working": "MAO Bramha Samudram"
+        },
+        {
+            "Index": "40",
+            "Mobile Number": "8331057633",
+            "Employee Name": "R.D.Jagadeesh Babu",
+            "Designation": "MAO",
+            "Place of Working": "MAO Beluguppa"
+        },
+        {
+            "Index": "41",
+            "Mobile Number": "8331057634",
+            "Employee Name": "P Venkateswara Prasad",
+            "Designation": "MAO",
+            "Place of Working": "MAO Anantapuram"
+        },
+        {
+            "Index": "42",
+            "Mobile Number": "8331057637",
+            "Employee Name": "M.Shyam Sundar Reddy",
+            "Designation": "MAO",
+            "Place of Working": "MAO BKSamudram"
+        },
+        {
+            "Index": "43",
+            "Mobile Number": "8331057638",
+            "Employee Name": "Sreenath Reddy",
+            "Designation": "MAO",
+            "Place of Working": "MAO Atmakur"
+        },
+        {
+            "Index": "44",
+            "Mobile Number": "8331057639",
+            "Employee Name": "Smt L.Navatha",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kuderu"
+        },
+        {
+            "Index": "45",
+            "Mobile Number": "8331057641",
+            "Employee Name": "S.Rama Suresh Babu",
+            "Designation": "MAO",
+            "Place of Working": "MAO Garladinne"
+        },
+        {
+            "Index": "46",
+            "Mobile Number": "8331057642",
+            "Employee Name": "G.Subhakar",
+            "Designation": "MAO",
+            "Place of Working": "MAO Rapthadu"
+        },
+        {
+            "Index": "47",
+            "Mobile Number": "8331057643",
+            "Employee Name": "Thimmappa ( Incharge)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Madakasira"
+        },
+        {
+            "Index": "48",
+            "Mobile Number": "8331057644",
+            "Employee Name": "Sri.B.Vijaya Kumar,                 ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Amarapuram"
+        },
+        {
+            "Index": "49",
+            "Mobile Number": "8331057645",
+            "Employee Name": "Sri.B.Jagadeesh,( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Agali"
+        },
+        {
+            "Index": "50",
+            "Mobile Number": "8331057647",
+            "Employee Name": "Sri S. Abdul Ali ",
+            "Designation": "MAO",
+            "Place of Working": "MAO Rolla"
+        },
+        {
+            "Index": "51",
+            "Mobile Number": "8331057648",
+            "Employee Name": "V.Thimmappa",
+            "Designation": "MAO",
+            "Place of Working": "MAO Gudibanda"
+        },
+        {
+            "Index": "52",
+            "Mobile Number": "8331057649",
+            "Employee Name": "Sreevani",
+            "Designation": "MAO",
+            "Place of Working": "Ao tech"
+        },
+        {
+            "Index": "53",
+            "Mobile Number": "8331057650",
+            "Employee Name": "P.Ravindeera",
+            "Designation": "MAO",
+            "Place of Working": "MAO Gooty"
+        },
+        {
+            "Index": "54",
+            "Mobile Number": "8331057651",
+            "Employee Name": "D.Leena Vasundhra",
+            "Designation": "MAO",
+            "Place of Working": "MAO Pamidi"
+        },
+        {
+            "Index": "55",
+            "Mobile Number": "8331057652",
+            "Employee Name": "Smt V.Chinnamma",
+            "Designation": "MAO",
+            "Place of Working": "MAO Singanamala"
+        },
+        {
+            "Index": "56",
+            "Mobile Number": "8331057653",
+            "Employee Name": "C.Malleswari",
+            "Designation": "MAO",
+            "Place of Working": "MAO Pedda Vaduguru"
+        },
+        {
+            "Index": "57",
+            "Mobile Number": "8331057655",
+            "Employee Name": "V.Vijaykumar",
+            "Designation": "MAO",
+            "Place of Working": "MAO Yadiki"
+        },
+        {
+            "Index": "58",
+            "Mobile Number": "8331057657",
+            "Employee Name": "C.Channaveera swamy",
+            "Designation": "MAO",
+            "Place of Working": "MAO Dharmavaram"
+        },
+        {
+            "Index": "59",
+            "Mobile Number": "8331057658",
+            "Employee Name": "C.Ramadevi",
+            "Designation": "MAO",
+            "Place of Working": "MAO Tadimarri"
+        },
+        {
+            "Index": "60",
+            "Mobile Number": "8331057659",
+            "Employee Name": "Sri H.Pennaiah                 ",
+            "Designation": "MAO",
+            "Place of Working": "MAO Bathalapalli"
+        },
+        {
+            "Index": "61",
+            "Mobile Number": "8331057660",
+            "Employee Name": "Sri E. Udaykumar ",
+            "Designation": "MAO",
+            "Place of Working": "MAO CKPalli"
+        },
+        {
+            "Index": "62",
+            "Mobile Number": "8331057661",
+            "Employee Name": "Smt. R.Madhumathi ",
+            "Designation": "MAO",
+            "Place of Working": "MAO Ramagiri"
+        },
+        {
+            "Index": "63",
+            "Mobile Number": "8331057662",
+            "Employee Name": "Smt P.Krishna Kumari",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kanaganapalli"
+        },
+        {
+            "Index": "64",
+            "Mobile Number": "8331057663",
+            "Employee Name": "Sri.S.Sadab, ",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kadiri"
+        },
+        {
+            "Index": "65",
+            "Mobile Number": "8331057664",
+            "Employee Name": "B.Lakshmi Priya",
+            "Designation": "MAO",
+            "Place of Working": "MAO Gandlapenta"
+        },
+        {
+            "Index": "66",
+            "Mobile Number": "8331057665",
+            "Employee Name": "K.Lakshmi Narasimhulu",
+            "Designation": "MAO",
+            "Place of Working": "MAO Mudigubba"
+        },
+        {
+            "Index": "67",
+            "Mobile Number": "8331057668",
+            "Employee Name": "D.Bharathi",
+            "Designation": "MAO",
+            "Place of Working": "MAO Nallacheruvu"
+        },
+        {
+            "Index": "68",
+            "Mobile Number": "8331057669",
+            "Employee Name": "Smt.B.Veerajoshna,                 ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO N.P.Kunta"
+        },
+        {
+            "Index": "69",
+            "Mobile Number": "8331057670",
+            "Employee Name": "Sri.G.Obi Reddy, M",
+            "Designation": "MAO",
+            "Place of Working": "MAO Nallamada"
+        },
+        {
+            "Index": "70",
+            "Mobile Number": "8331057671",
+            "Employee Name": "G.Sumathi",
+            "Designation": "MAO",
+            "Place of Working": "MAO Talupula"
+        },
+        {
+            "Index": "71",
+            "Mobile Number": "8331057672",
+            "Employee Name": "B.Sreehari Naik",
+            "Designation": "MAO",
+            "Place of Working": "MAO Tanakal"
+        },
+        {
+            "Index": "72",
+            "Mobile Number": "8331057674",
+            "Employee Name": "Sri.J.N.V. Gopal,                        (AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO ODCheruvu"
+        },
+        {
+            "Index": "73",
+            "Mobile Number": "8331057675",
+            "Employee Name": "Smt.M.Bharani Kruthi, ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Amadaguru"
+        },
+        {
+            "Index": "74",
+            "Mobile Number": "8331057679",
+            "Employee Name": "Smt.B.Kusuma Kumari, AO (T) deputed ",
+            "Designation": "MAO",
+            "Place of Working": "AO TECH"
+        },
+        {
+            "Index": "75",
+            "Mobile Number": "8331057680",
+            "Employee Name": "Smt  S.Mahitha Kiran",
+            "Designation": "MAO",
+            "Place of Working": "MAO Tadipatri"
+        },
+        {
+            "Index": "76",
+            "Mobile Number": "8331057681",
+            "Employee Name": "R.Kaathyayani",
+            "Designation": "MAO",
+            "Place of Working": "MAO Yellanur"
+        },
+        {
+            "Index": "77",
+            "Mobile Number": "8331057683",
+            "Employee Name": "N.Anvesh Kumar",
+            "Designation": "MAO",
+            "Place of Working": "MAO Putlur"
+        },
+        {
+            "Index": "78",
+            "Mobile Number": "8331057684",
+            "Employee Name": "N.M.Mustafa",
+            "Designation": "MAO",
+            "Place of Working": "MAO Narpala"
+        },
+        {
+            "Index": "79",
+            "Mobile Number": "8331057685",
+            "Employee Name": "M. Anjineyulu",
+            "Designation": "MAO",
+            "Place of Working": "MAO Pedda Pappur"
+        },
+        {
+            "Index": "80",
+            "Mobile Number": "8331057687",
+            "Employee Name": "Sri.P.Mustaq Ahammad Khan,",
+            "Designation": "MAO",
+            "Place of Working": "MAO Uravakonda"
+        },
+        {
+            "Index": "81",
+            "Mobile Number": "8331057688",
+            "Employee Name": "B.Ramakrishnudu ",
+            "Designation": "MAO",
+            "Place of Working": "MAO Guntakal"
+        },
+        {
+            "Index": "82",
+            "Mobile Number": "8331057689",
+            "Employee Name": "Sri.A.Venkataramulu Gowd, ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Vajrakarur"
+        },
+        {
+            "Index": "83",
+            "Mobile Number": "8331057690",
+            "Employee Name": "S.Rajyalakshmi",
+            "Designation": "MAO",
+            "Place of Working": "MAO Vidapanakal"
+        },
+        {
+            "Index": "84",
+            "Mobile Number": "8331057691",
+            "Employee Name": "Padma Latha ",
+            "Designation": "ADA",
+            "Place of Working": "FTC, Anantapur"
+        },
+        {
+            "Index": "85",
+            "Mobile Number": "8331057692",
+            "Employee Name": "H. Shekanna",
+            "Designation": "A.O ",
+            "Place of Working": "AO SC Kalyandurgam"
+        },
+        {
+            "Index": "86",
+            "Mobile Number": "8331057693",
+            "Employee Name": "K.C.Chandana",
+            "Designation": "MAO",
+            "Place of Working": "MAO Hindupur"
+        },
+        {
+            "Index": "87",
+            "Mobile Number": "8331057694",
+            "Employee Name": "D. Sri Latha ",
+            "Designation": "MAO",
+            "Place of Working": "MAO Chilamathur"
+        },
+        {
+            "Index": "88",
+            "Mobile Number": "8331057695",
+            "Employee Name": "S. Vijaya Bharathi",
+            "Designation": "MAO",
+            "Place of Working": "MAO Parigi"
+        },
+        {
+            "Index": "89",
+            "Mobile Number": "8331057696",
+            "Employee Name": "R. Surendra Naik",
+            "Designation": "MAO",
+            "Place of Working": "MAO Lepakshi"
+        },
+        {
+            "Index": "90",
+            "Mobile Number": "8331057697",
+            "Employee Name": "Sri.A.Imran                        ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Gorantla"
+        },
+        {
+            "Index": "91",
+            "Mobile Number": "8331057699",
+            "Employee Name": "Sri.D.Vinod Kumar,                  ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Rayadurg"
+        },
+        {
+            "Index": "92",
+            "Mobile Number": "8331057701",
+            "Employee Name": "M.Nirmal Kumar",
+            "Designation": "MAO",
+            "Place of Working": "MAO DHirehal"
+        },
+        {
+            "Index": "93",
+            "Mobile Number": "8331057702",
+            "Employee Name": "A.Sravankumar",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kanekal"
+        },
+        {
+            "Index": "94",
+            "Mobile Number": "8331057703",
+            "Employee Name": "Y.Devipadmalatha",
+            "Designation": "MAO",
+            "Place of Working": "MAO Bommanahal"
+        },
+        {
+            "Index": "95",
+            "Mobile Number": "8331057704",
+            "Employee Name": "P.Ranganethaji",
+            "Designation": "MAO",
+            "Place of Working": "MAO Gummagatta"
+        },
+        {
+            "Index": "96",
+            "Mobile Number": "8331057705",
+            "Employee Name": "K. Sai Lakshmi",
+            "Designation": "MAO",
+            "Place of Working": "MAO Puttaparthy"
+        },
+        {
+            "Index": "97",
+            "Mobile Number": "8331057706",
+            "Employee Name": "G Adinarayana                  ( AEO Kept as FAC)",
+            "Designation": "MAO",
+            "Place of Working": "MAO Roddam"
+        },
+        {
+            "Index": "98",
+            "Mobile Number": "8331057707",
+            "Employee Name": "S.Sathish Babu",
+            "Designation": "MAO",
+            "Place of Working": "MAO Bukkapatnam"
+        },
+        {
+            "Index": "99",
+            "Mobile Number": "8331057708",
+            "Employee Name": "Smt.Kavitha Rani",
+            "Designation": "MAO",
+            "Place of Working": "MAO Somandepalli"
+        },
+        {
+            "Index": "100",
+            "Mobile Number": "8331057709",
+            "Employee Name": "R.Rakesh Naik",
+            "Designation": "MAO",
+            "Place of Working": "MAO Penukonda"
+        },
+        {
+            "Index": "101",
+            "Mobile Number": "8331057710",
+            "Employee Name": "M.Nataraju",
+            "Designation": "MAO",
+            "Place of Working": "MAO Kothacheruvu"
+        },
+        {
+            "Index": "102",
+            "Mobile Number": "8331057712",
+            "Employee Name": "A.Maddidelti",
+            "Designation": "ADA",
+            "Place of Working": "ADA SC, Anantapuamu"
+        },
+        {
+            "Index": "103",
+            "Mobile Number": "8331057713",
+            "Employee Name": "Srinivasulu",
+            "Designation": "ADA",
+            "Place of Working": "ADA,SC, Kadiri"
+        },
+        {
+            "Index": "104",
+            "Mobile Number": "8331057714",
+            "Employee Name": "Venkatesralu",
+            "Designation": "ADA",
+            "Place of Working": "ADA Sc, Kalyandurgam"
+        },
+        {
+            "Index": "105",
+            "Mobile Number": "8331057715",
+            "Employee Name": "Krishna Meenan",
+            "Designation": "ADA",
+            "Place of Working": "ADA SC, Hindupur"
+        },
+        {
+            "Index": "106",
+            "Mobile Number": "8331057716",
+            "Employee Name": "Sri H.Sekhar Naik",
+            "Designation": "A.O ",
+            "Place of Working": "AO STL Anantapur"
+        },
+        {
+            "Index": "107",
+            "Mobile Number": "8331057717",
+            "Employee Name": "Smt K.Rumana Begum",
+            "Designation": "A.O ",
+            "Place of Working": "AO STL Anantapur"
+        },
+        {
+            "Index": "108",
+            "Mobile Number": "8331057718",
+            "Employee Name": "M.V.Pushpa Latha",
+            "Designation": "A.O ",
+            "Place of Working": "AO STL Anantapur"
+        },
+        {
+            "Index": "109",
+            "Mobile Number": "8331057719",
+            "Employee Name": "Adi Lakshimi",
+            "Designation": "A.O ",
+            "Place of Working": "AO STL Anantapur"
+        },
+        {
+            "Index": "110",
+            "Mobile Number": "8331057720",
+            "Employee Name": "K.Geetha vani",
+            "Designation": "A.O ",
+            "Place of Working": "AO PTL Anantapur"
+        },
+        {
+            "Index": "111",
+            "Mobile Number": "8331057723",
+            "Employee Name": "P.Somasekhar",
+            "Designation": "AO (T) ",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "112",
+            "Mobile Number": "8331057724",
+            "Employee Name": "S. Prathap",
+            "Designation": "AO (T)",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "113",
+            "Mobile Number": "8331057725",
+            "Employee Name": "R.Balu Naik",
+            "Designation": "AO (T)",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "114",
+            "Mobile Number": "8331057726",
+            "Employee Name": "B.Vamsi Krishna",
+            "Designation": "AO (T)",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "115",
+            "Mobile Number": "8331057727",
+            "Employee Name": "Indira Devi",
+            "Designation": "Admin officer",
+            "Place of Working": "O/o JDA, Anantapur"
+        },
+        {
+            "Index": "116",
+            "Mobile Number": "8331057728",
+            "Employee Name": "Y. Yellappa",
+            "Designation": "DPD",
+            "Place of Working": "APDMP, Anantapur"
+        },
+        {
+            "Index": "117",
+            "Mobile Number": "8331057729",
+            "Employee Name": "Mehrunissa Begum",
+            "Designation": "ADA SCTC",
+            "Place of Working": "O/o ADA, SCTC, Anantapur"
+        }
+    ]
+}
