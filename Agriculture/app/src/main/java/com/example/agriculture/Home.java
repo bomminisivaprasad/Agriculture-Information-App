@@ -109,7 +109,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.nav_MANDI:
+            case R.id.market_mandi:
                 MandiFragment mandiFragment =new MandiFragment();
                 transaction.replace(R.id.main_body,mandiFragment);
                 transaction.commit();

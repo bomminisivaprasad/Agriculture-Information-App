@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
-<<<<<<< HEAD
+
         <item>@font/droid_serif</item>
-=======
+
         <item>@font/allerta</item>
->>>>>>> bf00a80407d5ea6e65afbbc43b820589cc30c0d7
+
     </array>
 </resources>

@@ -18,7 +18,9 @@
             android:gravity="center"
             android:text="Login"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/umail"
@@ -26,12 +28,13 @@
             android:layout_height="45dp"
             android:layout_marginTop="18dp"
             android:background="@drawable/shape"
-            android:drawableRight="@drawable/ic_mail"
+            android:drawableRight="@drawable/ic_baseline_mail_24"
             android:fontFamily="@font/allerta"
             android:hint="Mail"
             android:inputType="textEmailAddress"
             android:paddingLeft="9dp"
-            android:paddingRight="9dp" />
+            android:paddingRight="9dp"
+            />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/upass"
@@ -39,7 +42,7 @@
             android:layout_height="45dp"
             android:layout_marginTop="18dp"
             android:background="@drawable/shape"
-            android:drawableRight="@drawable/ic_lock"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
             android:fontFamily="@font/allerta"
             android:hint="Password"
             android:inputType="textPassword"
@@ -53,15 +56,17 @@
             android:gravity="end"
             android:onClick="reset"
             android:text="Forgot Password ?"
-            android:textSize="18sp"
-            android:textStyle="bold|italic" />
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorAccent"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
             android:onClick="login"
-            android:text="Login" />
+            android:text="Login"
+            android:background="@drawable/border"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -80,6 +85,7 @@
             android:fontFamily="@font/allerta"
             android:textSize="24sp"
             android:layout_marginTop="21dp"
+            android:textColor="@color/text_color"
             android:onClick="personRegister"/>
     </LinearLayout>
 </layout>
