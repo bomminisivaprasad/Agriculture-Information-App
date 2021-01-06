@@ -22,55 +22,76 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:fontFamily="@font/allerta"
-                   android:textSize="27sp" />
+                   android:text="dummy"
+                   android:padding="6dp"
+                   android:background="#0DD315"
+                   android:textSize="21sp" />
 
                <TextView
                    android:id="@+id/tv1"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="15dp"
+                   android:text="dummy"
+                   android:padding="6dp"
+                   android:background="#67F46D"
                    android:fontFamily="@font/allerta"
-                   android:textSize="27sp" />
+                   android:textSize="21sp" />
 
                <TextView
                    android:id="@+id/tv2"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="15dp"
+                   android:text="dummy"
+                   android:padding="6dp"
+                   android:background="#0DD315"
                    android:fontFamily="@font/allerta"
-                   android:textSize="27sp" />
+                   android:textSize="21sp" />
 
                <TextView
                    android:id="@+id/tv3"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="15dp"
+                   android:text="dummy"
+                   android:padding="6dp"
+                   android:background="#67F46D"
                    android:fontFamily="@font/allerta"
-                   android:textSize="27sp" />
+                   android:textSize="21sp" />
 
                <TextView
                    android:id="@+id/tv4"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="15dp"
+                   android:text="dummy"
+                   android:padding="6dp"
+                   android:background="#0DD315"
                    android:fontFamily="@font/allerta"
-                   android:textSize="27sp" />
+                   android:textSize="21sp" />
 
                <TextView
                    android:id="@+id/tv5"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="15dp"
+                   android:text="dummy"
+                   android:padding="6dp"
+                   android:background="#67F46D"
                    android:fontFamily="@font/allerta"
-                   android:textSize="27sp" />
+                   android:textSize="21sp" />
 
                <TextView
                    android:id="@+id/tv6"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="15dp"
+                   android:text="dummy"
+                   android:padding="6dp"
+                   android:background="#0DD315"
                    android:fontFamily="@font/allerta"
-                   android:textSize="27sp" />
+                   android:textSize="21sp" />
 
 
            </LinearLayout>
