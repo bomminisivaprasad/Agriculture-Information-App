@@ -13,17 +13,21 @@
         />
     <item
         android:title="ADVISORIES"
-        android:id="@+id/advisories"/>
+        android:id="@+id/advisories"
+        android:icon="@drawable/ic_advi"/>
     <item
         android:id="@+id/marketplace"
-        android:title="@string/menu_marketplaces" />
+        android:title="@string/menu_marketplaces"
+        android:icon="@drawable/ic_mp"/>
     <item
         android:id="@+id/market_mandi"
-        android:title="@string/MARKET_or_MANDI"/>
+        android:title="@string/MARKET_or_MANDI"
+        android:icon="@drawable/ic_mandi"/>
 
     <item
         android:id="@+id/nav_update"
-        android:title="@string/LIVEUPDATES"/>
+        android:title="@string/LIVEUPDATES"
+        android:icon="@drawable/ic_update"/>
     <item
         android:title="FAQ"
         android:id="@+id/faq"
@@ -32,4 +36,8 @@
         android:title="HELP LINE"
         android:id="@+id/helpline"
         android:icon="@drawable/helpline"/>
+    <item
+        android:id="@+id/signout"
+        android:title="LOG OUT"
+        android:icon="@drawable/ic_signout"/>
 </menu>

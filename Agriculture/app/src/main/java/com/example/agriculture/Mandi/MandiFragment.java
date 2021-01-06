@@ -1,26 +1,28 @@
 package com.example.agriculture.Mandi;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.agriculture.DisplayFragment;
 import com.example.agriculture.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -74,5 +76,49 @@ public class MandiFragment extends Fragment {
             }
         });
         return v;
+    }
+
+    private class MandiAdapter extends RecyclerView.Adapter<MandiAdapter.HoldView>{
+        Context ct;
+        ArrayList<Pojo> list;
+        public MandiAdapter(FragmentActivity activity, ArrayList<Pojo> pojos) {
+            ct = activity;
+            list = pojos;
+        }
+
+
+        @NonNull
+        @Override
+        public HoldView onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            return new HoldView(LayoutInflater.from(ct).inflate(R.layout.row_mandi,parent,false));
+        }
+
+        @Override
+        public void onBindViewHolder(@NonNull HoldView holder, int position) {
+            holder.tv.setText(list.get(position).getRegion());
+            holder.tv1.setText(list.get(position).getPartner());
+        }
+
+        @Override
+        public int getItemCount() {
+            return list.size();
+        }
+
+        public class HoldView extends RecyclerView.ViewHolder implements View.OnClickListener {
+            TextView tv,tv1;
+            public HoldView(@NonNull View itemView) {
+                super(itemView);
+                tv = itemView.findViewById(R.id.region);
+                tv1 = itemView.findViewById(R.id.partner);
+                itemView.setOnClickListener(this);
+            }
+
+            @Override
+            public void onClick(View v) {
+                DisplayFragment fragment = new DisplayFragment();
+                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.main_body,fragment).addToBackStack(null).commit();
+            }
+        }
     }
 }

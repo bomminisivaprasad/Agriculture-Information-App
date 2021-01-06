@@ -18,6 +18,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.agriculture.Mandi.MandiFragment;
@@ -26,12 +27,13 @@ import com.example.agriculture.helpline.HelpLineFragment;
 import com.example.agriculture.home.HomeFragment;
 import com.example.agriculture.weather.WeatherFragment;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     Toolbar toolbar;
     DrawerLayout drawerLayout;
     NavigationView navigationView;
-
+    FirebaseAuth auth;
     FragmentManager manager;
     FragmentTransaction transaction;
     @Override
@@ -41,6 +43,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         toolbar = findViewById(R.id.toolbar);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
+        auth = FirebaseAuth.getInstance();
         getSupportActionBar();
 
         if (ActivityCompat.checkSelfPermission(Home.this,
@@ -68,6 +71,9 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 .setColor(getResources().getColor(android.R.color.white));
 
         navigationView.setNavigationItemSelectedListener(Home.this);
+        View headerview = navigationView.getHeaderView(0);
+        TextView tv = headerview.findViewById(R.id.nTextView);
+        tv.setText(auth.getCurrentUser().getEmail());
 
         manager =getSupportFragmentManager();
         transaction= manager.beginTransaction();
@@ -115,6 +121,11 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;
+            case R.id.signout:
+                auth.signOut();
+                startActivity(new Intent(this,LogINRegisterActivity.class));
+                finish();
+
         }
         return false;
     }
