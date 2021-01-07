@@ -22,13 +22,13 @@ public class DisplayFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_display,container,false);
-        binding.tv.setText(getArguments().getString("cdetails"));
-        binding.tv1.setText(getArguments().getString("partner"));
-        binding.tv2.setText(getArguments().getString("cnumber"));
-        binding.tv3.setText(getArguments().getString("eproducts"));
-        binding.tv4.setText(getArguments().getString("pitem"));
-        binding.tv5.setText(getArguments().getString("pdetails"));
-        binding.tv6.setText(getArguments().getString("region"));
+        binding.cdetails.setText(getArguments().getString("cdetails"));
+        binding.partner.setText(getArguments().getString("partner"));
+        binding.cnumber.setText(getArguments().getString("cnumber"));
+        binding.eproducts.setText(getArguments().getString("eproducts"));
+        binding.pitem.setText(getArguments().getString("pitem"));
+        binding.pdetails.setText(getArguments().getString("pdetails"));
+        binding.region.setText(getArguments().getString("region"));
         return binding.getRoot();
     }
 }

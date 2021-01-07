@@ -9,4 +9,6 @@
     <color name="yellow">#fff5f504</color>
     <color name="red">#B71C1C</color>
     <color name="text_color">#3302A3</color>
+    <color name="light_color">#67F46D</color>
+    <color name="dark_color">#0DD315</color>
 </resources>
