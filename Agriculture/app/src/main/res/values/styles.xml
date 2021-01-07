@@ -5,12 +5,17 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style>
+
+        <item name="android:textColorHint">#B6ADAD</item>
+        <item name="android:editTextColor">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/droid_serif</item>
+            </style>
 
     <style name="ButtonLogin" parent="@style/Theme.AppCompat.Light">
         <item name="android:textColor">@color/white</item>
         <item name="colorButtonNormal">@color/colorAccent</item>
         <item name="colorControlHighlight">@color/yellow</item>
+
     </style>
 
     <style name="ButtonSignUp" parent="@style/Theme.AppCompat.Light">

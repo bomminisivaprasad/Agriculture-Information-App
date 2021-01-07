@@ -4,7 +4,8 @@
 
         <item>@font/droid_serif</item>
 
-        <item>@font/allerta</item>
+     <!--   <item>@font/allerta</item>
+        <item>@font/roboto_medium</item>-->
 
     </array>
 </resources>

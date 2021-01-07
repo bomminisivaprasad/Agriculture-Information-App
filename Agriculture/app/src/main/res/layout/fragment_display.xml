@@ -25,7 +25,6 @@
                    android:text="Contact Details"
                    android:textSize="21sp"
                    android:textStyle="bold"
-                   android:fontFamily="@font/allerta"
                    android:textColor="#06850B"
                    android:paddingBottom="6dp"
                    android:paddingTop="6dp"/>
@@ -34,7 +33,6 @@
                    android:id="@+id/cdetails"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
-                   android:fontFamily="@font/allerta"
                    android:text="dummy"
                    android:textColor="#000000"
                    android:padding="6dp"
@@ -46,7 +44,6 @@
                    android:text="Partner"
                    android:textSize="21sp"
                    android:textStyle="bold"
-                   android:fontFamily="@font/allerta"
                    android:textColor="#06850B"
                    android:paddingBottom="6dp"
                    android:layout_marginTop="15dp"
@@ -60,7 +57,6 @@
                    android:text="dummy"
                    android:textColor="#000000"
                    android:background="@color/light_color"
-                   android:fontFamily="@font/allerta"
                    android:textSize="21sp" />
                <TextView
                    android:layout_width="match_parent"
@@ -68,7 +64,6 @@
                    android:text="Contact Number"
                    android:textSize="21sp"
                    android:textStyle="bold"
-                   android:fontFamily="@font/allerta"
                    android:textColor="#06850B"
                    android:paddingBottom="6dp"
                    android:layout_marginTop="15dp"
@@ -81,7 +76,6 @@
                    android:textColor="#000000"
                    android:padding="6dp"
                    android:background="@color/dark_color"
-                   android:fontFamily="@font/allerta"
                    android:textSize="21sp" />
                <TextView
                    android:layout_width="match_parent"
@@ -89,7 +83,6 @@
                    android:text="Region"
                    android:textSize="21sp"
                    android:textStyle="bold"
-                   android:fontFamily="@font/allerta"
                    android:textColor="#06850B"
                    android:paddingBottom="6dp"
                    android:layout_marginTop="15dp"
@@ -103,7 +96,6 @@
                    android:padding="6dp"
                    android:textColor="#000000"
                    android:background="@color/light_color"
-                   android:fontFamily="@font/allerta"
                    android:textSize="21sp" />
 
                <TextView
@@ -112,7 +104,6 @@
                    android:text="Primary Item"
                    android:textSize="21sp"
                    android:textStyle="bold"
-                   android:fontFamily="@font/allerta"
                    android:textColor="#06850B"
                    android:paddingBottom="6dp"
                    android:layout_marginTop="15dp"
@@ -126,7 +117,6 @@
                    android:textColor="#000000"
                    android:padding="6dp"
                    android:background="@color/dark_color"
-                   android:fontFamily="@font/allerta"
                    android:textSize="21sp" />
                <TextView
                    android:layout_width="match_parent"
@@ -134,7 +124,6 @@
                    android:text="Product Details"
                    android:textSize="21sp"
                    android:textStyle="bold"
-                   android:fontFamily="@font/allerta"
                    android:textColor="#06850B"
                    android:paddingBottom="6dp"
                    android:layout_marginTop="15dp"
@@ -148,7 +137,6 @@
                    android:textColor="#000000"
                    android:padding="6dp"
                    android:background="@color/light_color"
-                   android:fontFamily="@font/allerta"
                    android:textSize="21sp" />
                <TextView
                    android:layout_width="match_parent"
@@ -156,7 +144,6 @@
                    android:text="End Products"
                    android:textSize="21sp"
                    android:textStyle="bold"
-                   android:fontFamily="@font/allerta"
                    android:textColor="#06850B"
                    android:paddingBottom="6dp"
                    android:layout_marginTop="15dp"
@@ -170,7 +157,6 @@
                    android:textColor="#000000"
                    android:padding="6dp"
                    android:background="@color/dark_color"
-                   android:fontFamily="@font/allerta"
                    android:textSize="21sp" />
 
 

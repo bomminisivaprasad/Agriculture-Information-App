@@ -96,6 +96,7 @@ public class LogINRegisterActivity extends AppCompatActivity {
                 dialog.dismiss();
             }
         });
+        builder.show();
     }
 
     public void personRegister(View view) {
