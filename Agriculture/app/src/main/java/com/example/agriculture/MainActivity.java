@@ -32,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
                 // close this activity
                 finish();
             }
-        }, 5*1000); // wait for 5 seconds
+        },3000); // wait for 5 seconds
     }
 }

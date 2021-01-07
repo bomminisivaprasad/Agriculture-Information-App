@@ -38,7 +38,6 @@ import java.util.TimerTask;
 public class HomeFragment extends Fragment {
     DatabaseReference reference;
     ArrayList<Upload> list;
-    RecyclerView rv;
     ViewPager2 vp;
     private static int currentPage = 0;
     private static int NUM_PAGES = 9;
@@ -46,7 +45,6 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
-       // rv = v.findViewById(R.id.rv);
         vp = v.findViewById(R.id.viewPager);
         list = new ArrayList<>();
         reference = FirebaseDatabase.getInstance().getReference().child("images").child("CropImages");
@@ -66,11 +64,6 @@ public class HomeFragment extends Fragment {
                     }
                     HomeAdapter adapter=new HomeAdapter(getContext(),list);
                     vp.setAdapter(adapter);
-                  //  setupIndicator();
-                   // setupCurrentIndicator(0);
-                   /* HomeAdapter adapter = new HomeAdapter(getContext(),list);
-                    rv.setAdapter(adapter);
-                    rv.setLayoutManager(new LinearLayoutManager(getActivity()));*/
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
