@@ -30,7 +30,10 @@
                     android:layout_height="wrap_content"
                     android:text="@string/app_name"
                     android:textColor="#FFFFFF"
-                    android:textSize="25sp" />
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"/>
 
                 <ImageView
                     android:layout_width="0dp"
