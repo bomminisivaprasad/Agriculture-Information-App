@@ -1,44 +1,44 @@
-package com.muneiah.example.faqs;
+package com.example.agriculture.faq;
 
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
+import com.example.agriculture.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class FAQFragment extends Fragment {
 
+    int previousGroup = -1;
+    boolean flag = false;
     private ExpandableListView expandableListView;
 
-    private ExpandableListViewAdapter expandableListViewAdapter;
+    private FaqListViewAdapter expandableListViewAdapter;
 
     private List<String> listDataGroup;
 
     private HashMap<String, List<String>> listDataChild;
-    boolean mIsSaved;
+    boolean mIsSaved=true;
+    public FAQFragment() {
+        // Required empty public constructor
+    }
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View v= inflater.inflate(R.layout.fragment_f_a_q, container, false);
+        expandableListView = v.findViewById(R.id.expandableListView);
 
-        setContentView(R.layout.activity_main);
-
-        // initializing the views
-        initViews();
 
         // initializing the listeners
         initListeners();
@@ -48,66 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
         // preparing list data
         initListData();
-
+        return  v;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.option_menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        if (mIsSaved) {
-            //in production you'd probably be better off keeping a reference to the item
-            menu.findItem(R.id.laung)
-                    .setIcon(R.drawable.e);
-        } else {
-            menu.findItem(R.id.laung)
-                    .setIcon(R.drawable.t);
-        }
-        return super.onPrepareOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.laung:
-                Intent intent = new Intent(this, Change_language.class);
-                startActivity(intent);
-
-                Toast.makeText(this, "Telugu", Toast.LENGTH_SHORT).show();
-
-                break;
-        }
-        return super.onOptionsItemSelected(item);
-
-    }
-
-    /**
-     * method to initialize the views
-     */
-    private void initViews() {
-
-        expandableListView = findViewById(R.id.expandableListView);
-
-    }
-    public void setLocale(String lang) {
-        Locale myLocale = new Locale(lang);
-        Resources res = getResources();
-        DisplayMetrics dm = res.getDisplayMetrics();
-        Configuration conf = res.getConfiguration();
-        conf.locale = myLocale;
-        res.updateConfiguration(conf, dm);
-        Intent refresh = new Intent(this, MainActivity.class);
-        refresh.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        finish();
-        startActivity(refresh);
-    }
-    /**
-     * method to initialize the listeners
-     */
     private void initListeners() {
 
         // ExpandableListView on child click listener
@@ -116,26 +59,34 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
-                Toast.makeText(
-                        getApplicationContext(),
+                /*Toast.makeText(
+                        getContext(),
                         listDataGroup.get(groupPosition)
                                 + " : "
                                 + listDataChild.get(
                                 listDataGroup.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
-                        .show();
+                        .show();*/
                 return false;
             }
         });
+
 
         // ExpandableListView Group expanded listener
         expandableListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getContext(),
                         listDataGroup.get(groupPosition) + " " + getString(R.string.text_collapsed),
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();*/
+                if (groupPosition != previousGroup && flag) {
+                    expandableListView.collapseGroup(previousGroup);
+                }
+                previousGroup = groupPosition;
+
+                flag = true;
+
             }
         });
 
@@ -144,9 +95,9 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onGroupCollapse(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getContext(),
                         listDataGroup.get(groupPosition) + " " + getString(R.string.text_collapsed),
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();*/
 
             }
         });
@@ -165,7 +116,8 @@ public class MainActivity extends AppCompatActivity {
         listDataChild = new HashMap<>();
 
         // initializing the adapter object
-        expandableListViewAdapter = new ExpandableListViewAdapter(this, listDataGroup, listDataChild);
+        expandableListViewAdapter = new FaqListViewAdapter(getContext(), listDataGroup, listDataChild);
+        //expandableListViewAdapter = new ExpandableListViewAdapter(getContext(), faqPojos);
 
         // setting list adapter
         expandableListView.setAdapter(expandableListViewAdapter);
@@ -185,12 +137,18 @@ public class MainActivity extends AppCompatActivity {
         listDataGroup.add(getString(R.string.text_coffee));
         listDataGroup.add(getString(R.string.text_pasta));
         listDataGroup.add(getString(R.string.text_cold_drinks));
-        listDataGroup.add(getString(R.string.land_cleaing));
         listDataGroup.add(getString(R.string.crop_insurance));
+        listDataGroup.add(getString(R.string.land_cleaing));
+/*        listDataGroup.add(getString(R.string.family_));
+        listDataGroup.add(getString(R.string.khsarif));
+        listDataGroup.add(getString(R.string.rabi));
+        listDataGroup.add(getString(R.string.zaid));
+        listDataGroup.add(getString(R.string.soil_sutable));*/
 
         // array of strings
         String[] array;
 
+        /*0*/
         // list of alcohol
         List<String> alcoholList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_alcohol);
@@ -198,38 +156,39 @@ public class MainActivity extends AppCompatActivity {
             alcoholList.add(item);
         }
 
-        // list of coffee
+        // list of coffee 1
         List<String> coffeeList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_coffee);
         for (String item : array) {
             coffeeList.add(item);
         }
 
-        // list of pasta
+        // list of pasta 2
         List<String> pastaList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_pasta);
         for (String item : array) {
             pastaList.add(item);
         }
 
-        // list of cold drinks
+        // list of cold drinks 3
         List<String> coldDrinkList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_cold_drinks);
         for (String item : array) {
             coldDrinkList.add(item);
         }
-        // list of cold drinks
+        // list of cold drinks 4
         List<String> cleing = new ArrayList<>();
         array = getResources().getStringArray(R.array.land_clean);
         for (String item : array) {
             cleing.add(item);
         }
-        // list of cold drinks
+        // list of cold drinks 5
         List<String> insurence = new ArrayList<>();
         array = getResources().getStringArray(R.array.crop_insurence);
         for (String item : array) {
             insurence.add(item);
         }
+
 
         // Adding child data
         listDataChild.put(listDataGroup.get(0), alcoholList);
@@ -238,9 +197,13 @@ public class MainActivity extends AppCompatActivity {
         listDataChild.put(listDataGroup.get(3), coldDrinkList);
         listDataChild.put(listDataGroup.get(4), cleing);
         listDataChild.put(listDataGroup.get(5), insurence);
+       /* listDataChild.put(listDataGroup.get(6), familily);
+        listDataChild.put(listDataGroup.get(7), karif);
+        listDataChild.put(listDataGroup.get(8), rabi);
+        listDataChild.put(listDataGroup.get(9), famzaidilily);
+        listDataChild.put(listDataGroup.get(10), sutab);*/
 
         // notify the adapter
         expandableListViewAdapter.notifyDataSetChanged();
     }
-
 }

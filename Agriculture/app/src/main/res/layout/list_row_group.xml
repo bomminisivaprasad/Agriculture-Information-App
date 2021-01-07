@@ -11,9 +11,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
+        android:autoLink="all"
         android:paddingBottom="8dp"
         android:textColor="@color/colorAccent"
         android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-        android:textSize="17dp" />
+        android:textSize="18sp"
+        android:fontFamily="serif"
+
+        />
 
 </LinearLayout>

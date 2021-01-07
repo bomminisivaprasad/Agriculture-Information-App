@@ -23,9 +23,11 @@ import android.widget.Toast;
 
 import com.example.agriculture.Mandi.MandiFragment;
 import com.example.agriculture.advisories.AgriculturalAdvisoriesFragment;
+import com.example.agriculture.faq.FAQFragment;
 import com.example.agriculture.helpline.HelpLineFragment;
 import com.example.agriculture.home.HomeFragment;
 import com.example.agriculture.weather.WeatherFragment;
+import com.example.agriculture.weather.WeatherFragments;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -98,7 +100,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 break;
 
             case R.id.weather:
-                WeatherFragment weather =new WeatherFragment();
+                WeatherFragments weather =new WeatherFragments();
                 transaction.replace(R.id.main_body,weather);
                 transaction.commit();
                 drawerLayout.closeDrawers();
@@ -118,6 +120,12 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
             case R.id.market_mandi:
                 MandiFragment mandiFragment =new MandiFragment();
                 transaction.replace(R.id.main_body,mandiFragment);
+                transaction.commit();
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.faq:
+                FAQFragment faqFragment =new FAQFragment();
+                transaction.replace(R.id.main_body,faqFragment);
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;
