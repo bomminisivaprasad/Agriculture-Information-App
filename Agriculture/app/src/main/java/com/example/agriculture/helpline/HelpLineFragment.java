@@ -58,13 +58,10 @@ public class HelpLineFragment extends Fragment {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 switch (i) {
                     case 0:
-                        Toast.makeText(getContext(), "Not Selected", Toast.LENGTH_SHORT).show();
                         tv.setVisibility(View.VISIBLE);
                         rv.setVisibility(View.GONE);
                         break;
                     case 1:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(),
-                                Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("srikakulam.json");
@@ -82,7 +79,6 @@ public class HelpLineFragment extends Fragment {
 
                         break;
                     case 2:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("vizianagaram.json");
@@ -99,7 +95,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 3:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("visakhapatnam.json");
@@ -116,7 +111,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 4:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("eastgodavari.json");
@@ -133,7 +127,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 5:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("westgodavari.json");
@@ -150,7 +143,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 6:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("krishna.json");
@@ -167,7 +159,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 7:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("guntur.json");
@@ -184,7 +175,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 8:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("prakasam.json");
@@ -201,7 +191,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 9:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("nellore.json");
@@ -218,7 +207,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 10:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("kurnool.json");
@@ -235,7 +223,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 11:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("kadapa.json");
@@ -252,7 +239,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 12:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("chittoor.json");
@@ -269,7 +255,6 @@ public class HelpLineFragment extends Fragment {
                         }
                         break;
                     case 13:
-                        Toast.makeText(getContext(), "" + adapterView.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
                         visiblegone();
                         try {
                             InputStream is = getActivity().getAssets().open("anantapur.json");
