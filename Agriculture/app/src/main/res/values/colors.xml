@@ -2,7 +2,12 @@
 <resources>
     <color name="colorPrimary">#15BD01</color>
     <color name="colorPrimaryDark">#0F8E01</color>
+<<<<<<< HEAD
     <color name="colorAccent">#60ad5e</color>
+=======
+    <color name="colorAccent">#F83D02</color>
+<!--&gt;>>>>>> cff59bd20915033e9dddfc16093fbe51df8fa102-->
+>>>>>>> 70d7c6e5507c51287d86d0e460f03bb185d6629d
     <color name="orange">#FF9800</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>

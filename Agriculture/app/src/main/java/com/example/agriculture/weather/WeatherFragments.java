@@ -53,11 +53,10 @@ import java.util.Scanner;
 
 import static android.content.Context.LOCATION_SERVICE;
 
-
-public class WeatherFragment extends Fragment {
+public class WeatherFragments extends Fragment {
     RequestQueue requestQueue;
     LocationManager manager;
-    TextView c_location, w_mode, w_value;
+    TextView c_location, w_mode, w_value,daysweather;
     ImageView w_icon;
     ImageView imageView;
     String location_key, location_name;
@@ -66,6 +65,7 @@ public class WeatherFragment extends Fragment {
     ArrayList<DaysPOJO> daysPOJOS;
     RecyclerView hourRecycler, daysRecycler;
     ProgressBar progressBar;
+    String current_url;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -75,16 +75,13 @@ public class WeatherFragment extends Fragment {
         c_location = v.findViewById(R.id.currentloaction);
         w_mode = v.findViewById(R.id.weathermode);
         w_value = v.findViewById(R.id.weathervalue);
-        //hourRecycler = v.findViewById(R.id.recyclerHour);
         daysRecycler = v.findViewById(R.id.recyclerDays);
         progressBar = v.findViewById(R.id.progress);
+        daysweather = v.findViewById(R.id.daysweather);
         hourlyPOJOS = new ArrayList<>();
         daysPOJOS = new ArrayList<>();
         requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getContext()));
         manager = (LocationManager) Objects.requireNonNull(getActivity()).getSystemService(LOCATION_SERVICE);
-
-
-
         LocationListener locationListener = new LocationListener() {
             @Override
             public void onLocationChanged(@NonNull Location location) {
@@ -96,9 +93,7 @@ public class WeatherFragment extends Fragment {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-                                //Toast.makeText(getContext(), response, Toast.LENGTH_SHORT).show();
-                                //rippleBackground.stopRippleAnimation();
-                                //rippleBackground.setVisibility(View.GONE);
+
                                 try {
                                     JSONObject jsonObject = new JSONObject(response);
                                     location_key = jsonObject.getString("Key");
@@ -117,36 +112,52 @@ public class WeatherFragment extends Fragment {
                         String message = null;
                         if (volleyError instanceof NetworkError) {
                             message = "Cannot connect to Internet...Please check your connection!";
+                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+                            Log.i("message",message);
                         } else if (volleyError instanceof ServerError) {
                             message = "The server could not be found. Please try again after some time!!";
+                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+                            Log.i("message",message);
                         } else if (volleyError instanceof AuthFailureError) {
                             message = "Cannot connect to Internet...Please check your connection!";
+                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+                            Log.i("message",message);
                         } else if (volleyError instanceof ParseError) {
                             message = "Parsing error! Please try again after some time!!";
+                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+                            Log.i("message",message);
                         } else if (volleyError instanceof NoConnectionError) {
                             message = "Cannot connect to Internet...Please check your connection!";
+                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+                            Log.i("message",message);
                         } else if (volleyError instanceof TimeoutError) {
                             message = "Connection TimeOut! Please check your internet connection.";
+                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+                            Log.i("message",message);
                         }
                     }
                 });
 
                 requestQueue.add(stringRequest);
+
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         String current_url = WeatherUrls.current_weather_base + location_key + WeatherUrls.current_weather_key;
                         String hourly_url = WeatherUrls.hourly_weather + location_key + WeatherUrls.current_weather_key;
                         String days_url = WeatherUrls.days_weather + location_key + WeatherUrls.current_weather_key;
+                        Log.i("current_url", current_url);
+                        Log.i("days_url", days_url);
                         new CurrentTask(current_url).execute();
-                        //Toast.makeText(getContext(), ""+hourly_url, Toast.LENGTH_SHORT).show();
-                        new HourlyTask(hourly_url).execute();
+                        new DaysTask(days_url).execute();
+                        /*//Toast.makeText(getContext(), ""+hourly_url, Toast.LENGTH_SHORT).show();
+                        //new HourlyTask(hourly_url).execute();
                         Toast.makeText(getContext(), "" + days_url, Toast.LENGTH_SHORT).show();
                         Log.i("daysurl", days_url);
-                        new DaysTask(days_url).execute();
+                        new DaysTask(days_url).execute();*/
 
                     }
-                }, 5000);
+                }, 3000);
             }
         };
         if (ActivityCompat.checkSelfPermission(getContext(),
@@ -165,9 +176,7 @@ public class WeatherFragment extends Fragment {
 
     @SuppressLint("StaticFieldLeak")
     class CurrentTask extends AsyncTask<String, Void, String> {
-
         String c_url;
-
         public CurrentTask(String current_url) {
             c_url = current_url;
         }
@@ -205,7 +214,7 @@ public class WeatherFragment extends Fragment {
             //rippleBackground.stopRippleAnimation();
             progressBar.setVisibility(View.GONE);
             if (s != null) {
-                //Toast.makeText(getContext(), s, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "sai", Toast.LENGTH_SHORT).show();
                 try {
                     JSONArray jsonArray = new JSONArray(s);
                     JSONObject jsonObject = jsonArray.getJSONObject(0);
@@ -217,9 +226,9 @@ public class WeatherFragment extends Fragment {
                     String metric_unit = metric_object.getString("Unit");
                     w_value.setText(metric_value + "℃");
                     //Toast.makeText(getContext(), icon_mode, Toast.LENGTH_SHORT).show();
-                    if (icon_mode.contains(icon_mode)) {
+                    /*if (icon_mode.contains(icon_mode)) {
                         w_icon.setImageResource(R.drawable.s_07);
-                    }
+                    }*/
                     w_mode.setText(weather_mode);
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -229,74 +238,6 @@ public class WeatherFragment extends Fragment {
                 Toast.makeText(getContext(), "No Data", Toast.LENGTH_SHORT).show();
             }
         }
-    }
-
-
-    @SuppressLint("StaticFieldLeak")
-    class HourlyTask extends AsyncTask<String, Void, String> {
-
-        String h_url;
-
-        public HourlyTask(String hourly_url) {
-            h_url = hourly_url;
-        }
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            progressBar.setVisibility(View.VISIBLE);
-        }
-
-        @Override
-        protected String doInBackground(String... strings) {
-            try {
-                URL url = new URL(h_url);
-                Log.i("hoururl", url.toString());
-                HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-                InputStream inputStream = urlConnection.getInputStream();
-                Scanner scanner = new Scanner(inputStream);
-                if (scanner.hasNext()) {
-                    return scanner.next();
-                }
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(String s) {
-            super.onPostExecute(s);
-            progressBar.setVisibility(View.GONE);
-            Toast.makeText(getContext(), "Hour \n" + s, Toast.LENGTH_SHORT).show();
-            try {
-                JSONArray jsonArray = new JSONArray(s);
-
-                for (int i = 0; i < jsonArray.length(); i++) {
-                    Log.i("hoururlssss", String.valueOf(jsonArray.length()));
-                    JSONObject hourObject = jsonArray.getJSONObject(i);
-                    String datetime = hourObject.getString("DateTime");
-                    Log.i("hoururl", datetime);
-                    String weathericon = hourObject.getString("WeatherIcon");
-                    String iconPhrase = hourObject.getString("IconPhrase");
-                    Log.i("hoururl", iconPhrase);
-                    JSONObject tempObject = hourObject.getJSONObject("Temperature");
-                    String value = tempObject.getString("Value");
-
-                    hourlyPOJOS.add(new HourlyPOJO(datetime, weathericon, iconPhrase, value));
-
-                }
-                hourRecycler.setLayoutManager(new
-                        LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, true));
-                hourRecycler.setAdapter(new HourlyWeatherAdapter(getContext(), hourlyPOJOS));
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-
-        }
-
     }
 
     class DaysTask extends AsyncTask<String, Void, String> {
@@ -348,9 +289,9 @@ public class WeatherFragment extends Fragment {
                         String min_temp_value = min_Object.getString("Value");
                         JSONObject max_Object = temp_Object.getJSONObject("Maximum");
                         String max_temp_value = max_Object.getString("Value");
+                        daysweather.append(day_date);
                         daysPOJOS.add(new DaysPOJO(day_date, min_temp_value, max_temp_value));
                     }
-
                     daysRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
                     daysRecycler.setAdapter(new DaysWeatherAdapter(getContext(), daysPOJOS));
                 } catch (JSONException e) {
@@ -359,5 +300,4 @@ public class WeatherFragment extends Fragment {
             }
         }
     }
-
 }
