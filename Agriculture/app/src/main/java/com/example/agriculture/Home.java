@@ -129,6 +129,12 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;
+            case R.id.nav_update:
+                Live_Update live_update =new Live_Update();
+                transaction.replace(R.id.main_body,live_update);
+                transaction.commit();
+                drawerLayout.closeDrawers();
+                break;
             case R.id.signout:
                 auth.signOut();
                 startActivity(new Intent(this,LogINRegisterActivity.class));

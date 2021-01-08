@@ -62,7 +62,7 @@ Cotton is a kharif crop which requires 6 to 8 months to mature. Its time of sowi
     <string name="sugar_fertilizers">Adequate manuring is essential for sustained high yields. The general recommendation in most places is to apply half to two-thirds of the nitrogen in the form of bulky organic manures, such as farmyard manure, compost, green manure or tree leaves, and the remainder in the form of ammonium sulphate or oil-cakes or a combination of the two. For sugarcane fertilizer is recommended according to planting season and it is varied from growing tract to tract. In general for suru sugarcane 250:115:115 for Adsali 400:170:170 and for pre seasonal 340:170:170 kg nitrogen, phosphorus and potash per hectare is recommended respectively. For ratooning 250:115:115kg nitrogen, phosphorus and potash per hectare is recommended.</string>
     <string name="sugar_Irrigation">Water requirement of sugarcane varies from 2000 to 2500 mm depending upon its duration, soil type and climatological factors. For sugarcane germination, tillering, grand growth and maturity are the critical stages for irrigation. During germination phase (1-35 days) there should be enough moisture in the soil for better germination but waterlogging is undesirable as it leads to rotting of setts. During this period irrigation can be scheduled at weekly intervals. But irrigation at 10 days interval during tillering stage (36-100 days) is sufficient. The formative and grand growth stages (101-270 days) are the critical stages for water demand. During this period irrigation can be practised at weekly intervals. At the maturity phase (271 days to harvest) fortnightly irrigation is enough. Irrigation will have to be stopped at 15 days prior to harvest.</string>
 
-<!--for FAQ Module-->
+    <!--for FAQ Module-->
 
 
     <string name="text_alcohol">What is farming?</string>
@@ -116,7 +116,6 @@ Cotton is a kharif crop which requires 6 to 8 months to mature. Its time of sowi
     <string name="Arable">7.what is Arable Farming?</string>
 
 
-
     <string-array name="farming"><item>
        Some methods for sustainable farming are:
        Crop rotation and diversity
@@ -126,18 +125,21 @@ Cotton is a kharif crop which requires 6 to 8 months to mature. Its time of sowi
        Adopting integrated farming (livestock and crops)
        Following agroforestry practices
        Managing the landscapes and the farming systems
-   </item></string-array>
+   </item>
+    </string-array>
     <string-array name="planting"><item>
        Incorporating the saplings or seeds in the main farming area
        after proper land preparation is called planting.
        It is basically of two types: direct seeding and transplanting.
-   </item></string-array>
+   </item>
+    </string-array>
     <string-array name="farm"><item>
        There are two major ways in which planting could be done are direct seeding
        and transplanting. Direct seeding refers to planting the seeds in the
        fields for growing crops, whereas transplanting refers to planting
        saplings or seedlings that have been grown in nurseries from seeds.
-   </item></string-array>
+   </item>
+    </string-array>
     <string-array name="grains"><item>
        If grains that have been freshly harvested are stored without
        drying, then they may be spoiled due to micro-organism infestation.
@@ -146,7 +148,8 @@ Cotton is a kharif crop which requires 6 to 8 months to mature. Its time of sowi
        If the grains or seeds are to be used for sowing then moist grains
        lose the ability of germination very fast. So it is always
        advised to dry the seeds up to 12% before storing.
-   </item></string-array>
+   </item>
+    </string-array>
     <string-array name="irrigation"><item>
       Irrigation in agriculture refers to the controlled application of water
        through man-made systems. These systems are particularly designed
@@ -155,15 +158,18 @@ Cotton is a kharif crop which requires 6 to 8 months to mature. Its time of sowi
        Water around the plants also lowers the temperature in the area.
        Some irrigation systems for agricultural practices are drip,
        furrow, flood, gravity, sprinkler, sub-irrigation and center-pivot irrigation.
-   </item></string-array>
+   </item>
+    </string-array>
     <string-array name="revolution"><item>
   Green revolution refers to the increased production of food grains by the
    use of high yielding varieties of seeds and better management practices.
    The major crops that are considered for green revolution are rice and wheat.
-</item></string-array>
+</item>
+    </string-array>
     <string-array name="Arable"><item>
   Arable farming, unlike pastoral or mixed farming, involves the growing of crops without keeping animals. It can be practiced on a large, commercial or small scale. Annual crops such as plantains, vegetables, grains, cassava, potatoes and legumes are often grown in arable farms.
 
-</item></string-array>
+</item>
+    </string-array>
 
 </resources>
