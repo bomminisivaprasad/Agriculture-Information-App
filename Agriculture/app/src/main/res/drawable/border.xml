@@ -7,17 +7,10 @@
 
     <stroke
         android:width="1dp"
-<<<<<<< HEAD
         android:color="@color/colorPrimary" />
-=======
-        android:color="@color/colorPrimaryDark"/>
->>>>>>> 70d7c6e5507c51287d86d0e460f03bb185d6629d
     <gradient
         android:centerColor="#FFFFFF"
         android:endColor="#FFFFFF"
         android:startColor="#FFFFFF"/>
-<<<<<<< HEAD
-=======
 
->>>>>>> 70d7c6e5507c51287d86d0e460f03bb185d6629d
 </shape>

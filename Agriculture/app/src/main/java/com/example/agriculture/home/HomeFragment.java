@@ -106,7 +106,6 @@ public class HomeFragment extends Fragment {
                 handler.post(Update);
             }
         }, 3000, 3000);
-
         return v;
     }
 
