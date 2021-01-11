@@ -10,6 +10,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -86,16 +88,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         View headerview = navigationView.getHeaderView(0);
         TextView tv = headerview.findViewById(R.id.nTextView);
         tv.setText(auth.getCurrentUser().getEmail());
-
-        manager =getSupportFragmentManager();
-        transaction= manager.beginTransaction();
-        HomeFragment home = new HomeFragment();
-        transaction.replace(R.id.main_body,home);
-        transaction.commit();
-
-
-
-    }
+            }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -181,4 +174,4 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         });
         builder.show();
     }
-}
+ }
