@@ -37,7 +37,6 @@ public class LogINRegisterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_LogINRegisterActivity);
         aBinding = DataBindingUtil.setContentView(this,R.layout.activity_log_i_n_register);
         if (!isConnected()){
             Toast.makeText(this, "Turn on Internet First", Toast.LENGTH_SHORT).show();
