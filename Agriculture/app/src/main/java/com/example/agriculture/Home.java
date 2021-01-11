@@ -93,14 +93,8 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         transaction.replace(R.id.main_body,home);
         transaction.commit();
 
-    }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if(!activity.isConnected()){
-           Snackbar.make(navigationView,"No Internet Connected",Snackbar.LENGTH_LONG).show();
-       }
+
     }
 
     @Override
