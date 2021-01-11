@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -29,6 +30,7 @@ import com.example.agriculture.home.HomeFragment;
 import com.example.agriculture.weather.WeatherFragment;
 import com.example.agriculture.weather.WeatherFragments;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
@@ -38,15 +40,23 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     FirebaseAuth auth;
     FragmentManager manager;
     FragmentTransaction transaction;
+    LogINRegisterActivity activity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        if (savedInstanceState == null){
+            HomeFragment fragment = new HomeFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.main_body, fragment).commit();
+        }
+        activity = new LogINRegisterActivity();
         toolbar = findViewById(R.id.toolbar);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         auth = FirebaseAuth.getInstance();
         getSupportActionBar();
+
 
         if (ActivityCompat.checkSelfPermission(Home.this,
                 Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
@@ -83,6 +93,14 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         transaction.replace(R.id.main_body,home);
         transaction.commit();
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(!activity.isConnected()){
+           Snackbar.make(navigationView,"No Internet Connected",Snackbar.LENGTH_LONG).show();
+       }
     }
 
     @Override
