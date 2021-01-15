@@ -19,13 +19,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.agriculture.Mandi.MandiFragment;
 import com.example.agriculture.advisories.AgriculturalAdvisoriesFragment;
 import com.example.agriculture.helpline.HelpLineFragment;
 import com.example.agriculture.home.HomeFragment;
-import com.example.agriculture.weather.WeatherFragment;
+import com.example.agriculture.weather.WeatherFragments;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -98,7 +97,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 break;
 
             case R.id.weather:
-                WeatherFragment weather =new WeatherFragment();
+                WeatherFragments weather =new WeatherFragments();
                 transaction.replace(R.id.main_body,weather);
                 transaction.commit();
                 drawerLayout.closeDrawers();
