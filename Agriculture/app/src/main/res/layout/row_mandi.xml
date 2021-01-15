@@ -17,21 +17,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:fontFamily="@font/allerta"
         android:text="Region"
         android:id="@+id/region"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="24sp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Partner"
         android:id="@+id/partner"
         android:textColor="@color/black"
-        android:fontFamily="@font/allerta"
         android:layout_marginTop="15dp"
         android:layout_weight="1"
-        android:textSize="30sp"/>
+        android:textSize="24sp"/>
 
 
 

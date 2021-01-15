@@ -18,6 +18,8 @@
         app:menu="@menu/menu"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        app:itemIconTint="@color/colorPrimaryDark"
+        app:itemTextColor="@color/colorPrimaryDark"
         app:headerLayout="@layout/nav_header"
         />
 

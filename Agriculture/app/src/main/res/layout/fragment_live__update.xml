@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/custom"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="KISAN LINKS CENTRES"/>
+
+
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/java"
+        android:text="Achaaraya N.G Ranga Agriculture University"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/python"
+        android:text="Ministry of Agriculture"/>
+    <View
+        android:background="#E67DA1"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/android"
+        android:text="Indian Council of Agriculture Research"/>
+    <View
+        android:background="#D7EA22"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datascience"
+        android:text="International crops Research Institiue semiArids"/>
+    <View
+        android:background="#70C7EF"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/javascripts"
+        android:text="Seed net India Portal"/>
+    <View
+        android:background="#F66435"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aad"
+        android:text="Andhrapradesh Agriculture Department"/>
+    <View
+        android:background="#74EC70"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nsc"
+        android:text="National Seed Corporation"/>
+    <View
+        android:background="#075C54"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iimr"
+        android:text="Indian Institue of Millets Research"/>
+    <View
+        android:background="#B509D3"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fp"
+        android:text="Farmers Portal"/>
+    <View
+        android:background="#F31045"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/p"
+        android:text="PM KISAN"/>
+    <View
+        android:background="#ED9C28"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+</LinearLayout>

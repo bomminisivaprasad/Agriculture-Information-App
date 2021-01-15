@@ -16,10 +16,6 @@
         android:id="@+id/advisories"
         android:icon="@drawable/ic_advi"/>
     <item
-        android:id="@+id/marketplace"
-        android:title="@string/menu_marketplaces"
-        android:icon="@drawable/ic_mp"/>
-    <item
         android:id="@+id/market_mandi"
         android:title="@string/MARKET_or_MANDI"
         android:icon="@drawable/ic_mandi"/>

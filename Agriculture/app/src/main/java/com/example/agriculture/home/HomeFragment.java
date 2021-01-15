@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.agriculture.LogINRegisterActivity;
 import com.example.agriculture.Mandi.Pojo;
 import com.example.agriculture.R;
 import com.google.firebase.database.DataSnapshot;
@@ -39,15 +40,17 @@ public class HomeFragment extends Fragment {
     DatabaseReference reference;
     ArrayList<Upload> list;
     ViewPager2 vp;
+    LogINRegisterActivity activity;
     private static int currentPage = 0;
     private static int NUM_PAGES = 9;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
+        activity = new LogINRegisterActivity();
         vp = v.findViewById(R.id.viewPager);
         list = new ArrayList<>();
-        reference = FirebaseDatabase.getInstance().getReference().child("images").child("CropImages");
+        reference = FirebaseDatabase.getInstance().getReference().child("images");
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -106,7 +109,6 @@ public class HomeFragment extends Fragment {
                 handler.post(Update);
             }
         }, 3000, 3000);
-
         return v;
     }
 

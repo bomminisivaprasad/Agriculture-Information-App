@@ -39,6 +39,7 @@ public class MandiFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        setRetainInstance(true);
         View v = inflater.inflate(R.layout.fragment_mandi, container, false);
         rv = v.findViewById(R.id.rv);
         pojos = new ArrayList<Pojo>();
@@ -115,7 +116,17 @@ public class MandiFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
+                int pos = getAdapterPosition();
                 DisplayFragment fragment = new DisplayFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("cdetails",list.get(pos).getContactDetails());
+                bundle.putString("partner",list.get(pos).getPartner());
+                bundle.putString("cnumber",list.get(pos).getContactNumber());
+                bundle.putString("eproducts",list.get(pos).getEndProducts());
+                bundle.putString("pitem",list.get(pos).getPrimaryItem());
+                bundle.putString("pdetails",list.get(pos).getProductDetails());
+                bundle.putString("region",list.get(pos).getRegion());
+                fragment.setArguments(bundle);
                 FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.main_body,fragment).addToBackStack(null).commit();
             }

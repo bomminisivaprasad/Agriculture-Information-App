@@ -1,8 +1,11 @@
 package com.example.agriculture;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +22,7 @@ import com.example.agriculture.databinding.ActivityLogINRegisterBinding;
 import com.example.agriculture.databinding.ActivityRegisterBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
@@ -33,18 +37,34 @@ public class LogINRegisterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_LogINRegisterActivity);
         aBinding = DataBindingUtil.setContentView(this,R.layout.activity_log_i_n_register);
+        if (!isConnected()){
+            Toast.makeText(this, "Turn on Internet First", Toast.LENGTH_SHORT).show();
+        }
         auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser()!=null){
             startActivity(new Intent(this,Home.class));
             finish();
         }
     }
+    public boolean isConnected() {
+        boolean connected = false;
+        try {
+            ConnectivityManager manager = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo nInfo = manager.getActiveNetworkInfo();
+            connected = nInfo != null && nInfo.isAvailable() && nInfo.isConnected();
+            return connected;
+        } catch (Exception e) {
+
+        }
+        return connected;
+    }
+
 
     public void login(View view) {
         String mail = aBinding.umail.getText().toString();
         String pass = aBinding.upass.getText().toString();
+        if(isConnected()){
         if (mail.isEmpty()|pass.isEmpty()){
             Toast.makeText(this, "Please fill all the details", Toast.LENGTH_SHORT).show();
         }else{
@@ -61,6 +81,9 @@ public class LogINRegisterActivity extends AppCompatActivity {
                     }
                 }
             });
+        }
+    }else{
+            Snackbar.make(view,"No Internet Connected", Snackbar.LENGTH_LONG).show();
         }
     }
 
@@ -96,6 +119,7 @@ public class LogINRegisterActivity extends AppCompatActivity {
                 dialog.dismiss();
             }
         });
+        builder.show();
     }
 
     public void personRegister(View view) {

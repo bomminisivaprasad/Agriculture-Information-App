@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.agriculture.Mandi.Pojo;
 import com.example.agriculture.databinding.FragmentDisplayBinding;
@@ -17,22 +18,17 @@ import java.util.ArrayList;
 
 public class DisplayFragment extends Fragment {
     FragmentDisplayBinding binding;
-    ArrayList<Pojo> pojos;
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_display,container,false);
-       /* pojos = new ArrayList<>();
-        int pos = 0;
-        binding.tv.setText(pojos.get(pos).getPrimaryItem());
-        binding.tv1.setText(pojos.get(pos).getContactDetails());
-        binding.tv2.setText(pojos.get(pos).getContactNumber());
-        binding.tv3.setText(pojos.get(pos).getEndProducts());
-        binding.tv4.setText(pojos.get(pos).getPartner());
-        binding.tv5.setText(pojos.get(pos).getProductDetails());
-        binding.tv6.setText(pojos.get(pos).getRegion());*/
-
-
+        binding.cdetails.setText(getArguments().getString("cdetails"));
+        binding.partner.setText(getArguments().getString("partner"));
+        binding.cnumber.setText(getArguments().getString("cnumber"));
+        binding.eproducts.setText(getArguments().getString("eproducts"));
+        binding.pitem.setText(getArguments().getString("pitem"));
+        binding.pdetails.setText(getArguments().getString("pdetails"));
+        binding.region.setText(getArguments().getString("region"));
         return binding.getRoot();
     }
 }

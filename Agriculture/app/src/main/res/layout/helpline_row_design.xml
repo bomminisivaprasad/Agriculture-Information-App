@@ -38,7 +38,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:fontFamily="serif"
                     android:text="Name"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal" />
                 <TextView
                     android:layout_width="0dp"
@@ -59,7 +59,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:fontFamily="serif"
                     android:text="Name"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal"
                     android:layout_marginStart="5dp"/>
             </LinearLayout>
@@ -78,7 +78,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:fontFamily="serif"
                     android:text="Designation"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal" />
                 <TextView
                     android:layout_width="0dp"
@@ -98,7 +98,7 @@
                     android:layout_weight="0.65"
                     android:fontFamily="serif"
                     android:text="Designation"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal"
                     android:layout_marginStart="5dp"/>
             </LinearLayout>
@@ -117,7 +117,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:fontFamily="serif"
                     android:text="Place of Work"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal" />
                 <TextView
                     android:layout_width="0dp"
@@ -137,7 +137,7 @@
                     android:layout_weight="0.65"
                     android:fontFamily="serif"
                     android:text="Work"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal"
                     android:layout_marginStart="5dp"/>
             </LinearLayout>
@@ -156,7 +156,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:fontFamily="serif"
                     android:text="Mobile Number"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal" />
                 <TextView
                     android:layout_width="0dp"
@@ -175,7 +175,7 @@
                     android:layout_weight="0.65"
                     android:fontFamily="serif"
                     android:text="Phone"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal"
                     android:layout_marginStart="5dp"/>
             </LinearLayout>
@@ -189,7 +189,7 @@
                 android:drawableRight="@drawable/ic_call"
                 android:padding="5dp"
                 android:text="Call"
-                android:textColor="@color/text_color"
+                android:textColor="@color/colorPrimaryDark"
                  />
 
         </LinearLayout>

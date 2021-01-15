@@ -14,7 +14,6 @@
         android:layout_marginTop="18dp"
         android:background="@drawable/shape"
         android:drawableRight="@drawable/ic_baseline_mail_24"
-        android:fontFamily="@font/allerta"
         android:hint="Mail"
         android:inputType="textEmailAddress"
         android:paddingLeft="9dp"

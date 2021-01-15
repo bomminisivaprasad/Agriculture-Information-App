@@ -32,7 +32,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">HOME</string>
     <string name="menu_weather">WEATHER</string>
     <string name="menu_marketplaces">MARKET PLACE</string>
     <string name="MARKET_or_MANDI">MARKET OR MANDI</string>
@@ -61,4 +61,127 @@ Cotton is a kharif crop which requires 6 to 8 months to mature. Its time of sowi
     <string name="sugar_sowing">Planting of sugarcane is done in three seasons that is suru- January-February, adsali - July-August and pre seasonal- October-November for planting generally ridges and furrows are prepared on 100-120cm spacing. For planting one hectare area 25-30 thousand three eye buded cane setts are required.</string>
     <string name="sugar_fertilizers">Adequate manuring is essential for sustained high yields. The general recommendation in most places is to apply half to two-thirds of the nitrogen in the form of bulky organic manures, such as farmyard manure, compost, green manure or tree leaves, and the remainder in the form of ammonium sulphate or oil-cakes or a combination of the two. For sugarcane fertilizer is recommended according to planting season and it is varied from growing tract to tract. In general for suru sugarcane 250:115:115 for Adsali 400:170:170 and for pre seasonal 340:170:170 kg nitrogen, phosphorus and potash per hectare is recommended respectively. For ratooning 250:115:115kg nitrogen, phosphorus and potash per hectare is recommended.</string>
     <string name="sugar_Irrigation">Water requirement of sugarcane varies from 2000 to 2500 mm depending upon its duration, soil type and climatological factors. For sugarcane germination, tillering, grand growth and maturity are the critical stages for irrigation. During germination phase (1-35 days) there should be enough moisture in the soil for better germination but waterlogging is undesirable as it leads to rotting of setts. During this period irrigation can be scheduled at weekly intervals. But irrigation at 10 days interval during tillering stage (36-100 days) is sufficient. The formative and grand growth stages (101-270 days) are the critical stages for water demand. During this period irrigation can be practised at weekly intervals. At the maturity phase (271 days to harvest) fortnightly irrigation is enough. Irrigation will have to be stopped at 15 days prior to harvest.</string>
+
+    <!--for FAQ Module-->
+
+
+    <string name="text_alcohol">What is farming?</string>
+    <string name="text_coffee">How important is agriculture to the overall economy?</string>
+    <string name="text_pasta">Why is agriculture important?</string>
+    <string name="text_cold_drinks">What is soil health?</string>
+    <string name="crop_insurance">What is crop insurance? </string>
+    <string name="land_cleaing">What is land cleaning or clearing?</string>
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+
+
+    <string-array name="string_array_alcohol">
+        <item>According to the Dictionary definition, “Farming is the act or process of working the ground, planting seeds, and growing edible plants. You can also describe raising animals for milk or meat as farming… Farming is a great way to describe the lifestyle and work of people whose jobs are in the agriculture industry.” The noun “farm,” which derives from the Medieval Latin Firma, originally meant, “A lease on farm land.” </item>
+
+    </string-array>
+
+    <string-array name="string_array_coffee">
+        <item>Agriculture makes up about 4.5% of the nominal Gross Domestic Product of the United States. Though, in many other countries, agriculture contributes 5-10 times as much to the GDP. </item>
+
+    </string-array>
+
+    <string-array name="string_array_pasta">
+        <item>Agriculture plays a crucial role in the economy of developing countries, and provides the main source of food, income, and employment to rural populations. For many countries, agriculture is a leading economic source, with those countries helping to provide some of the US’s food as well.</item>
+
+    </string-array>
+
+    <string-array name="string_array_cold_drinks">
+        <item>Sometimes referred to as soil quality, soil health is the continued ability of soil to act as an ecosystem for plants, animals, and humans. The term “soil health” is used to remind farmers that the soil contains living organisms that help us produce food.</item>
+
+    </string-array>
+    <string-array name="crop_insurence">
+        <item> Because agriculture is inherently unpredictable, it is important to take preventative measures to mitigate some of the damage farmers face when crops fail. That’s where crop insurance comes in. Crop insurance helps to stabilize farmers’ incomes by protecting them against losses, minimizing debts and protecting crop yields.</item>
+
+    </string-array>
+    <string-array name="land_clean">
+        <item>
+        The process of removing trees, stumps, brush, stones and other unwanted substances from the farm area is called land clearing. Doing so improves the productivity of the land and provides a new land base for next crop cycle. The land clearing process also involves piling up the debris and disposing it by burning the pile. Land is cleared using clearing equipment maintained by trained operators. Pilingrakes and blades are also used while cleaning
+    </item>
+    </string-array>
+
+    //-------------------------next-level FAQ---------------------------//
+
+
+    <string name="farming">1.What are the methods of farming?</string>
+    <string name="planting">2.What is planting in agriculture?</string>
+    <string name="farm">3.What are the methods of planting crops in the farm?</string>
+    <string name="grains">4.Why are grains dried before storage?</string>
+    <string name="irrigation">5.What is irrigation in agriculture?</string>
+    <string name="revolution">6.What is green revolution and which crops are associated with it?</string>
+    <string name="Arable">7.what is Arable Farming?</string>
+
+
+    <string-array name="farming"><item>
+       Some methods for sustainable farming are:
+       Crop rotation and diversity
+       Growing cover crops
+       Reducing tillage
+       Considering integrated pest management
+       Adopting integrated farming (livestock and crops)
+       Following agroforestry practices
+       Managing the landscapes and the farming systems
+   </item>
+    </string-array>
+    <string-array name="planting"><item>
+       Incorporating the saplings or seeds in the main farming area
+       after proper land preparation is called planting.
+       It is basically of two types: direct seeding and transplanting.
+   </item>
+    </string-array>
+    <string-array name="farm"><item>
+       There are two major ways in which planting could be done are direct seeding
+       and transplanting. Direct seeding refers to planting the seeds in the
+       fields for growing crops, whereas transplanting refers to planting
+       saplings or seedlings that have been grown in nurseries from seeds.
+   </item>
+    </string-array>
+    <string-array name="grains"><item>
+       If grains that have been freshly harvested are stored without
+       drying, then they may be spoiled due to micro-organism infestation.
+       Drying the grains removes moisture from them so as to improve their
+       shelf life and reduce the attack by insects, pests, bacteria and fungi.
+       If the grains or seeds are to be used for sowing then moist grains
+       lose the ability of germination very fast. So it is always
+       advised to dry the seeds up to 12% before storing.
+   </item>
+    </string-array>
+    <string-array name="irrigation"><item>
+      Irrigation in agriculture refers to the controlled application of water
+       through man-made systems. These systems are particularly designed
+       to solve the problem of crop watering in non-rainfed or low rainfed areas.
+       Water is required by the plants to facilitate the upward movement of nutrients.
+       Water around the plants also lowers the temperature in the area.
+       Some irrigation systems for agricultural practices are drip,
+       furrow, flood, gravity, sprinkler, sub-irrigation and center-pivot irrigation.
+   </item>
+    </string-array>
+    <string-array name="revolution"><item>
+  Green revolution refers to the increased production of food grains by the
+   use of high yielding varieties of seeds and better management practices.
+   The major crops that are considered for green revolution are rice and wheat.
+</item>
+    </string-array>
+    <string-array name="Arable"><item>
+  Arable farming, unlike pastoral or mixed farming, involves the growing of crops without keeping animals. It can be practiced on a large, commercial or small scale. Annual crops such as plantains, vegetables, grains, cassava, potatoes and legumes are often grown in arable farms.
+
+</item>
+    </string-array>
+    <string name="wheat_Intro">Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food.The many species of wheat together make up the genus Triticum the most widely grown is common wheat </string>
+    <string name="rice_Intro">"Rice is the most important human food crop in the world, directly feeding more people than any other crop. In 2012, nearly half of world’s population – more than 3 billion people – relied on rice every day. It is also the staple food across Asia where around half of the world’s poorest people live and is becoming increasingly important in Africa and Latin America. "</string>
+    <string name="millet_Intro">Millets are some of the oldest of cultivated crops. The term millet is applied to various grass crops whose seeds are harvested for food or feed. The five millet species of commercial importance are proso, foxtail, barnyard, browntop and pearl.</string>
+    <string name="maize_Intro">Maize has become a staple food in many parts of the world, with the total production of maize surpassing that of wheat or rice. In addition to being consumed directly by humans (often in the form of masa), maize is also used for corn ethanol, animal feed and other maize products, such as corn starch and corn syrup</string>
+    <string name="pulses_Intro">Pulses are highly nutritious seeds of pod-bearing leguminous plants, specifically dry peas, lentils, and chickpeas. US farmers harvest about 2.6 million pounds of pulses every year but 75% of this is being exported internationally because of its increased consumption in the developing countries.</string>
+    <string name="sunflow_Intro">"The sunflower seed is the fruit of the sunflower. There are three types of commonly used sunflower seeds: linoleic, high oleic, and sunflower oil seeds. Each variety has its own unique levels of monounsaturated, saturated, and polyunsaturated fats. The information in this article refers mainly to the linoleic variety.  "</string>
+    <string name="jute_Intro">Jute is a long, soft, shiny bast fiber that can be spun into coarse, strong threads. It is produced from flowering plants in the genus Corchorus, which is in the mallow family Malvaceae. The primary source of the fiber is Corchorus olitorius, but it is considered inferior to Corchorus capsularis.Jute is the name of the plant or fiber used to make burlap, hessian or gunny cloth.</string>
+    <string name="ragi_Intro">Finger Millet, also known as Ragi is an important millet grown extensively in various regions of India and Africa. Its scientific name is Eleusine coracana. It ranks sixth in production after wheat, rice, maize, sorghum and bajra in India. In India, ragi  is mostly grown and consumed in Karnataka, and to a limited extent in Andhra Pradesh, Tamil Nadu, Odisha, Maharashtra, Uttarakhand and Goa.</string>
+    <string name="groundnut_Intro">Groundnut is most important oil seeds of India. Grown as both as kharif and Rabi crop but 90-95% of the total area is devoted to kharif crop. Groundnut thrives best in the tropical climate and requires 20°C to 30°C temperature. 50-75 cm rainfall is favourable for groundnut cultivation.</string>
+    <string name="vegita_Intro">Vegetables are parts of plants that are consumed by humans or other animals as food. The original meaning is still commonly used and is applied to plants collectively to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. The alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition.</string>
+    <string name="coffee_Intro">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. When coffee berries turn from green to bright red in color – indicating ripeness – they are picked, processed, and dried. Dried coffee seeds are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and then brewed with near-boiling water to produce the beverage known as coffee.</string>
+    <string name="tea_Intro">Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured or fresh leaves of the Camellia sinensis, an evergreen shrub native to East Asia. After water, it is the most widely consumed drink in the world. There are many different types of tea; some, like Darjeeling and Chinese greens, have a cooling, slightly bitter, and astringent flavour</string>
+    <string name="tobaco_Intro">Tobacco is the common name of several plants in the Nicotiana genus and the Solanaceae family, and the general term for any product prepared from the cured leaves of the tobacco plant. More than 70 species of tobacco are known, but the chief commercial crop is N. tabacum. The more potent variant N. rustica is also used around the world.</string>
 </resources>
