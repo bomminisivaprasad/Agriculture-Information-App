@@ -7,32 +7,29 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.agriculture.Mandi.MandiFragment;
 import com.example.agriculture.advisories.AgriculturalAdvisoriesFragment;
 import com.example.agriculture.faq.FAQFragment;
 import com.example.agriculture.helpline.HelpLineFragment;
 import com.example.agriculture.home.HomeFragment;
-import com.example.agriculture.weather.WeatherFragment;
+import com.example.agriculture.utility.NetworkReceiver;
 import com.example.agriculture.weather.WeatherFragments;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
@@ -43,6 +40,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     FragmentManager manager;
     FragmentTransaction transaction;
     LogINRegisterActivity activity;
+    NetworkReceiver receiver = new NetworkReceiver();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,11 +51,13 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
             ft.replace(R.id.main_body, fragment).commit();
         }
         activity = new LogINRegisterActivity();
+
         toolbar = findViewById(R.id.toolbar);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         auth = FirebaseAuth.getInstance();
         getSupportActionBar();
+
 
 
         if (ActivityCompat.checkSelfPermission(Home.this,
@@ -174,4 +174,17 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         });
         builder.show();
     }
- }
+
+    @Override
+    protected void onStart() {
+        IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        registerReceiver(receiver,filter);
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(receiver);
+        super.onStop();
+    }
+}

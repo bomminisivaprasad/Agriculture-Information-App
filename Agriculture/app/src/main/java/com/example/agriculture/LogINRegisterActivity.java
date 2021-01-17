@@ -38,9 +38,6 @@ public class LogINRegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         aBinding = DataBindingUtil.setContentView(this,R.layout.activity_log_i_n_register);
-        if (!isConnected()){
-            Toast.makeText(this, "Turn on Internet First", Toast.LENGTH_SHORT).show();
-        }
         auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser()!=null){
             startActivity(new Intent(this,Home.class));
@@ -50,9 +47,10 @@ public class LogINRegisterActivity extends AppCompatActivity {
     public boolean isConnected() {
         boolean connected = false;
         try {
-            ConnectivityManager manager = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+            ConnectivityManager manager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
             NetworkInfo nInfo = manager.getActiveNetworkInfo();
-            connected = nInfo != null && nInfo.isAvailable() && nInfo.isConnected();
+            connected = nInfo != null && nInfo.isConnectedOrConnecting();
+                    //nInfo.isAvailable() && nInfo.isConnected();
             return connected;
         } catch (Exception e) {
 
