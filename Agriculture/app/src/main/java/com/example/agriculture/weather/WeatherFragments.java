@@ -1,11 +1,18 @@
 package com.example.agriculture.weather;
 
 import android.Manifest;
+
 import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.Bundle;
+
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.Fragment;
+
+import android.text.format.DateFormat;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,291 +20,153 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.core.app.ActivityCompat;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.android.volley.AuthFailureError;
-import com.android.volley.NetworkError;
-import com.android.volley.NoConnectionError;
-import com.android.volley.ParseError;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.ServerError;
-import com.android.volley.TimeoutError;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
+import com.airbnb.lottie.LottieAnimationView;
 import com.example.agriculture.R;
-import com.skyfishjy.library.RippleBackground;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.TimeZone;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Objects;
-import java.util.Scanner;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 import static android.content.Context.LOCATION_SERVICE;
 
-public class WeatherFragments extends Fragment {
-    RequestQueue requestQueue;
-    LocationManager manager;
-    TextView c_location, w_mode, w_value,daysweather;
-    ImageView w_icon;
-    ImageView imageView;
-    String location_key, location_name;
-    RippleBackground rippleBackground;
-    ArrayList<HourlyPOJO> hourlyPOJOS;
-    ArrayList<DaysPOJO> daysPOJOS;
-    RecyclerView hourRecycler, daysRecycler;
-    ProgressBar progressBar;
-    String current_url;
 
+public class WeatherFragments extends Fragment {
+//http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API%20key}
+    LocationManager manager;
+    String lati, longi;
+    Retrofit retrofit;
+    LottieAnimationView animationView;
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        animationView.playAnimation();
+        //Check
+
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_weather, container, false);
-        c_location = v.findViewById(R.id.currentloaction);
-        w_mode = v.findViewById(R.id.weathermode);
-        w_value = v.findViewById(R.id.weathervalue);
-        daysRecycler = v.findViewById(R.id.recyclerDays);
-        progressBar = v.findViewById(R.id.progress);
-        daysweather = v.findViewById(R.id.daysweather);
-        hourlyPOJOS = new ArrayList<>();
-        daysPOJOS = new ArrayList<>();
-        requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getContext()));
-        manager = (LocationManager) Objects.requireNonNull(getActivity()).getSystemService(LOCATION_SERVICE);
-        LocationListener locationListener = new LocationListener() {
+        View v = inflater.inflate(R.layout.fragment_weather_fragments, container, false);
+        animationView = v.findViewById(R.id.loadingAnimCustom);
+        animationView.setRepeatCount(100);
+        manager = (LocationManager)getContext().getSystemService(LOCATION_SERVICE);
+        LocationListener listener = new LocationListener() {
             @Override
-            public void onLocationChanged(@NonNull Location location) {
-                String latitude = String.valueOf(location.getLatitude());
-                String longitude = String.valueOf(location.getLongitude());
-                String myLocation = WeatherUrls.location_key_url + latitude + "," + longitude;
-                Toast.makeText(getContext(), myLocation, Toast.LENGTH_SHORT).show();
-                StringRequest stringRequest = new StringRequest(StringRequest.Method.GET, myLocation,
-                        new Response.Listener<String>() {
-                            @Override
-                            public void onResponse(String response) {
+            public void onLocationChanged(Location location) {
+                lati = String.valueOf(location.getLatitude());
+                longi = String.valueOf(location.getLongitude());
 
-                                try {
-                                    JSONObject jsonObject = new JSONObject(response);
-                                    location_key = jsonObject.getString("Key");
-                                    location_name = jsonObject.getString("LocalizedName");
-                                    c_location.setText(location_name);
-                                } catch (JSONException e) {
-                                    e.printStackTrace();
-                                }
-                                requestQueue.stop();
-                            }
-                        }, new Response.ErrorListener() {
+                retrofit = new Retrofit.Builder().baseUrl("http://api.openweathermap.org")
+                        .addConverterFactory(GsonConverterFactory.create()).build();
+                WeatherService service = retrofit.create(WeatherService.class);
+                Call<Example> response = service.getweatherData(lati,longi,"ebfcac32bda131ed5a160f2757938396");
+                response.enqueue(new Callback<Example>() {
                     @Override
-                    public void onErrorResponse(VolleyError volleyError) {
-                        Toast.makeText(getContext(), "" + volleyError.toString(), Toast.LENGTH_SHORT).show();
-                        Log.i("error", volleyError.toString());
-                        String message = null;
-                        if (volleyError instanceof NetworkError) {
-                            message = "Cannot connect to Internet...Please check your connection!";
-                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-                            Log.i("message",message);
-                        } else if (volleyError instanceof ServerError) {
-                            message = "The server could not be found. Please try again after some time!!";
-                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-                            Log.i("message",message);
-                        } else if (volleyError instanceof AuthFailureError) {
-                            message = "Cannot connect to Internet...Please check your connection!";
-                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-                            Log.i("message",message);
-                        } else if (volleyError instanceof ParseError) {
-                            message = "Parsing error! Please try again after some time!!";
-                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-                            Log.i("message",message);
-                        } else if (volleyError instanceof NoConnectionError) {
-                            message = "Cannot connect to Internet...Please check your connection!";
-                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-                            Log.i("message",message);
-                        } else if (volleyError instanceof TimeoutError) {
-                            message = "Connection TimeOut! Please check your internet connection.";
-                            Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-                            Log.i("message",message);
-                        }
+                    public void onResponse(Call<Example> call, Response<Example> response) {
+                        Log.i("SIZE",""+response.body().getMain().getTemp());
+                        String lat = String.valueOf(response.body().getCoord().getLat());
+                        String lon = String.valueOf(response.body().getCoord().getLon());
+                        String country = response.body().getSys().getCountry();
+                        String des = response.body().getWeather().get(0).getDescription();
+                        float temp_ = (float) (Float.parseFloat(response.body().getMain().getTemp().toString())-273.15);
+                        String humidity = String.valueOf(response.body().getMain().getHumidity());
+                        //String tempmin = String.valueOf((response.body().getMain().getTempMin())-273.15);
+                        float tempmin = (float) (Float.parseFloat(response.body().getMain().getTempMin().toString())-273.15);
+                        float tempmax = (float) (Float.parseFloat(response.body().getMain().getTempMax().toString())-273.15);
+                        //String tempmax = String.valueOf((response.body().getMain().getTempMax())-273.15);
+                        String speed = String.valueOf(response.body().getWind().getSpeed());
+                        String deg = String.valueOf(response.body().getWind().getDeg());
+                        String dt = String.valueOf(response.body().getDt());
+                        int timegone = response.body().getTimezone();
+                        String sunrise = String.valueOf(response.body().getSys().getSunrise());
+                        String sunset = String.valueOf(response.body().getSys().getSunset());
+
+                        String name = String.valueOf(response.body().getName());
+                        TextView city_view = v.findViewById(R.id.cityNameCustom);
+                        TextView temp_view = v.findViewById(R.id.temperatureCustom);
+                        TextView tempmin_view  = v.findViewById(R.id.minTempCustom);
+                        TextView tempmax_view = v.findViewById(R.id.maxTempCustom);
+                        TextView desc = v.findViewById(R.id.weatherForecastCustom);
+                        //TextView tv = v.findViewById(R.id.dateTimeCustom);
+                        String celcius = " " + (char) 0x00B0+"C";
+                        city_view.setText(name);
+                        temp_view.setText(String.format("%.2f",temp_)+ celcius);
+                        tempmin_view.setText(String.format("%.2f",tempmin)+ celcius);
+                        tempmax_view.setText(String.format("%.2f",tempmax)+ celcius);
+                        desc.setText(des);
+                        animationView.setVisibility(View.INVISIBLE);
+                        //linearLayout.setVisibility(View.VISIBLE);
+                        animationView.cancelAnimation();
+                       // tv.setText(sunrise+"\n"+sunset);
+
+
+                    }
+
+                    @Override
+                    public void onFailure(Call<Example> call, Throwable t) {
+
                     }
                 });
 
-                requestQueue.add(stringRequest);
+            }
 
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        String current_url = WeatherUrls.current_weather_base + location_key + WeatherUrls.current_weather_key;
-                        String hourly_url = WeatherUrls.hourly_weather + location_key + WeatherUrls.current_weather_key;
-                        String days_url = WeatherUrls.days_weather + location_key + WeatherUrls.current_weather_key;
-                        Log.i("current_url", current_url);
-                        Log.i("days_url", days_url);
-                        new CurrentTask(current_url).execute();
-                        new DaysTask(days_url).execute();
-                        /*//Toast.makeText(getContext(), ""+hourly_url, Toast.LENGTH_SHORT).show();
-                        //new HourlyTask(hourly_url).execute();
-                        Toast.makeText(getContext(), "" + days_url, Toast.LENGTH_SHORT).show();
-                        Log.i("daysurl", days_url);
-                        new DaysTask(days_url).execute();*/
+            @Override
+            public void onStatusChanged(String provider, int status, Bundle extras) {
 
-                    }
-                }, 3000);
+            }
+
+            @Override
+            public void onProviderEnabled(String provider) {
+
+            }
+
+            @Override
+            public void onProviderDisabled(String provider) {
+
             }
         };
-        if (ActivityCompat.checkSelfPermission(getContext(),
-                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
-                ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION)
-                        != PackageManager.PERMISSION_GRANTED) {
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
 
-            ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.ACCESS_FINE_LOCATION,
-                    Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
+
+        if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
 
         }
-        manager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 300000, 5, locationListener);
-        manager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 300000, 5, locationListener);
+        manager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 1, 1, listener);
+        manager.requestLocationUpdates(LocationManager.GPS_PROVIDER,1,1,listener);
         return v;
     }
 
-    @SuppressLint("StaticFieldLeak")
-    class CurrentTask extends AsyncTask<String, Void, String> {
-        String c_url;
-        public CurrentTask(String current_url) {
-            c_url = current_url;
-        }
+    private String convertEPOCH(Integer integer) {
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+//        TimeZone InTimezone = TimeZone.getTimeZone("Asia/Kolkata");
+        long x = integer.intValue();
+        x *= 1000;
+        Log.i("EPOCH : ",String.valueOf(x));
+        Date date = new Date(x);
+//        simpleDateFormat.setTimeZone(InTimezone);
+        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        format.setTimeZone(TimeZone.getTimeZone("Asia/Kolkata"));
+        String formatted = format.format(date);
+        Log.i("Time Asia/Kolkata",formatted);
+        return formatted;
 
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            //rippleBackground.setVisibility(View.VISIBLE);
-            //rippleBackground.startRippleAnimation();
-            progressBar.setVisibility(View.VISIBLE);
-        }
-
-        @Override
-        protected String doInBackground(String... strings) {
-            try {
-                URL url = new URL(c_url);
-                HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-                InputStream inputStream = urlConnection.getInputStream();
-                Scanner scanner = new Scanner(inputStream);
-                if (scanner.hasNext()) {
-                    return scanner.next();
-                }
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(String s) {
-            super.onPostExecute(s);
-            //rippleBackground.setVisibility(View.GONE);
-            //rippleBackground.stopRippleAnimation();
-            progressBar.setVisibility(View.GONE);
-            if (s != null) {
-                Toast.makeText(getContext(), "sai", Toast.LENGTH_SHORT).show();
-                try {
-                    JSONArray jsonArray = new JSONArray(s);
-                    JSONObject jsonObject = jsonArray.getJSONObject(0);
-                    String weather_mode = jsonObject.getString("WeatherText");
-                    String icon_mode = jsonObject.getString("WeatherIcon");
-                    JSONObject tem_object = jsonObject.getJSONObject("Temperature");
-                    JSONObject metric_object = tem_object.getJSONObject("Metric");
-                    String metric_value = metric_object.getString("Value");
-                    String metric_unit = metric_object.getString("Unit");
-                    w_value.setText(metric_value + "℃");
-                    //Toast.makeText(getContext(), icon_mode, Toast.LENGTH_SHORT).show();
-                    /*if (icon_mode.contains(icon_mode)) {
-                        w_icon.setImageResource(R.drawable.s_07);
-                    }*/
-                    w_mode.setText(weather_mode);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                    Log.i("currentweather", e.toString());
-                }
-            } else {
-                Toast.makeText(getContext(), "No Data", Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
-
-    class DaysTask extends AsyncTask<String, Void, String> {
-
-        String days_Url;
-
-        public DaysTask(String days_url) {
-            days_Url = days_url;
-        }
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            progressBar.setVisibility(View.VISIBLE);
-        }
-
-        @Override
-        protected String doInBackground(String... strings) {
-            try {
-                URL url = new URL(days_Url);
-                Log.i("daysurl", url.toString());
-                HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-                InputStream inputStream = urlConnection.getInputStream();
-                Scanner scanner = new Scanner(inputStream);
-                if (scanner.hasNext()) {
-                    return scanner.next();
-                }
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(String s) {
-            super.onPostExecute(s);
-            progressBar.setVisibility(View.GONE);
-            if (s != null) {
-                try {
-                    JSONObject jsonObject = new JSONObject(s);
-                    JSONArray daysArray = jsonObject.getJSONArray("DailyForecasts");
-                    for (int i = 0; i < daysArray.length(); i++) {
-                        JSONObject dayObject = daysArray.getJSONObject(i);
-                        String day_date = dayObject.getString("Date");
-                        JSONObject temp_Object = dayObject.getJSONObject("Temperature");
-                        JSONObject min_Object = temp_Object.getJSONObject("Minimum");
-                        String min_temp_value = min_Object.getString("Value");
-                        JSONObject max_Object = temp_Object.getJSONObject("Maximum");
-                        String max_temp_value = max_Object.getString("Value");
-                        daysweather.append(day_date);
-                        daysPOJOS.add(new DaysPOJO(day_date, min_temp_value, max_temp_value));
-                    }
-                    daysRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
-                    daysRecycler.setAdapter(new DaysWeatherAdapter(getContext(), daysPOJOS));
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
     }
 }

@@ -27,7 +27,10 @@ import com.example.agriculture.advisories.AgriculturalAdvisoriesFragment;
 import com.example.agriculture.faq.FAQFragment;
 import com.example.agriculture.helpline.HelpLineFragment;
 import com.example.agriculture.home.HomeFragment;
+<<<<<<< HEAD
 import com.example.agriculture.utility.NetworkReceiver;
+=======
+>>>>>>> 70a2e9c1af134bc05168a90767e077a21efa5e54
 import com.example.agriculture.weather.WeatherFragments;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
