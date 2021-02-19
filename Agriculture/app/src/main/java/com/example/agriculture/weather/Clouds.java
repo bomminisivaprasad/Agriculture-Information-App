@@ -1,4 +1,3 @@
-
 package com.example.agriculture.weather;
 
 import com.google.gson.annotations.Expose;

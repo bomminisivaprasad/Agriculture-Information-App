@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,6 +28,76 @@
         android:layout_height="wrap_content"
         android:id="@+id/java"
         android:text="Achaaraya N.G Ranga Agriculture University"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sdt"
+        android:text="@string/dept_of_sd_t"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/agco"
+        android:text="@string/dept_of_ag_co_operation"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/animal"
+        android:text="@string/animal_husbendry_fisheries"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/agri"
+        android:text="Agricurture Department"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anim"
+        android:text="Animal Husbendry"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fisheries"
+        android:text="Fisheries Department"/>
+    <View
+        android:background="#CA2B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ysr"
+        android:text="YSR RBK's"/>
     <View
         android:background="#CA2B2B"
         android:layout_width="wrap_content"
@@ -118,3 +194,4 @@
         android:layout_width="wrap_content"
         android:layout_height="5dp"/>
 </LinearLayout>
+</ScrollView>

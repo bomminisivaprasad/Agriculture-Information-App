@@ -1,7 +1,5 @@
 package com.example.agriculture;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,11 +7,13 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView tv;
     private Animation animSlideUp;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
                 // close this activity
                 finish();
             }
-        },3000); // wait for 5 seconds
+        }, 3000); // wait for 5 seconds
     }
 }

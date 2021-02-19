@@ -1,0 +1,13 @@
+https://spreadsheets.google.com/feeds/list/1TVWonHxeh1hdbrLjKm_8inCfmXHm_XVs4/od6/public/values?alt=json
+
+https://jsoneditoronline.org/
+https://gist.github.com/ 
+
+ghouse.basha1@kotak.com
+
+recyclerview https://www.youtube.com/watch?v=sZ8D1-hNeWo
+python API
+https://www.youtube.com/watch?v=TwkGiVtc2nA&list=PLb-NlfexLTk_hm4Uq7n9oyEqtGRg8DlY-
+
+
+https://raw.githubusercontent.com/AP-Skill-Development-Corporation/AAD-STP-B1/main/Qa_Data.json

@@ -19,7 +19,10 @@
         android:id="@+id/market_mandi"
         android:title="@string/MARKET_or_MANDI"
         android:icon="@drawable/ic_mandi"/>
-
+    <item
+        android:title="Trainings"
+        android:id="@+id/training"
+        android:icon="@mipmap/training"/>
     <item
         android:id="@+id/nav_update"
         android:title="@string/LIVEUPDATES"
